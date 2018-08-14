@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://rahmannlab.github.io/people/</loc>
+    <lastmod>2016-12-05T14:41:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rahmannlab.github.io/2016/04/what-is-hugo/</loc>
     <lastmod>2016-04-24T02:50:28+02:00</lastmod>
   </url>
@@ -18,8 +23,29 @@
   </url>
   
   <url>
+    <loc>https://rahmannlab.github.io/lehre/vorlesung-algorithmische-bioinformatik-altere-ausgaben/</loc>
+    <lastmod>2016-04-01T19:26:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/lehre/vorlesung-algorithmische-bioinformatik/</loc>
+    <lastmod>2016-01-27T13:00:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/lehre/vorlesung-algorithmen-auf-sequenzen/</loc>
+    <lastmod>2016-01-27T13:00:02+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rahmannlab.github.io/</loc>
     <lastmod>2018-08-14T15:21:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/lehre/</loc>
+    <lastmod>2016-04-01T19:26:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
