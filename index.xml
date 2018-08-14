@@ -94,5 +94,24 @@ Prüfungen: Für das Bachelor-Modul INF-BSc-315 werden in diesem Semester nur m
    Do 20.10.   Vorlesung: Einführung, Vokabeln (Folien); Bitsequenzen, population count (Folien)</description>
     </item>
     
+    <item>
+      <title>Research</title>
+      <link>https://rahmannlab.github.io/research/</link>
+      <pubDate>Wed, 06 Jan 2016 10:03:13 +0000</pubDate>
+      
+      <guid>https://rahmannlab.github.io/research/</guid>
+      <description>This page lists the current research topics of the group.
+See also the Software page for publicly available Software.
+Current Projects Metatranscriptome Analysis
+Daniela Beisser &amp;amp; Sven Rahmann,
+in collaboration with the Biodiversity group (Jens Boenigk), Essen
+Protein Hypernetworks
+Bianca Stöcker, Johannes Köster &amp;amp; Sven Rahmann,
+in collaboration with Eli Zamir (MPI Stuttgart)
+Analysis of ddRAD sequencing data with error-tolerant hashing
+Henning Timm &amp;amp; Sven Rahmann,
+in collaboration with AG Aquatische Ökosystemforschung (Florian Leese), Essen</description>
+    </item>
+    
   </channel>
 </rss>
