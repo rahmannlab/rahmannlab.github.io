@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Copyright Genome Informatics University of Duisburg Essen</copyright>
-    <lastBuildDate>Tue, 14 Aug 2018 15:21:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 15 Aug 2018 19:39:53 +0200</lastBuildDate>
     
 	<atom:link href="https://rahmannlab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving to Github</title>
+      <link>https://rahmannlab.github.io/2018/08/moving-to-github/</link>
+      <pubDate>Wed, 15 Aug 2018 19:39:53 +0200</pubDate>
+      
+      <guid>https://rahmannlab.github.io/2018/08/moving-to-github/</guid>
+      <description>From now on the website of our reasearch group is online at https://rahmannlab.github.io . The content is rendered using Hugo on Travis-CI or locally.
+Source code of newly developed programs will be part of our Github group github.com/rahmannlab. Old projects are mainly located at bitbucket.org/genomeinformatics and will be maintained there.</description>
+    </item>
     
     <item>
       <title>Hugo Port</title>
