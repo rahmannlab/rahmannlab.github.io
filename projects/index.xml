@@ -1,64 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Genome Informatics</title>
-    <link>https://rahmannlab.github.io/</link>
-    <description>Recent content on Genome Informatics</description>
+    <title>Projects on Genome Informatics</title>
+    <link>https://rahmannlab.github.io/projects/</link>
+    <description>Recent content in Projects on Genome Informatics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Copyright Genome Informatics University of Duisburg Essen</copyright>
-    <lastBuildDate>Wed, 15 Aug 2018 19:39:53 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 13 Sep 2017 10:21:28 +0000</lastBuildDate>
     
-	<atom:link href="https://rahmannlab.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rahmannlab.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Moving to Github</title>
-      <link>https://rahmannlab.github.io/2018/08/moving-to-github/</link>
-      <pubDate>Wed, 15 Aug 2018 19:39:53 +0200</pubDate>
-      
-      <guid>https://rahmannlab.github.io/2018/08/moving-to-github/</guid>
-      <description>From now on the website of our reasearch group is online at https://rahmannlab.github.io . The content is rendered using Hugo on Travis-CI or locally.
-Source code of newly developed programs will be part of our Github group github.com/rahmannlab. Old projects are mainly located at bitbucket.org/genomeinformatics and will be maintained there.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Port</title>
-      <link>https://rahmannlab.github.io/2018/08/porting/</link>
-      <pubDate>Tue, 14 Aug 2018 15:21:00 +0200</pubDate>
-      
-      <guid>https://rahmannlab.github.io/2018/08/porting/</guid>
-      <description>Porting to Hugo The research group around Sven Rahmann upgrades the website from WordPress to Hugo. See how easy this will be.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://rahmannlab.github.io/people/</link>
-      <pubDate>Tue, 14 Aug 2018 15:10:00 +0200</pubDate>
-      
-      <guid>https://rahmannlab.github.io/people/</guid>
-      <description>People The group has offices in both Essen and Dortmund.
- Essen:  Group members can be reached by email using the address Firstname.Lastname@uni-due.de. The location V183 refers to Virchowstr. 183, 45147 Essen. The phone number prefix is +49 (201) 723-xxxx.  Dortmund:  Group members can be reached by email using the address Firstname.Lastname@tu-dortmund.de. The location OH14 refers to Otto-Hahn-Str. 14, 44227 Dortmund. The phone number prefix is +49 (231) 755-xxxx.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://rahmannlab.github.io/research/</link>
-      <pubDate>Tue, 14 Aug 2018 15:10:00 +0200</pubDate>
-      
-      <guid>https://rahmannlab.github.io/research/</guid>
-      <description>projects This page lists the current projects topics of the group.
-See also the Software page for publicly available Software.
-Current Projects Metatranscriptome Analysis
-Daniela Beisser &amp;amp; Sven Rahmann,
-in collaboration with the Biodiversity group (Jens Boenigk), Essen
-Protein Hypernetworks
-Bianca Stöcker, Johannes Köster &amp;amp; Sven Rahmann,
-in collaboration with Eli Zamir (MPI Stuttgart)
-Analysis of ddRAD sequencing data with error-tolerant hashing
-Henning Timm &amp;amp; Sven Rahmann,
-in collaboration with AG Aquatische Ökosystemforschung (Florian Leese), Essen</description>
-    </item>
     
     <item>
       <title>YeastScent: Volatile metabolites as quantitative proxy for metabolic network operation of Saccharomyces cerevisiae</title>
@@ -190,122 +142,6 @@ For example, if the diversity of two populations differs, this might be a sign 
     </item>
     
     <item>
-      <title>Elias Kuthe</title>
-      <link>https://rahmannlab.github.io/group/elias-kuthe/</link>
-      <pubDate>Mon, 15 Feb 2016 14:47:31 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/elias-kuthe/</guid>
-      <description>   Büro   Virchowstr. 183, 1.OG,
-Raum 1.09     Postadresse   Elias Kuthe
-Genominformatik, Inst. für Humangenetik
-Medizinische Fakultät
-Universität Duisburg-Essen
-Hufelandstr. 55
-45122 Essen    Telefon   +49 201 723-4045    E-Mail   elias.kuthe@tu-dortmund.de    WWW   https://bitbucket.org/eqt/     </description>
-    </item>
-    
-    <item>
-      <title>Felix Mölder</title>
-      <link>https://rahmannlab.github.io/group/felix-moelder/</link>
-      <pubDate>Tue, 02 Feb 2016 14:43:59 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/felix-moelder/</guid>
-      <description>Büro   Virchowstr. 183, 1. OG, Raum 1.08a    Postadresse   Felix Mölder
-Genominformatik, Inst. für HumangenetikMedizinische Fakultät
-Universität Duisburg-Essen
-Hufelandstr. 55
-45122 Essen     Telefon   +49 201 723-4045    E-Mail   felix.moelder[at]tu-dortmund.de    WWW   https://bitbucket.org/FeMoe/    I am a research assistant in Prof. Sven Rahmanns group, Chair of Genome Informatics, University Duisburg-Essen, Germany.</description>
-    </item>
-    
-    <item>
-      <title>Marianna D’Addario</title>
-      <link>https://rahmannlab.github.io/group/marianna-daddario/</link>
-      <pubDate>Mon, 01 Feb 2016 15:33:56 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/marianna-daddario/</guid>
-      <description>
-   Büro   Raum 215 Otto-Hahn-Str. 14
-44227 Dortmund    Postadresse   Technische Universität Dortmund
-Department of Computer Science
-Chair of Algorithm Engineering (LS11)
-Otto-Hahn-Str. 14
-44227 Dortmund
-Germany     Telefon   +49 231 755 7745    E-Mail   vorname.nachname@tu-dortmund.de    WWW   ls11-www.cs.uni-dortmund.de/staff/daddario     &amp;lt;div style=&amp;quot;clear: right;&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>Henning Timm</title>
-      <link>https://rahmannlab.github.io/group/henning-timm/</link>
-      <pubDate>Mon, 01 Feb 2016 15:27:03 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/henning-timm/</guid>
-      <description>   Büro   Room 1.09, Virchowstr. 183, 45147 Essen    Postadresse   Genome Informatics (Chair)
-Faculty of Medicine, Institute of Human Genetics
-University of Duisburg-Essen
-Hufelandstr. 55, 45122 Essen, Germany
-    Telefon   +49 201 723-4046    E-Mail   henning.timm@tu-dortmund.de    WWW   https://henningtimm.gitlab.io      </description>
-    </item>
-    
-    <item>
-      <title>Daniela Beißer</title>
-      <link>https://rahmannlab.github.io/group/daniela-beisser/</link>
-      <pubDate>Mon, 01 Feb 2016 15:25:35 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/daniela-beisser/</guid>
-      <description>I am a postdoctoral researcher in the department of Genome Informatics headed by Sven Rahmann at the University of Duisburg-Essen, Germany. I am working as a bioinformatician with a focus on next-generation sequencing analysis. My current projects include the detection of structural variants in damaged genomes, functional and taxonomic assessment in metatranscriptome sequencing data and the analysis of new pathogens by assembling the genome and transcriptome. Furthermore, I am working on methods for integrated network analysis using different *omics datasets in conjunction with biological networks.</description>
-    </item>
-    
-    <item>
-      <title>Bianca Stöcker</title>
-      <link>https://rahmannlab.github.io/group/bianca-stoecker/</link>
-      <pubDate>Mon, 01 Feb 2016 15:24:19 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/bianca-stoecker/</guid>
-      <description>Büro   Virchowstr. 183, 1.OG,
-Raum 1.09     Postadresse   Bianca Stöcker
-Genominformatik, Inst. für Humangenetik
-Medizinische Fakultät
-Universität Duisburg-Essen
-Hufelandstr. 55
-45122 Essen    Telefon   +49 201 723-4046    E-Mail   bianca.stoecker[at]tu-dortmund.de    WWW   #     I am working as PhD student in Prof. Sven Rahmanns group, Chair of Genome Informatics, University Duisburg-Essen, Germany.</description>
-    </item>
-    
-    <item>
-      <title>Christopher Schröder</title>
-      <link>https://rahmannlab.github.io/group/christopher-schroeder/</link>
-      <pubDate>Fri, 29 Jan 2016 10:30:21 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/christopher-schroeder/</guid>
-      <description>Büro   Virchowstr. 183, 1.OG,
-Raum 1.09    Postadresse   Christopher Schröder
-Genominformatik, Inst. für Humangenetik
-Medizinische Fakultät
-Universität Duisburg-Essen
-Hufelandstr. 55
-45122 Essen    Telefon   +49 201 723-4045    E-Mail   christopher.schroeder[$]tu-dortmund.de    WWW   http://christopherschroeder.bitbucket.io    I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics, specialized on exome and whole-genome bisulphite (WGBS) data.</description>
-    </item>
-    
-    <item>
-      <title>Sven Rahmann</title>
-      <link>https://rahmannlab.github.io/group/sven-rahmann/</link>
-      <pubDate>Fri, 22 Jan 2016 10:20:37 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/group/sven-rahmann/</guid>
-      <description>Contact Details     Essen   Dortmund     Büro   Virchowstr. 183,
-1.OG, Raum 1.10   Otto-Hahn-Str. 14
-2. OG, Raum 2.14    Postadresse  Prof. Dr. Sven Rahmann
-Genominformatik, Inst. für Humangenetik
-Medizinische Fakultät
-Universität Duisburg-Essen
-Hufelandstr. 55
-45147 Essen  Prof. Dr. Sven Rahmann
-Bioinformatik
-Informatik XI
-TU Dortmund
-44221 Dortmund    Telefon  +49 201 723-404  +49 231 755-7701     E-mail   Sven.</description>
-    </item>
-    
-    <item>
       <title>Small RNA Sequencing</title>
       <link>https://rahmannlab.github.io/projects/small-rna-sequencing/</link>
       <pubDate>Thu, 07 Jan 2016 11:26:32 +0000</pubDate>
@@ -367,16 +203,6 @@ Ion mobility spectrometry measures ion intensity S(r,t) of a mixture of molecule
       <guid>https://rahmannlab.github.io/projects/analysis-of-pattern-matching-algorithms/</guid>
       <description>We propose a framework for the exact probabilistic analysis of window-based pattern matching algorithms, such as Boyer-Moore, Horspool, Backward DAWG Matching, Backward Oracle Matching, and more.
 In particular, we show how to efficiently obtain the distribution of such an algorithm&amp;#8217;s running time cost for any given pattern in a random text model, which can be quite general, from simple uniform models to higher-order Markov models or hidden Markov models (HMMs).</description>
-    </item>
-    
-    <item>
-      <title>Lehre</title>
-      <link>https://rahmannlab.github.io/lehre/</link>
-      <pubDate>Wed, 06 Jan 2016 09:57:54 +0000</pubDate>
-      
-      <guid>https://rahmannlab.github.io/lehre/</guid>
-      <description>Prof. Rahmann bietet UA-Ruhr-weit Bioinformatik-Veranstaltungen an, insbesondere in den Informatik-Studiengängen der TU Dortmund, sowie im Studiengang &amp;#8220;Angewandte Informatik&amp;#8221; der RUB.
-Allgemeines  Lehrmaterial (Skripte, etc.) Wichtige Hinweise zu allen Lehrveranstaltungen, Prüfungen, etc.! Abschlussarbeiten (Bachelor, Diplom, Master)  Aktuell: Sommersemester 2017  Computational Omics (2V+2Pr; 6 LP); Master-Vertiefungsmodul PG 605 &amp;#8220;PanGeA &amp;#8211; Effiziente Datenstrukturen für Pan-Genom-Annotationen&amp;#8221;, Phase I (8 Pr; 10 LP), wird im WS 2017/18 fortgesetzt (nur nach Anmeldung) Betreuung von Abschlussarbeiten (Bachelor-, Master-, Diplom-, sowie Doktorarbeiten), inkl.</description>
     </item>
     
   </channel>

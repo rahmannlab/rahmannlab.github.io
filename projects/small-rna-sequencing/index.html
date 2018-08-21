@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Small RNA Sequencing  &middot; Genome Informatics</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+<meta property="og:title" content="Small RNA Sequencing  &middot; Genome Informatics ">
+<meta property="og:site_name" content="Genome Informatics"/>
+<meta property="og:url" content="https://rahmannlab.github.io/projects/small-rna-sequencing/" />
+<meta property="og:locale" content="en">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2016-01-07T11:26:32Z" />
+<meta property="og:article:modified_time" content="2016-01-07T11:26:32Z" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@GenomeInformaticsEssen" />
+<meta name="twitter:creator" content="@GenomeInformaticsEssen" />
+<meta name="twitter:title" content="Small RNA Sequencing" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://rahmannlab.github.io/projects/small-rna-sequencing/" />
+<meta name="twitter:domain" content="https://rahmannlab.github.io/">
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Small RNA Sequencing",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2016-01-07",
+    "description": "",
+    "wordCount": 822
+  }
+</script>
+
+<link rel="canonical" href="https://rahmannlab.github.io/projects/small-rna-sequencing/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../touch-icon-144-precomposed.png">
+<link rel="icon" href="../../favicon.png">
+<meta name="generator" content="Hugo 0.47" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+    
+<link rel="stylesheet" href="../../css/bundle.min.0c0cd4da15bc6c22e952564f7827f0048eca5609ba9bc55b917bfd79229abfb3b1a735317dd232223cdfba3dfbba18336ca477b2fb98968f7fb7a2736b784fb7.css" integrity="sha512-DAzU2hW8bCLpUlZPeCfwBI7KVgm6m8VbkXv9eSKav7OxpzUxfdIyIjzfuj37uhgzbKR3svuYlo9/t6Jza3hPtw==">
+
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+<header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand-img" href="../../">
+            <img alt="Genome Informatics" src="../../img/logo.png">
+          </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          
+          <li class="">
+            <a href="https://rahmannlab.github.io/" >
+              <i class='fa fa-circle'></i>
+              Home
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/post/" >
+              
+              News
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/lehre/" >
+              <i class='fa fa-graduation-cap'></i>
+              Lehre
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/research/" >
+              <i class='fa fa-users'></i>
+              projects
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/people/" >
+              <i class='fa fa-users'></i>
+              People
+            </a>
+          </li>
+          
+            
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<header class="container hat">
+  <h1>Small RNA Sequencing
+</h1>
+
+</header>
+</div>
+
+
+      <div class="content">
+  
+
+<p>This website contains material on the analysis of small RNA, in particular miRNA, sequencing experiments. It refers to</p>
+
+<ul>
+<li>a submitted manuscript &#8220;Identifying Transcriptional miRNA Biomarkers by Integrating High-Throughput Sequencing and Real-Time PCR Data&#8221;</li>
+<li>the paper <a href="http://nar.oxfordjournals.org/cgi/content/abstract/gkq342v1" rel="nofollow">Deep sequencing reveals differential expression of microRNAs in favorable versus unfavorable neuroblastoma</a> by Schulte et al (2010).</li>
+</ul>
+
+<hr size="2" width="100%" />
+
+<h2 id="a-name-toc-supplementary-material-for-identifying-transcriptional-mirna-biomarkers-by-integrating-high-throughput-sequencing-and-real-time-pcr-data-a-supplementary-material-for-8220-identifying-transcriptional-mirna-biomarkers-by-integrating-high-throughput-sequencing-and-real-time-pcr-data-8221"><a name="TOC-Supplementary-Material-for-Identifying-Transcriptional-miRNA-Biomarkers-by-Integrating-High-Throughput-Sequencing-and-Real-Time-PCR-Data-"></a>Supplementary Material for &#8220;Identifying Transcriptional miRNA Biomarkers by Integrating High-Throughput Sequencing and Real-Time PCR Data&#8221;</h2>
+
+<h4 id="a-name-toc-1-a"><a name="TOC-1"></a></h4>
+
+<h4 id="a-name-toc-accompanying-sotware-a-accompanying-sotware"><a name="TOC-Accompanying-Sotware"></a>Accompanying Sotware</h4>
+
+<p>We provide a zip archive <a href="http://genomeinformatics.uni-due.de/wp-content/uploads/2016/01/normalize-mirna-expression.R.zip" rel="">normalize-mirna-expression.R</a> containing</p>
+
+<ul>
+<li>the Snakefile with the workflow description</li>
+<li>required Python scripts, as listed in Appendix A of the manuscript</li>
+<li>a README file explaining how to set up the directory in which to run the pipeline</li>
+<li>necessary files to initialize the pipeline directory</li>
+</ul>
+
+<h4 id="a-name-toc-other-required-software-a-other-required-software"><a name="TOC-Other-required-software"></a>Other required software</h4>
+
+<ul>
+<li><a href="http://www.python.org/">Python</a> (&gt;= 3.2)</li>
+<li>Python packages (Python3 versions):
+
+<ul>
+<li>pysam</li>
+<li>matplotlib with pdf output support</li>
+<li>numpy</li>
+<li>scipy</li>
+</ul></li>
+<li><a href="http://code.google.com/p/snakemake/">snakemake</a> (&gt;= 1.3)</li>
+<li><a href="http://code.google.com/p/cutadapt/">cutadapt</a> (&gt;= 1.1)</li>
+<li><a href="http://code.google.com/p/sqt/">sqt</a></li>
+<li><a href="http://bio-bwa.sourceforge.net/">BWA</a> (version &lt; 0.6 for color-space support)</li>
+<li><a href="http://samtools.sourceforge.net/">SAMtools</a></li>
+<li><a href="http://code.google.com/p/bedtools/">bedtools</a> (&gt;= 2.16)</li>
+</ul>
+
+<h4 id="a-name-toc-required-resources-a-required-resources"><a name="TOC-Required-Resources"></a>Required Resources</h4>
+
+<ul>
+<li>Human genome reference assembly <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz">GRCh37</a>,</li>
+<li>ENSEMBL <a href="ftp://ftp.ensembl.org/pub/release-67/gtf/homo_sapiens/Homo_sapiens.GRCh37.67.gtf.gz">genome annotation track</a> (version 67),</li>
+<li>FASTA file with <a href="ftp://mirbase.org/pub/mirbase/CURRENT/mature.fa.gz">mature miRNAs</a> of all organisms from the current miRBase release,</li>
+<li>simiar FASTA file with <a href="ftp://mirbase.org/pub/mirbase/CURRENT/mature.fa.gz">mature miRNAS</a> from the older miRBase release 8.1 (on which the RT-q-PCR kit was based)</li>
+</ul>
+
+<h4 id="a-name-toc-datasets-a-datasets"><a name="TOC-Datasets"></a>Datasets</h4>
+
+<p>If you are interested in analyzing our neuroblastoma data, your can retrieve the ten datasets from the NCBI Sequence Read Archive using accession number SRA009986.</p>
+
+<p>To convert the downloaded .SRA files to FASTQ, download the NCBI SRA SDK, and compile and install the fastq-dump binary to your $PATH. For a single SRA file, run</p>
+
+<pre class="brush: bash; title: ; notranslate" title="">fastq-dump -F SRR029966.sra
+</pre>
+
+<p>The resulting .fastq file will have, curiously, a file name consisting of spaces, which needs to be fixed manually. In the following, we assume the datasets have been labelled 552.fastq, 553.fastq, &#8230;, 561.fastq (ten datasets in total). Our pipeline still expects color space fasta (.csfasta) and separate quality (.qual) files, as output by the SOLiD system.</p>
+
+<hr size="2" width="100%" />
+
+<p>&nbsp;</p>
+
+<h2 id="a-name-toc-previous-workflow-a-previous-workflow"><a name="TOC-Previous-Workflow"></a>Previous Workflow</h2>
+
+<p>The section below describes parts of our old workflow.</p>
+
+<p>It is here for historical purposes only, it has been completely replaced by the Snakefile-based workflow.</p>
+
+<h4 id="a-name-toc-reference-genome-a-reference-genome"><a name="TOC-Reference-Genome"></a>Reference Genome</h4>
+
+<p>Get the <a href="ftp://ftp.sanger.ac.uk/pub/1000genomes/tk2/main_project_reference/human_g1k_v37.fasta.gz">1000 Genomes project reference file</a>. It is named human_g1k_v37.fasta.gz. You don&#8217;t need to unpack it.</p>
+
+<p>Create a FASTA index of the reference:</p>
+
+<pre class="brush: bash; title: ; notranslate" title="">samtools faidx human_g1k_v37.fasta.gz</pre>
+
+<p>Create a BWA colorspace index (this may take a few hours):</p>
+
+<pre class="brush: bash; title: ; notranslate" title="">bwa index -a bwtsw -p hg1kv37 -c human_g1k_v37.fasta.gz</pre>
+
+<p>Remove adapters with cutadapt:</p>
+
+<pre class="brush: bash; title: ; notranslate" title="">mkdir reads/
+for i in $(seq 552 561); do
+cutadapt -c -e 0.12 -a 330201030313112312 -m 15 --bwa ${i}.fastq.gz \
+&gt; reads/${i}.fastq.gz
+done 
+</pre>
+
+<p>Cutadapt is here instructed to</p>
+
+<ul>
+<li>work with colorspace data (-c)</li>
+<li>allow an error rate of 12 % (-e 0.12)</li>
+<li>remove the adapter <code>330201030313112312</code></li>
+<li>discard reads shorter than 15 bp (-m 15)</li>
+<li>create BWA-compatible output (&#8211;bwa). Please see the cutadapt command-line help for what this does exactly.</li>
+</ul>
+
+<p>If you don&#8217;t use cutadapt, be aware that BWA especially has problems with empty sequences (length zero), negative quality values (which do occur in SOLiD data), and requires double-encoded FASTQ files in which the primer nucleotide and the first color have been removed.</p>
+
+<div>
+  <h3>
+    <a name="TOC-Align-reads"></a> Align reads
+  </h3>
+  
+  <pre class="brush: bash; title: ; notranslate" title="">
+for i in $(seq 552 561); do
+bwa aln -n 3 -t 8 -c hg1kv37 reads/${i}.fastq | bwa samse hg1kv37 \
+| samtools view -bS &gt; ${i}.unsorted.bam 
+samtools sort ${i}.unsorted.bam ${i}
+done
+</pre>
+  
+  <p>
+    If mapping was successful, you can delete the .unsorted.bam files.
+  </p>
+  
+  <h4>
+    <a name="TOC-Count-reads-mapping-to-miRNAs"></a>Count reads mapping to miRNAs
+  </h4>
+  
+  <p>
+    Get the <a href="ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff">miRBase GFF track</a>.
+  </p>
+  
+  <p>
+    Count reads mapping to miRNAs with htseq-count:
+  </p>
+  
+  <p>
+    htseq-count -i ID -t miRNA aligned.sam hsa.gff > counts.txt
+  </p>
+  
+  <pre class="brush: bash; title: ; notranslate" title="">
+for i in $(seq 552 561); do
+samtools view -h $i.bam &gt; ${i}.sam &amp;&amp; \ 
+htseq-count -i ID -t miRNA ${i}.sam hsa.gff &gt; ${i}.counts.txt && \
+rm $i.sam
+done
+</pre>
+  
+  <p>
+    Since htseq-count cannot read from BAM files and it had problems reading from standard input, we can neither use the BAM files directly nor pipe them into the tool. Instead, a temporary SAM file needs to be generated.
+  </p>
+  
+  <h4>
+    <a name="TOC-Convert-to-.expressions-files"></a> Convert to .expressions files
+  </h4>
+  
+  <p>
+    These files will be read in by the normalization script below.
+  </p>
+  
+  <pre class="brush: bash; title: ; notranslate" title="">
+for i in $(seq 552 561); do
+echo "name count" &gt; ${i}.expressions
+grep -v no_feature ${i}.counts.txt | grep -v ambiguous | tr '\t' ' ' \
+&gt;&gt; ${i}.expressions 
+done
+</pre>
+  
+  <h4>
+    <a name="TOC-Normalize-miRNA-counts"></a>Normalize miRNA counts
+  </h4>
+  
+  <p>
+    Get the attached <a href="http://www.rahmannlab.de/research/small-rna-sequencing/normalize-mirna-expression.R?attredirects=0">normalize-mirna-expression.R</a> script. Create a file named classes.txt that describes to which class each dataset belongs. In our case, it looks like this:
+  </p>
+  
+  <pre class="brush: plain; title: ; notranslate" title="">dataset class
+552 0
+553 0
+554 0
+555 0
+556 0
+557 1
+558 1
+559 1
+560 1
+561 1
+</pre>
+  
+  <p>
+    Run the normalization script:
+  </p>
+  
+  <pre class="brush: bash; title: ; notranslate" title="">
+normalize-mirna-expression.R qqscale classes.txt
+</pre>
+  
+  <p>
+    For each dataset xyz that is mentioned in the <code>classes.txt</code>, the script reads in the corresponding xyz.expressions file. It then normalizes the data according to the given normalization method (qq-scale in this case, described in the paper) and creates a file <code>all.qqscale.expressions</code>. Some PDF plots are also generated in the current directory.
+  </p>
+  
+  <p>
+    The file all.qqscale.expressions is in CSV format (and can therefore be opened by a spread sheet program). In R, the file can be read in with the following code:
+  </p>
+  
+  <pre class="brush: plain; title: ; notranslate" title="">
+read.table('all.qqscale.expressions',sep=",",header=T,row.names=1)
+</pre>
+</div>
+
+</div>
+
+
+      
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+  
+
+    <div class="section">
+      <header><div class="title"><b>Latest Posts</b></div></header>
+      <div class="content">
+        <ul>
+        
+          <li>
+          <a href="https://rahmannlab.github.io/2018/08/moving-to-github/">Moving to Github</a>
+          </li>
+        
+          <li>
+          <a href="https://rahmannlab.github.io/2018/08/porting/">Hugo Port</a>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+
+    
+      
+      
+    
+      
+      
+    
+
+</div>
+
+      </div>
+    
+  </div>
+</div>
+<br/>
+<br/>
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="pull-left">
+  <p>
+    <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+  </p>
+</div>
+<div class="pull-right">
+</div>
+
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+<div class="container footline">
+    <small>
+  <img src="../../img/cropped-gi-banner.png" style="height: 80%" alt="Logos"/>
+</small>
+</div>
+
+
+<div class="container copyright">
+    <small>
+  &copy; 2018 Copyright Genome Informatics University of Duisburg Essen
+
+  </small>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+<script  src="../../js/bundle.min.a0761bf8598edda2bb2c0e348a3160c418f2bc30908f40740ee7f30dabbdeed27d82ee58e16400badd1ae84ce7be7ce10702c9be216abe5de1cb497de995e850.js" integrity="sha512-oHYb&#43;FmO3aK7LA40ijFgxBjyvDCQj0B0DufzDau97tJ9gu5Y4WQAut0a6EznvnzhBwLJviFqvl3hy0l96ZXoUA=="></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+</body>
+</html>
+

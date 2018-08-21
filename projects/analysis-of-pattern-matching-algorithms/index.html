@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Elias Kuthe  &middot; Genome Informatics</title>
+  <title>Analysis of Pattern Matching Algorithms  &middot; Genome Informatics</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -16,39 +16,39 @@
 
 <meta name="keywords" content="">
 
-<meta property="og:title" content="Elias Kuthe  &middot; Genome Informatics ">
+<meta property="og:title" content="Analysis of Pattern Matching Algorithms  &middot; Genome Informatics ">
 <meta property="og:site_name" content="Genome Informatics"/>
-<meta property="og:url" content="https://rahmannlab.github.io/group/elias-kuthe/" />
+<meta property="og:url" content="https://rahmannlab.github.io/projects/analysis-of-pattern-matching-algorithms/" />
 <meta property="og:locale" content="en">
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2016-02-15T14:47:31Z" />
-<meta property="og:article:modified_time" content="2016-02-15T14:47:31Z" />
+<meta property="og:article:published_time" content="2016-01-07T10:52:29Z" />
+<meta property="og:article:modified_time" content="2016-01-07T10:52:29Z" />
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@GenomeInformaticsEssen" />
 <meta name="twitter:creator" content="@GenomeInformaticsEssen" />
-<meta name="twitter:title" content="Elias Kuthe" />
+<meta name="twitter:title" content="Analysis of Pattern Matching Algorithms" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="https://rahmannlab.github.io/group/elias-kuthe/" />
+<meta name="twitter:url" content="https://rahmannlab.github.io/projects/analysis-of-pattern-matching-algorithms/" />
 <meta name="twitter:domain" content="https://rahmannlab.github.io/">
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Elias Kuthe",
+    "headline": "Analysis of Pattern Matching Algorithms",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+?rel=author"
     },
-    "datePublished": "2016-02-15",
+    "datePublished": "2016-01-07",
     "description": "",
-    "wordCount": 29
+    "wordCount": 266
   }
 </script>
 
-<link rel="canonical" href="https://rahmannlab.github.io/group/elias-kuthe/" />
+<link rel="canonical" href="https://rahmannlab.github.io/projects/analysis-of-pattern-matching-algorithms/" />
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../touch-icon-144-precomposed.png">
 <link rel="icon" href="../../favicon.png">
 <meta name="generator" content="Hugo 0.47" />
@@ -132,7 +132,7 @@
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
 <header class="container hat">
-  <h1>Elias Kuthe
+  <h1>Analysis of Pattern Matching Algorithms
 </h1>
 
 </header>
@@ -140,64 +140,39 @@
 
 
       <div class="content">
-  <p><img class="size-full wp-image-445 alignleft" style="float: left; margin-right: 1em;" src="http://genomeinformatics.uni-due.de/wp-content/uploads/2016/01/Portrait_placeholder.png" alt="Portrait_placeholder" width="180" height="220" /></p>
+  <p>We propose a framework for the exact probabilistic analysis of window-based pattern matching algorithms, such as Boyer-Moore, Horspool, Backward DAWG Matching, Backward Oracle Matching, and more.</p>
 
-<div style="float: right;">
-  <table>
-    <tr>
-      <td>
-        Büro
-      </td>
-      
-      <td>
-        Virchowstr. 183, 1.OG,<br /> Raum 1.09
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        Postadresse
-      </td>
-      
-      <td>
-        Elias Kuthe<br /> Genominformatik, Inst. für Humangenetik<br /> Medizinische Fakultät<br /> Universität Duisburg-Essen<br /> Hufelandstr. 55<br /> 45122 Essen<!-- Adresse -->
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        Telefon
-      </td>
-      
-      <td>
-        +49 201 723-4045<!-- Telefon -->
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        E-Mail
-      </td>
-      
-      <td>
-        elias.kuthe@tu-dortmund.de<!-- E-Mail -->
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        WWW
-      </td>
-      
-      <td>
-        <a href="https://bitbucket.org/eqt/">https://bitbucket.org/eqt/</a><!-- WWW -->
-      </td>
-    </tr>
-  </table>
-</div>
+<p>In particular, we show how to efficiently obtain the distribution of such an algorithm&#8217;s running time cost for any given pattern in a random text model, which can be quite general, from simple uniform models to higher-order Markov models or hidden Markov models (HMMs).</p>
 
-<div style="clear: right; text-align: justify;">
-</div>
+<p>Furthermore, we provide a technique to compute the exact distribution of differences in running time cost of two algorithms.</p>
+
+<p>In contrast to previous work, our approach is neither limited to simple text models, nor to asymptotic statements, nor to moment computations such as expectation and variance.</p>
+
+<p>Methodically, we use extensions of finite automata which we call deterministic arithmetic automata (DAAs) and probabilistic arithmetic automata (PAAs).</p>
+
+<p>To our knowledge, this is the first time that substring- or suffix-based pattern matching algorithms are analyzed exactly.</p>
+
+<p>Experimentally, we compare Horspool&#8217;s algorithm, Backward DAWG Matching, and Backward Oracle Matching on prototypical patterns of short length and provide statistics on the size of minimal DAAs for these computations.</p>
+
+<p>More details can be found in <a href="http://arxiv.org/abs/1009.6114">this preprint</a>. The computations can be reproduced with our <a href="http://mosdi.googlecode.com">MoSDi software</a> as follows:</p>
+
+<p>Figure 1:</p>
+
+<p><code>java -jar mosdi-1.1.jar cost-distribution (horspool|bom|bndm) (ATATAT|ACGTAC) (100|500)</code></p>
+
+<p>Figure 2:</p>
+
+<p><code>java -jar mosdi-1.1.jar cost-distribution horspool,bom (ACGTAC|ATATAT|CGAAAA|CAAAAA) 100&lt;br /&gt;
+java -jar mosdi-1.1.jar cost-distribution horspool,bndm (ACGTAC|ATATAT|CGAAAA|CAAAAA) 100&lt;br /&gt;
+java -jar mosdi-1.1.jar cost-distribution bndm,bom (ACGTAC|ATATAT|CGAAAA|CAAAAA) 100</code></p>
+
+<p>Table 1 and Figure 3:</p>
+
+<p><code>java -jar mosdi-1.1.jar automata-sizes (horspool|bom|bndm) (2|3|4|5|6|7)</code></p>
+
+<p>If you have installed MoSDi on a UNIX system, you can (for convenience) replace</p>
+
+<p><code>&quot;java -jar mosdi-1.1.jar&quot; by &quot;mosdi-pm-analysis&quot;</code></p>
 
 </div>
 

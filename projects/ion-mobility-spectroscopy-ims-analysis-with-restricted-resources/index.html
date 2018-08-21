@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Analysis of ion mobility spectroscopy data with restricted resources  &middot; Genome Informatics</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+<meta property="og:title" content="Analysis of ion mobility spectroscopy data with restricted resources  &middot; Genome Informatics ">
+<meta property="og:site_name" content="Genome Informatics"/>
+<meta property="og:url" content="https://rahmannlab.github.io/projects/ion-mobility-spectroscopy-ims-analysis-with-restricted-resources/" />
+<meta property="og:locale" content="en">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2016-01-07T11:16:20Z" />
+<meta property="og:article:modified_time" content="2016-01-07T11:16:20Z" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@GenomeInformaticsEssen" />
+<meta name="twitter:creator" content="@GenomeInformaticsEssen" />
+<meta name="twitter:title" content="Analysis of ion mobility spectroscopy data with restricted resources" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://rahmannlab.github.io/projects/ion-mobility-spectroscopy-ims-analysis-with-restricted-resources/" />
+<meta name="twitter:domain" content="https://rahmannlab.github.io/">
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Analysis of ion mobility spectroscopy data with restricted resources",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2016-01-07",
+    "description": "",
+    "wordCount": 566
+  }
+</script>
+
+<link rel="canonical" href="https://rahmannlab.github.io/projects/ion-mobility-spectroscopy-ims-analysis-with-restricted-resources/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../touch-icon-144-precomposed.png">
+<link rel="icon" href="../../favicon.png">
+<meta name="generator" content="Hugo 0.47" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+    
+<link rel="stylesheet" href="../../css/bundle.min.0c0cd4da15bc6c22e952564f7827f0048eca5609ba9bc55b917bfd79229abfb3b1a735317dd232223cdfba3dfbba18336ca477b2fb98968f7fb7a2736b784fb7.css" integrity="sha512-DAzU2hW8bCLpUlZPeCfwBI7KVgm6m8VbkXv9eSKav7OxpzUxfdIyIjzfuj37uhgzbKR3svuYlo9/t6Jza3hPtw==">
+
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+<header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand-img" href="../../">
+            <img alt="Genome Informatics" src="../../img/logo.png">
+          </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          
+          <li class="">
+            <a href="https://rahmannlab.github.io/" >
+              <i class='fa fa-circle'></i>
+              Home
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/post/" >
+              
+              News
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/lehre/" >
+              <i class='fa fa-graduation-cap'></i>
+              Lehre
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/research/" >
+              <i class='fa fa-users'></i>
+              projects
+            </a>
+          </li>
+          <li class="">
+            <a href="https://rahmannlab.github.io/people/" >
+              <i class='fa fa-users'></i>
+              People
+            </a>
+          </li>
+          
+            
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<header class="container hat">
+  <h1>Analysis of ion mobility spectroscopy data with restricted resources
+</h1>
+
+</header>
+</div>
+
+
+      <div class="content">
+  
+
+<p>**Dominik Kopczynski, Marianna D&#8217;Addario &amp; Sven Rahmann</p>
+
+<p>(Project TB1, SFB 876)**</p>
+
+<p>Ion mobility spectrometry measures ion intensity S(<em>r</em>,<em>t</em>) of a mixture of molecules after a certain retention time <em>r</em> in a separation phase and a certain drift time <em>t</em> (&#8220;inverse ion mobility&#8221;) in the spectrometer. Different molecules generally lead to distinct peaks in the intensity signal; so it is theoretically possible to identify and quantify a number of different metabolites, for example in exhaled human breath. In practice, this is not trivial for a number of reasons:</p>
+
+<ul>
+<li>Peaks in the spectrum may overlap and need to be de-mixed.</li>
+<li>Low-intensity peaks are hard to distinguish from the inherent noise.</li>
+<li>Spectra of complex mixtures are not necessarily the sums of spectra of single metabolites, because of ion interactions.</li>
+</ul>
+
+<p>We have had some success in developing parametric models for peaks and estimating their parameters, while dealing with overlaps using EM-type algorithms.</p>
+
+<p>The IMS technology is moving towards small, autonomous devices that can be carried almost anywhere. Even with modern mobile technology, however, the amount of data they generate, is too large to be sent to a central repository for analysis. This means that we must have <strong>data analysis capabilities within the mobile IMS spectrometer</strong>. This, on the other hand, consumes much of the <strong>limited energy supply</strong> of such a device. Especially the high memory requirements (currently about 280 MB for a full spectrum) contribute to the energy usage.</p>
+
+<p>Our interest therefore focuses on analyzing each spectrum and reducing it to a few parametrized peaks, while the spectrum is generated (up to 10 minutes for a full high-resolution spectrum). Then, a few KB of memory would suffice for a mobile IMS device. Of course, not having the full spectrum available makes it harder to identify and quantify peaks. The question we currently investigate is about the trade-off between used resources (memory, energy, time) and peak recognition quality.</p>
+
+<p>Downstream data analysis (alignment of peaks between different IMS spectra, identification of metabolites from peak characteristics) can then be done with the derived parametrized peaks, instead of the full raw data with acceptable loss of accuracy.</p>
+
+<p>Another challenge is to predict peak characteristics from the chemical metabolite structure using statistical machine learning or methods. For other spectrometry technologies, especially mass spectrometry, this is trivial, as the mass of every molecule is simply the sum of its atom masses. Ion mobilities are not so easily predicted, however. Success in this task would free us from the need to manually create a database of measured reference peaks for each substance of interest.</p>
+
+<hr />
+
+<h1 id="materials-related-to-our-publications">Materials related to our Publications</h1>
+
+<h3 id="a-name-toc-using-the-expectation-maximization-algorithm-with-heterogeneous-mixture-components-for-the-analysis-of-spectrometry-data-2014-a-using-the-expectation-maximization-algorithm-with-heterogeneous-mixture-components-for-the-analysis-of-spectrometry-data-2014"><a name="TOC-Using-the-Expectation-Maximization-Algorithm-with-Heterogeneous-Mixture-Components-for-the-Analysis-of-Spectrometry-Data-2014-"></a>Using the Expectation Maximization Algorithm with Heterogeneous Mixture Components for the Analysis of Spectrometry Data (2014)</h3>
+
+<p>Available materials</p>
+
+<ul>
+<li>Python code for the methods as <a href="http://ls11-www.cs.tu-dortmund.de/people/kopczyns/research/ims/using-em-python-scripts.zip">ZIP</a>.</li>
+<li>Evaluation material as <a href="http://ls11-www.cs.tu-dortmund.de/people/kopczyns/research/ims/using-em-data.zip">ZIP</a>.</li>
+</ul>
+
+<hr />
+
+<h3 id="a-name-toc-peax-a-modular-computational-framework-for-automated-peak-extraction-from-ion-mobility-spectra-2014-a-peax-a-modular-computational-framework-for-automated-peak-extraction-from-ion-mobility-spectra-2014"><a name="TOC-PEAX:-A-Modular-Computational-Framework-for-Automated-Peak-Extraction-from-Ion-Mobility-Spectra-2014-"></a>PEAX: A Modular Computational Framework for Automated Peak Extraction from Ion Mobility Spectra (2014)</h3>
+
+<p>Available materials</p>
+
+<ul>
+<li>Used Dataset (anonymized): <a href="http://ls11-www.cs.tu-dortmund.de/people/daddari/peax/dataset-peax-anonymized-measurements.zip">measurements</a> and <a href="http://ls11-www.cs.tu-dortmund.de/people/daddari/peax/dataset-peax-anonymized-annotations%20.zip">annotations</a>.</li>
+<li>The non-commercial software PEAX for <a href="http://ls11-www.cs.tu-dortmund.de/people/daddari/peax/peax1.0-LinuxX64.zip">Linux_X64</a> and <a href="http://ls11-www.cs.tu-dortmund.de/people/daddari/peax/peax_sources.zip">sources</a> are freely available and for academic use only. Before using PEAX consider the <a href="http://ls11-www.cs.tu-dortmund.de/people/daddari/peax/readme.txt">readme.txt</a>.</li>
+<li>Supplementary material can be downloaded <a href="http://ls11-www.cs.uni-dortmund.de/people/daddari/peax/supplements.pdf">here</a>.</li>
+</ul>
+
+<hr size="2" width="100%" />
+
+<h3 id="a-name-toc-peak-detection-method-evaluation-for-ion-mobility-spectrometry-by-using-machine-leaning-approaches-2013-a-peak-detection-method-evaluation-for-ion-mobility-spectrometry-by-using-machine-leaning-approaches-2013"><a name="TOC-Peak-Detection-Method-Evaluation-for-Ion-Mobility-Spectrometry-by-using-Machine-Leaning-Approaches-2013-"></a>Peak Detection Method Evaluation for Ion Mobility Spectrometry by using Machine Leaning Approaches (2013)</h3>
+
+<p>Available materials</p>
+
+<ul>
+<li>Sections of IMS measurements as <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/peak_detection_machine_learning_data.zip">ZIP</a> or <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/peak_detection_machine_learning_data.tar.bz">BZ</a>.</li>
+<li>Supplementary material can be downloaded <a href="http://ls11-www.cs.tu-dortmund.de/people/kopczyns/research/ims/supplementary.pdf">here</a>.</li>
+</ul>
+
+<hr size="2" width="100%" />
+
+<h3 id="a-name-toc-peak-modeling-for-ion-mobility-spectrometry-2012-a-peak-modeling-for-ion-mobility-spectrometry-2012"><a name="TOC-Peak-Modeling-for-Ion-Mobility-Spectrometry-2012-"></a>Peak Modeling for Ion Mobility Spectrometry (2012)</h3>
+
+<p>Available materials</p>
+
+<ul>
+<li>Sections of IMS measurements as <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/peak_modeling_data.zip">ZIP</a> or <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/peak_modeling_data.tar.bz">BZ</a> with a list of <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/startparameter.csv">start parameters</a>.</li>
+<li>Visualization script in <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/visualize_python.py">python</a> or <a href="http://ls11-www.cs.tu-dortmund.de/%7Ekopczyns/research/ims/visualize_gnuplot.plot">gnuplot</a>.</li>
+</ul>
+
+</div>
+
+
+      
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+  
+
+    <div class="section">
+      <header><div class="title"><b>Latest Posts</b></div></header>
+      <div class="content">
+        <ul>
+        
+          <li>
+          <a href="https://rahmannlab.github.io/2018/08/moving-to-github/">Moving to Github</a>
+          </li>
+        
+          <li>
+          <a href="https://rahmannlab.github.io/2018/08/porting/">Hugo Port</a>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+
+    
+      
+      
+    
+      
+      
+    
+
+</div>
+
+      </div>
+    
+  </div>
+</div>
+<br/>
+<br/>
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="pull-left">
+  <p>
+    <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+  </p>
+</div>
+<div class="pull-right">
+</div>
+
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+<div class="container footline">
+    <small>
+  <img src="../../img/cropped-gi-banner.png" style="height: 80%" alt="Logos"/>
+</small>
+</div>
+
+
+<div class="container copyright">
+    <small>
+  &copy; 2018 Copyright Genome Informatics University of Duisburg Essen
+
+  </small>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+<script  src="../../js/bundle.min.a0761bf8598edda2bb2c0e348a3160c418f2bc30908f40740ee7f30dabbdeed27d82ee58e16400badd1ae84ce7be7ce10702c9be216abe5de1cb497de995e850.js" integrity="sha512-oHYb&#43;FmO3aK7LA40ijFgxBjyvDCQj0B0DufzDau97tJ9gu5Y4WQAut0a6EznvnzhBwLJviFqvl3hy0l96ZXoUA=="></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+</body>
+</html>
+

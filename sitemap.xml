@@ -18,6 +18,66 @@
   </url>
   
   <url>
+    <loc>https://rahmannlab.github.io/research/</loc>
+    <lastmod>2018-08-14T15:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/yeastscent/</loc>
+    <lastmod>2017-09-13T10:21:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/osteosys/</loc>
+    <lastmod>2017-07-12T11:36:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/dynatrait/</loc>
+    <lastmod>2016-08-26T09:14:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/metatranscriptome-analysis/</loc>
+    <lastmod>2016-08-26T08:28:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/exome-analysis/</loc>
+    <lastmod>2016-08-19T13:09:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/subsequence-combinatorics/</loc>
+    <lastmod>2016-07-22T19:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/probabilistic-arithmetic-automata-paas/</loc>
+    <lastmod>2016-07-22T19:26:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/q-unique-sequences/</loc>
+    <lastmod>2016-07-22T18:54:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/whole-genome-methylation-analysis/</loc>
+    <lastmod>2016-07-22T18:43:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/library-complexity-and-duplication-rate-estimation/</loc>
+    <lastmod>2016-07-22T18:39:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/analysis-of-ddrad-seq-data-with-error-tolerant-hashing/</loc>
+    <lastmod>2016-07-18T16:03:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rahmannlab.github.io/group/elias-kuthe/</loc>
     <lastmod>2016-02-15T14:47:31+00:00</lastmod>
   </url>
@@ -58,8 +118,33 @@
   </url>
   
   <url>
-    <loc>https://rahmannlab.github.io/research/</loc>
-    <lastmod>2016-01-06T10:03:13+00:00</lastmod>
+    <loc>https://rahmannlab.github.io/projects/small-rna-sequencing/</loc>
+    <lastmod>2016-01-07T11:26:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/protein-hypernetworks/</loc>
+    <lastmod>2016-01-07T11:23:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/motif-discovery/</loc>
+    <lastmod>2016-01-07T11:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/microarray-design-and-layout/</loc>
+    <lastmod>2016-01-07T11:22:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/ion-mobility-spectroscopy-ims-analysis-with-restricted-resources/</loc>
+    <lastmod>2016-01-07T11:16:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/analysis-of-pattern-matching-algorithms/</loc>
+    <lastmod>2016-01-07T10:52:29+00:00</lastmod>
   </url>
   
   <url>
@@ -81,6 +166,12 @@
   <url>
     <loc>https://rahmannlab.github.io/post/</loc>
     <lastmod>2018-08-15T19:39:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahmannlab.github.io/projects/</loc>
+    <lastmod>2017-09-13T10:21:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
