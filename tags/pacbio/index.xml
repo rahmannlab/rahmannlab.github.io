@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pacbio on Genome Informatics</title>
+    <link>https://rahmannlab.github.io/tags/pacbio/</link>
+    <description>Recent content in Pacbio on Genome Informatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Copyright Genome Informatics University of Duisburg Essen</copyright>
+    <lastBuildDate>Mon, 25 Apr 2016 13:09:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://rahmannlab.github.io/tags/pacbio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>25.04.2016 | Publication: SimLoRD – Simulation of Long Read Data</title>
+      <link>https://rahmannlab.github.io/2016/04/25/25-04-2016-publication-simlord-simulation-of-long-read-data/</link>
+      <pubDate>Mon, 25 Apr 2016 13:09:11 +0000</pubDate>
+      
+      <guid>https://rahmannlab.github.io/2016/04/25/25-04-2016-publication-simlord-simulation-of-long-read-data/</guid>
+      <description>Bianca Stöcker; Johannes Köster; Sven Rahmann
+Bioinformatics 2016;
+10.1093/bioinformatics/btw286
+SimLoRD is a read simulator for third generation sequencing reads and is currently focused on the Pacific Biosciences SMRT error model.
+Third generation sequencing methods provide longer reads than second generation methods and have distinct error characteristics.
+In a SMRT library the sequenced DNA fragments are circular with adapter sequences between forward and backward strand, and a fragment may be sequenced multiple times in a single run.</description>
+    </item>
+    
+  </channel>
+</rss>
