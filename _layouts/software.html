@@ -1,0 +1,18 @@
+{% include head.html %}
+{{ content }}
+{% assign directory = site.pages | where_exp: "item" , "item.path contains 'software'"%}
+
+{% assign stati = "popular, recent, older" | split: "," %}
+{% for status in stati %}
+<h3>{{ status | strip | capitalize }}</h3>
+<div class="grid-x">
+  {% for page in directory %}
+  {% if status contains page.status %}
+  <div class="cell large-4"><a href="{{ page.homepage }}">{{ page.title }}</a></div>
+  <div class="cell large-4">{{ page.autor }}</div>
+  <div class="cell large-4">{{ page.description }}</div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endfor %}
+{% include tail.html %}

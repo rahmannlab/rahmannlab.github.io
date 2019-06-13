@@ -1,0 +1,23 @@
+{% include head.html %}
+{{ content }}
+{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'peoples'"%}
+
+{% assign roles = "chair, scientists, student assistant, administrative staff" | split: "," %}
+{% for role in roles %}
+<h3>{{ role | strip | capitalize }}</h3>
+<div class="grid-x">
+  {% for page in people_folder %}
+  {% if role contains page.role %}
+  {% assign image = page.image %}
+  {% if image == nil %}{% assign image = "blank.png" %}{% endif %}
+    <div class="cell large-6" style="margin-bottom: 20px">
+      <img src="/peoples/images/{{ image }}" style="float: left; margin-right:10px;">
+      <b>{{ page.degree }} {{ page.fullname }}</b><br />
+      {{ page.street }}{% if page.street and page.room %},{% endif %} {{ page.room }}<br />
+      {{ page.city }}{% if page.tel%} -{% endif %}{{ page.tel }}<br />
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endfor %}
+{% include tail.html %}
