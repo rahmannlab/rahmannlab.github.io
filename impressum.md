@@ -18,6 +18,7 @@ Hufelandstr. 55\\
 [http://www.uni-due.de/med/index.php](Offizielle Seiten der Medizinischen Fakultät)\\
 [https://www.uni-due.de/de/impressum.shtml](Offizielles Impressum der Universität Duisburg-Essen)
 
+---
 
 ### Wichtiger rechtlicher Hinweis
 

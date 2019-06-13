@@ -21,17 +21,15 @@
     <li class="is-dropdown-submenu-parent">
       <a href="#">Infos</a>
       <ul class="menu">
-        <li><a href="#">Prüfungen</a></li>
-        <li><a href="#">Abschlussarbeiten</a></li>
-        <li><a href="#">Ausarbeitungen</a></li>
-        <li><a href="#">Vorträge</a></li>
-        <li><a href="#">Promotionen</a></li>
-        <li><a href="#">Schüler</a></li>
+        {% assign directory = site.pages | where_exp: "item" , "item.path contains 'infos'"%}
+        {% for page in directory %}
+        <li><a href="{{ page.url }}">{{page.linkname}}</a></li>
+        {% endfor %}
       </ul>
     </li>
     <li><a href="#">Services</a></li>
-    <li><a href="#">Jobs</a></li>
+    <li><a href="/jobs.html">Jobs</a></li>
     <li><a href="#">News</a></li>
-    <li><a href="#">Impressum</a></li>
+    <li><a href="/impressum.html">Impressum</a></li>
   </ul>
 </div>
