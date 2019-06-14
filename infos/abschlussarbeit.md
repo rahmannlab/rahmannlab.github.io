@@ -1,6 +1,6 @@
 ---
 layout: basic
-linkname: Abschlussarbeiten
+linktext: Abschlussarbeiten
 description: Hinweise zu Abschlussarbeiten
 who: Bachelor, Master, Diplom
 ---
@@ -42,7 +42,7 @@ Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e
 * Hier sind [Formulare für den Antrag auf Erst- und Zweitbetreuung](http://www.cs.uni-dortmund.de/nps/de/Studium/Ordnungen_Handbuecher_Beschluesse/Formulare/index.html), die von Ihnen ausgefüllt werden müssen.
 
 
-Während der Betreuungsphase
+### Während der Betreuungsphase
 
 * Kurz nach dem offiziellen Beginn der Arbeit müssen Sie einen Einführungsvortrag im DDH-Seminar halten (siehe unten).
 * Bitte bereiten Sie sich gut auf die Betreuungs-Gespräche vor. Erstellen Sie eine Liste mit Fragen und Unklarheiten, damit wir nichts vergessen. Im Schnitt halte ich wöchentliche bis 14-tägige Termine für sinnvoll.

@@ -1,6 +1,6 @@
 ---
 layout: basic
-linkname: Prüfungen
+linktext: Prüfungen
 description: Hinweise zu mündlichen Prüfungen
 ---
 
