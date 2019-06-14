@@ -1,0 +1,42 @@
+.grid-x {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.navigation {
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    margin-bottom: 5ex;
+}
+
+@font-face{
+    font-family: "cmu";
+    src: url('/fonts/cmu/cmu.sans-serif-medium.ttf'),
+    url('/fonts/cmu/cmu.sans-serif-medium.ttf'); /* IE */
+}
+
+body {
+    font-family: cmu;
+    padding-top: 30px;
+}
+
+h1 {
+    font-family: cmu;
+    font-size: 26pt;
+    margin-bottom: 2ex;
+}
+
+h2 {
+    font-family: cmu;
+    font-size: 20pt;
+}
+
+h3 {
+    font-family: cmu;
+    font-size: 16pt;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
