@@ -1,0 +1,17 @@
+{% include head.html %}
+{{ content }}
+{% assign directory = site.pages | where_exp: "item" , "item.path contains 'services/'"%}
+
+<div class="grid-x">
+  {% for page in directory %}
+  <div class="cell" style="margin-bottom: 30px;">
+    <hr />
+    <h3>{{ page.title }}</h3>
+    <p>
+    <b>Summary</b>: {{ page.summary }} [<a href="{{ page.url }}">Details</a>]<br />
+    <b>Contact</b>: {{ page.contact }}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+{% include tail.html %}
