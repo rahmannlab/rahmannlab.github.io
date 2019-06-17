@@ -11,10 +11,12 @@
   {% assign image = page.image %}
   {% if image == nil %}{% assign image = "blank.png" %}{% endif %}
     <div class="cell large-6" style="margin-bottom: 20px">
-      <img src="/peoples/images/{{ image }}" style="float: left; margin-right:10px;">
+      <a href={{ page.url }}>
+      <img src="/peoples/images/{{ image }}" style="float: left; margin-right:10px; max-width: 150px;">
       <b>{{ page.degree }} {{ page.fullname }}</b><br />
       {{ page.street }}{% if page.street and page.room %},{% endif %} {{ page.room }}<br />
       {{ page.city }}{% if page.tel%} -{% endif %}{{ page.tel }}<br />
+      </a>
     </div>
     {% endif %}
   {% endfor %}

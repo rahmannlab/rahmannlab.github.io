@@ -1,0 +1,42 @@
+{% include head.html %}
+{% assign image = page.image %}
+{% if image == nil %}{% assign image = "blank.png" %}{% endif %}
+<div class="grid-x">
+<div class="cell">
+<h2>{{ page.fullname }}</h2>
+</div>
+<div class="cell large-4">
+  <img src="/peoples/images/{{ image }}" style="float: left; margin-right:10px;">
+</div>
+<div class="cell large-1"></div>
+<div class="cell large-7">
+  <div class="grid-x">
+    <div class="cell large-3">Büro</div>
+    {% if page.city == "Essen" %}
+    <div class="cell large-9">Virchowstr. 183, 1.OG,<br />Raum {{ page.room }}</div>
+    {% endif %}
+    <div class="cell large-3">Postadresse</div>
+    <div class="cell large-9">
+{{ page.fullname }}<br />
+{% if page.city == "Essen" %}
+Genominformatik, Inst. für Humangenetik<br />
+Medizinische Fakultät<br />
+Universität Duisburg-Essen<br />
+Hufelandstr. 55<br />
+45122 Essen
+{% endif %}
+    </div>
+    {% if page.tel %}
+    <div class="cell large-3">Telefon</div><div class="cell large-9">{% if page.city == "Essen" %}+49 201 723-{% endif %}{{ page.tel }}</div>
+    {% endif %}
+    {% if page.www %}
+    <div class="cell large-3">WWW</div><div class="cell large-9">{{ page.www }}</div>
+    {% endif %}
+  </div>
+</div>
+<div class="cell" style="margin-top: 30px;">
+{{ content }}
+</div>
+</div>
+<!-- {{ content }} -->
+{% include tail.html %}
