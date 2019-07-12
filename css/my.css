@@ -28,7 +28,6 @@ body {
 }
 
 h1 {
-    font-family: cmu;
     font-size: 26pt;
     margin-bottom: 2ex;
 }
@@ -47,12 +46,10 @@ h1.YEAR {
 }
 
 h2 {
-    font-family: cmu;
     font-size: 20pt;
 }
 
 h3 {
-    font-family: cmu;
     font-size: 16pt;
 }
 
