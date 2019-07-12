@@ -327,6 +327,7 @@ function BibtexDisplay() {
             for (var exp in this.regExps) {
                 do {
                     var str = value.match(this.regExps[exp]);
+                    console.log(str);
                     var key = (str) ? str[0] : "";
                     if (str) {
                         if (typeof(latex_to_unicode[key]) != "undefined") {
@@ -502,7 +503,7 @@ function BibtexDisplay() {
             }
             newString += " et al.";
         }
-        return newString;
+        return this.fixValue(newString);
     }
 
     this.createTemplate = function(entry, output) {
