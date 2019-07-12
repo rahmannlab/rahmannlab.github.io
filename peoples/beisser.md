@@ -4,9 +4,9 @@ layout: person
 role: scientist
 degree: Dr.
 fullname: Daniela Beisser
-street:
+street: 
 room:
-city: Essen
+city:
 bib: beisser.bib
 # tel:
 # image: daniela.png
