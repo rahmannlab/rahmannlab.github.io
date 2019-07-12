@@ -15,8 +15,14 @@
     url('/fonts/cmu/cmu.sans-serif-medium.ttf'); /* IE */
 }
 
+@font-face{
+    font-family: "Fira Sans";
+    src: url('/fonts/fira/FiraSans-Regular.ttf'),
+    url('/fonts/fira/FiraSans-Regular.ttf'); /* IE */
+}
+
 body {
-    font-family: cmu;
+    font-family: "Fira Sans", cmu, sans-serif;
     padding-top: 30px;
     padding: 10px;
 }
@@ -25,6 +31,19 @@ h1 {
     font-family: cmu;
     font-size: 26pt;
     margin-bottom: 2ex;
+}
+
+h1.YEAR {
+    margin-top: 3ex;
+    margin-bottom: 0;
+    background-color: #fafafa;
+    color: #222;
+    padding-left: 1.5ex;
+    margin-left: -1.5ex;
+}
+
+#bibtex_idsplay > div {
+    margin-left: 1.5ex;
 }
 
 h2 {
@@ -40,4 +59,18 @@ h3 {
 img {
     float: left;
     margin-right: 20px;
+}
+
+.bibtexentry {
+    margin-bottom: 1.5em;
+}
+
+p.abstracttext {
+    background-color: #fbfbfb;
+    text-align: justify;
+    margin-left: 1em;
+    padding: 1em 1.5em 1em 1.5em;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-width: 2px;
 }

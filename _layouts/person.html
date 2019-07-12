@@ -37,6 +37,41 @@ Hufelandstr. 55<br />
 <div class="cell" style="margin-top: 30px;">
 {{ content }}
 </div>
+<!-- publications -->
+<div class="cell">
+    <script type="text/javascript" src="/js/bibtex_js.js"></script>
+    <bibtex src="/peoples/bibs/{{ page.bib }}"></bibtex>
+    <div class="bibtex_template">
+        <span class="title"  style="font-weight: bold;"></span>
+        <span class="if url" style="margin-left: 1em">
+          <a class="url" style="color:black; font-size:12px">[view online]</a>
+        </span>
+        <span class="if doi">
+            <a class="bibtexVar" href="http://doi.org/+doi+" extra="doi" style="font-size: 10pt; color: #444;">
+                [doi]
+            </a>
+        </span>
+        <div class="if author">
+          <span class="author" style="font-style: italic;"></span>
+        </div>
+        <div class="if abstract">
+            <details>
+                <summary>Abstract</summary>
+                <p class="abstracttext">
+                    <span class="if abstract"><span class="abstract"></span>,</span>
+                </p>
+            </details>
+        </div>
+    </div>
+    <div class="bibtex_structure">
+      <div class="group year" extra="DESC number">
+      	  <div style="padding-bottom:10px;"></div>
+      	  <div class="sort journal" extra="DESC string">
+          	<div class="templates"></div>
+          </div>
+      </div>
+    </div>
+    <div id="bibtex_display"></div>
 </div>
-<!-- {{ content }} -->
+</div>
 {% include tail.html %}
