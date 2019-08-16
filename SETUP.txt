@@ -1,0 +1,29 @@
+Setup instructions for locally building our website with jekyll
+===============================================================
+
+You need ruby, and several ruby "gems": bundler, jekyll.
+First, make sure that you do not have an old ruby version somewhere.
+
+type -a ruby
+type -a gem
+type -a jekyll
+
+should all turn up empty.
+(If there is ruby/gem/jekyll in /usr/bin/, we will just overwrite it.)
+
+Follow the instructions at https://jekyllrb.com/docs/installation/ubuntu/.
+In brief:
+
+sudo apt install ruby-full build-essential zlib1g-dev
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+
+Now verify (with type -a ...) that you have ruby, gem, jekyll in one(!) verion only on your system.
+
+You still don't have all themes for jekyll, but doing the following will auto-install them.
+
+jekyll new TESTTEST
+rm -rf TESTTEST
