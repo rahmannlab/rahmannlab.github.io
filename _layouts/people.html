@@ -1,6 +1,6 @@
 {% include head.html %}
 {{ content }}
-{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'peoples'"%}
+{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'people'"%}
 
 {% assign roles = "chair, scientists, student assistant, administrative staff" | split: "," %}
 {% for role in roles %}
@@ -12,7 +12,7 @@
   {% if image == nil %}{% assign image = "blank.png" %}{% endif %}
     <div class="cell large-6" style="margin-bottom: 20px">
       <a href={{ page.url }}>
-      <img src="/peoples/images/{{ image }}" style="float: left; margin-right:10px; max-width: 150px;">
+      <img src="/people/images/{{ image }}" style="float: left; margin-right:10px; max-width: 150px;">
       <b>{{ page.degree }} {{ page.fullname }}</b><br />
       {{ page.street }}{% if page.street and page.room %},{% endif %} {{ page.room }}<br />
       {{ page.city }}{% if page.tel%} -{% endif %}{{ page.tel }}<br />
