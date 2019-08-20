@@ -10,6 +10,7 @@ city: Essen
 tel: 4046
 image: timm.png
 www: <a href="https://henningtimm.gitlab.io">henningtimm.gitlab.io</a>
+bib: timm.bib
 ---
 
 I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics.
