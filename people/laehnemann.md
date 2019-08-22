@@ -8,7 +8,7 @@ street: V183
 room: 1.09
 city: Essen
 tel: 4046
-# image: david.png
+image: laehnemann.jpg
 www: <a href="https://koesterlab.github.io/">https://koesterlab.github.io/</a>
 bib: laehnemann.bib
 ---
