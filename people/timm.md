@@ -8,7 +8,7 @@ street: V183
 room: 1.09
 city: Essen
 tel: 4046
-image: timm.png
+image: henning.jpg
 www: <a href="https://henningtimm.gitlab.io">henningtimm.gitlab.io</a>
 bib: timm.bib
 ---
