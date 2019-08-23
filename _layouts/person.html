@@ -14,6 +14,8 @@
     <div class="cell large-3">Büro</div>
     {% if page.city == "Essen" %}
     <div class="cell large-9">Virchowstr. 183, 1.OG,<br />Raum {{ page.room }}</div>
+    {% elsif page.city == "Dortmund" %}
+    <div class="cell large-9">Otto-Hahn-Str. 14,<br />Raum {{ page.room }}</div>
     {% endif %}
     <div class="cell large-3">Postadresse</div>
     <div class="cell large-9">
@@ -25,10 +27,15 @@ Universität Duisburg-Essen<br />
 Universitätsklinikum Essen<br />
 Hufelandstr. 55<br />
 45122 Essen
+{% elsif page.city == "Dortmund" %}
+Bioinformatik<br />
+Informatik XI<br />
+TU Dortmund<br />
+44221 Dortmund<br />
 {% endif %}
     </div>
     {% if page.tel %}
-    <div class="cell large-3">Telefon</div><div class="cell large-9">{% if page.city == "Essen" %}+49 201 723-{% endif %}{{ page.tel }}</div>
+    <div class="cell large-3">Telefon</div><div class="cell large-9">{% if page.city == "Essen" %}+49 201 723-{% elsif page.city == "Dortmund" %} +49 231 755-{% endif %}{{ page.tel }}</div>
     {% endif %}
     {% if page.www %}
     <div class="cell large-3">WWW</div><div class="cell large-9">{{ page.www }}</div>
