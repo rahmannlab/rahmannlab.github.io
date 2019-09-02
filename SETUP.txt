@@ -3,7 +3,6 @@ Setup instructions for locally building our website with jekyll
 
 You need ruby, and several ruby "gems": bundler, jekyll.
 First, make sure that you do not have an old ruby version somewhere.
-
 type -a ruby
 type -a gem
 type -a jekyll
@@ -20,6 +19,11 @@ echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 gem install jekyll bundler
+
+You can also install jekyll into your user directory, default `~/.gem`, by replacing the last line with
+```bash
+gem install --user-install jekyll bundler
+```
 
 Now verify (with type -a ...) that you have ruby, gem, jekyll in one(!) verion only on your system.
 
