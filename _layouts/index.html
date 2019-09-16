@@ -2,7 +2,6 @@
 {{ content }}
 
 {% assign research_directory = site.pages | where_exp: "item" , "item.path contains 'news'"%}
-
 <div class="grid-x">
   {% for page in research_directory %}
   <div class="cell" style="margin-bottom: 30px;">
