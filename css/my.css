@@ -1,10 +1,22 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
 .grid-x {
     max-width: 1024px;
     margin: auto;
 }
 
 .navigation {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 0px solid #aaa;
     border-top: 1px solid #aaa;
     margin-bottom: 5ex;
 }
