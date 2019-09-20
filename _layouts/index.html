@@ -6,12 +6,11 @@
         <img src="images/cool.jpg">
         <div class="tag">
             <div class="grid-x" style="border: 1px solid transparent; margin:auto;">
-              <div class="cell large-7" style="background-color: rgba(245,245,230,0.9); padding: 10px;  color: black;" >
-{{ content }}
+              <div class="cell large-7 medium-8 hide-for-small-only" style="background-color: rgba(245,245,230,0.9); padding: 10px;  color: black;" >
+                    {{ content }}
                 </p>
               </div>
-              <div class="cell large-auto">
-              </div>
+              <div class="cell large-auto"></div>
             </div>
         </div>
     </div>
@@ -22,6 +21,9 @@
 
 {% assign research_directory = site.pages | where_exp: "item" , "item.path contains 'news'"%}
 <div class="grid-x">
+  <div class="cell show-for-small-only">
+   {{ content }}
+  </div>
   {% for page in research_directory %}
   <div class="cell" style="margin-bottom: 30px;">
     <hr>

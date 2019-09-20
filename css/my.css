@@ -1,3 +1,23 @@
+.partnerlogo {
+    float: none;
+    max-height: 55px;
+    margin-top: 10px;
+}
+
+#logo {
+    float: none;
+    max-height: 60px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+#veryouterbox {
+    min-height: 100vh;
+    padding-top: 30px;
+    position: relative;
+}
+
+
 .container {
     width: 100%;
     position: relative;
@@ -8,6 +28,7 @@
     bottom: 50px;
     width: 100%;
     z-index: 1000;
+    max-height: 210px;
 }
 
 .grid-x {
@@ -35,7 +56,6 @@
 
 body {
     font-family: "Fira Sans", cmu, sans-serif;
-    padding-top: 30px;
 /*    padding: 10px;*/
     background-color: #fafafa;
 }
