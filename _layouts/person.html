@@ -50,15 +50,23 @@ TU Dortmund<br />
     <script type="text/javascript" src="/js/bibtex_js.js"></script>
     <bibtex src="/people/bibs/{{ page.bib }}"></bibtex>
     <div class="bibtex_template">
-        <span class="title"  style="font-weight: bold;"></span>
-        <span class="if url" style="margin-left: 1em">
-          <a class="url" style="color:black; font-size:12px">[view online]</a>
-        </span>
-        <span class="if doi">
-            <a class="bibtexVar" href="http://doi.org/+doi+" extra="doi" style="font-size: 10pt; color: #444;">
-                [doi]
-            </a>
-        </span>
+        <span class="title"  style="font-weight: bold;"></span><br/>
+        <div class="if journal" style="display: inline-block;">
+            <span class="journal"></span>
+        </div>
+        <div class="if booktitle" style="display: inline-block;">
+            <span class="booktitle"></span>
+        </div>
+        <div id="info" style="display: inline-block;">
+            <span class="if url" style="margin-left: 0.5em">
+              <a class="url" style="color:black; font-size:12px">[view online]</a>
+            </span>
+            <span class="if doi">
+                <a class="bibtexVar" href="http://doi.org/+doi+" extra="doi" style="font-size: 10pt; color: #444;">
+                    [doi]
+                </a>
+            </span>
+        </div>
         <div class="if author">
           <span class="author" style="font-style: italic;"></span>
         </div>
