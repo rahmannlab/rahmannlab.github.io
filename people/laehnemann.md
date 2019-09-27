@@ -9,7 +9,7 @@ room: 1.09
 city: Essen
 tel: +49 (201) 723-4046
 image: laehnemann.jpg
-www: <a href="https://koesterlab.github.io/">https://koesterlab.github.io/</a>
+www: koesterlab.github.io
 bib: laehnemann.bib
 ---
 

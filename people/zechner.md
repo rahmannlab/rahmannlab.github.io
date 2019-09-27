@@ -5,7 +5,7 @@ role: student assistant
 fullname: Michelle Zechner
 # degree: BSc
 street:  OH14
-room:
+room: SHK
 city: Dortmund
 # tel: 
 # image: 

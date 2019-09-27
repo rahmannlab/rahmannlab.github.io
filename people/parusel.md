@@ -5,7 +5,7 @@ role: student assistant
 fullname: Matthias Parusel
 # degree: BSc
 street:  OH14
-room:
+room: SHK
 city: Dortmund
 # image: blank.png
 # tel: 
