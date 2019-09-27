@@ -20,39 +20,54 @@
     <div class="cell large-3">Postadresse</div>
     <div class="cell large-9">
 {{ page.fullname }}<br />
+
 {% if page.city == "Essen" %}
 Genominformatik<br />
 Institut für Humangenetik<br />
 Universität Duisburg-Essen<br />
 Universitätsklinikum Essen<br />
 Hufelandstr. 55<br />
-45122 Essen
+45122 Essen, Germany
+{% elsif page.city == "Uni Essen" %}
+Universität Duisburg-Essen<br/>
+Universitätsstr. 5<br/>
+45141 Essen, Germany
 {% elsif page.city == "Dortmund" %}
 Bioinformatik<br />
 Informatik XI<br />
 TU Dortmund<br />
-44221 Dortmund<br />
+44221 Dortmund, Germany<br />
 {% endif %}
     </div>
+	
     {% if page.tel %}
     <div class="cell large-3">Telefon</div><div class="cell large-9">{% if page.city == "Essen" %}+49 201 723-{% elsif page.city == "Dortmund" %} +49 231 755-{% endif %}{{ page.tel }}</div>
     {% endif %}
+	
     {% if page.www %}
     <div class="cell large-3">WWW</div><div class="cell large-9">{{ page.www }}</div>
     {% endif %}
+	
   </div>
 </div>
+
+
 <div class="cell" style="margin-top: 30px;">
 {{ content }}
 </div>
+
+
 <!-- publications -->
 <div class="cell">
     <script type="text/javascript" src="/js/bibtex_js.js"></script>
     <bibtex src="/people/bibs/{{ page.bib }}"></bibtex>
     <div class="bibtex_template">
         <span class="title"  style="font-weight: bold;"></span><br/>
+        <div class="if author">
+          <span class="author"></span>
+        </div>
         <div class="if journal" style="display: inline-block;">
-            <span class="journal"></span>
+            <span class="journal" style="font-style: italic;"></span>
         </div>
         <div class="if booktitle" style="display: inline-block;">
             <span class="booktitle"></span>
@@ -66,9 +81,6 @@ TU Dortmund<br />
                     [doi]
                 </a>
             </span>
-        </div>
-        <div class="if author">
-          <span class="author" style="font-style: italic;"></span>
         </div>
         <div class="if abstract">
             <details>
@@ -90,4 +102,5 @@ TU Dortmund<br />
     <div id="bibtex_display"></div>
 </div>
 </div>
+
 {% include tail.html %}
