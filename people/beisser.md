@@ -10,7 +10,7 @@ city: Uni Essen
 bib: beisser.bib
 tel: '+49 (201) 1834514'
 # image: daniela.png
-www: http://dbeisser.de/
+www: dbeisser.de
 ---
 
 I am a staff scientist in the department of Biodiversity headed by Jens Boenigk at the University of Duisburg-Essen, Germany.
