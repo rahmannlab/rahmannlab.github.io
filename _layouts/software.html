@@ -8,9 +8,9 @@
 <div class="grid-x">
   {% for page in directory %}
   {% if status contains page.status %}
-  <div class="cell large-4"><a href="{{ page.homepage }}">{{ page.title }}</a></div>
-  <div class="cell large-4">{{ page.autor }}</div>
-  <div class="cell large-4">{{ page.description }}</div>
+  <div class="cell large-2"><a href="{{ page.homepage }}">{{ page.title }}</a></div>
+  <div class="cell large-2">{{ page.autor }}</div>
+  <div class="cell large-8">{{ page.description }}</div>
   {% endif %}
   {% endfor %}
 </div>

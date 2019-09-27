@@ -1,7 +1,7 @@
 ---
 layout: basic
 
-linktext: Vorlesung “Algorithmen auf Sequenzen”
+linktext: Algorithmen auf Sequenzen
 ---
 
 ## Vorlesung “Algorithmen auf Sequenzen”
@@ -15,14 +15,12 @@ Informationen zur Vorlesung ab WS2018/19 finden Sie nur dort!
 
 ---
 
-### Zeitplan Wintersemester 2016/17
+### Wintersemester 2016/17
 
 **Vorlesung**: Do 08:30-10:00 in OH14/304.\\
 **Übungen**:   Do 12:15-13:00 in OH14/304.\\
 **Material**:    Skript-Entwurf (Oktober 2014)\\
 **Prüfungen**: Für das Bachelor-Modul INF-BSc-315 werden in diesem Semester nur mündliche Prüfungen angeboten.  Die erweiterte Prüfung zur Diplom-Spezialvorlesung (3V+1Ü, SpG 4,6,7) wird nur mündlich angeboten.  Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest.
-
----
 
 | Do 20.10. | **Vorlesung**: Einführung, Vokabeln (Folien); Bitsequenzen, population count (Folien) <br /> **Übung**: Blatt 1 |
 | Do 27.10. | **Vorlesung**: Rank-Datenstruktur (Folien), Problem der Mustersuche: naiv (Folien) <br /> **Übung**: Blatt 2 |
@@ -60,7 +58,7 @@ Dem ersten Teil der Vorlesung liegt das Buch **Flexible Pattern Matching in Stri
 
 Die Vorlesung wird von praktischen und theoretischen Übungsaufgaben begleitet, deren Bearbeitung wichtig für ein richtiges Verständnis des Stoffs ist. Im Anschluss an diese Vorlesung besteht bei Begabung und Interesse die Möglichkeit, in diesem Bereich eine Abschlussarbeit zu schreiben.
 
-## Literatur
+### Literatur
 
 Gonzalo Navarro, Mathieu Raffinot\\
 **Flexible Pattern Matching in Strings**\\
@@ -80,31 +78,12 @@ ISBN: 1-575-86217-4\\
 
 Weitere Originalliteratur (wissenschaftliche Aufsätze, “paper”), die im Lauf der Vorlesung bekannt gegeben wird.
 
-## Skript
+---
 
-* aktueller Entwurf (INF-BSc-315 vom WS 2014/15, mit zusätzlichem Material für Dipl./M.Sc.)
-* Warum im Skript Python benutzt wird: Vortragsfolien und Video von der Pycon DE 2011.
+## Prüfungsleistungen
 
-## Mögliche Prüfungsleistungen im Bachelor-Wahlmodul INF-BSc-315
-
-* Bachelor-Wahlmodul (2V+1Ü; 4 LP), im Sommersemester 2011 (davor: SoSe 2010)
+* Bachelor-Wahlmodul (2V+1Ü; 4 LP); erweiterter Umfang für Studierende der RUB (5 CP)
 * mündliche Prüfung von 20-30 Minuten Dauer oder Klausur von 90 Minuten Dauer
 * Die genaue Prüfungsform wird abhängig von der Teilnehmerzahl kurz nach Vorlesungsbeginn festgelegt.
 * Vordruck für die Prüfungsanmeldung ausfüllen, bei Frau Jankord (OH14 / R2.39) einen Termin/Uhrzeit geben lassen, von Prof. Rahmann oder Frau Jankord unterschreiben lassen; wird von Frau Jankord zur Prüfungsverwaltung geschickt.
-* Sommersemester 2011: Prüfungen am 22.7., 12.8., 23.9. (jeweils Freitags)
-
-## Mögliche Prüfungsleistungen im Diplom (SpG 4,6,7)
-
-* Spezial-/Vertiefungsvorlesung (2V+2Ü bzw. 3V+1Ü; 6 LP), zuletzt im WS 2009/10.
-* Sie gehört in die SpGs 4,6,7 nach DPO’01 und ist wahlweise als 2V+2Ü=6LP (Master) oder 3V+1Ü (Diplom) anrechenbar.
-* Leistungsnachweis (Schein), unbenotet; durch Besuch der Vorlesung, Bearbeiten der Übungsaufgaben zum Vorlesungsinhalt, abschließendes Gespräch zur Vorlesung
-* mündliche Fachprüfung zum Vorlesungsinhalt (zur Vorbereitung wird die Bearbeitung der Übungsaufgaben sehr empfohlen).
-* Vordruck für die Prüfungsanmeldung ausfüllen, bei Frau Jankord (OH14 / R2.39) einen Termin/Uhrzeit geben lassen, von Prof. Rahmann oder Frau Jankord unterschreiben lassen; wird von Frau Jankord zur Prüfungsverwaltung geschickt.
-
----
-
-## Zeitplan Sommersemester 2015
-
-Die Vorlesung wird von Dominik Kopczynski gehalten.
-Informationen finden Sie hier.
 
