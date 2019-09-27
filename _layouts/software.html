@@ -14,7 +14,8 @@
   <div class="cell large-2"><b>Tool</b></div>
   <div class="cell large-2"><b>Author(s)</b></div>
   <div class="cell large-8"><b>Description</b></div>
-  {% for page in directory | sort: "year" | reverse %}
+  
+  {% for page in directory %}
   {% if status contains page.status %}
   <div class="cell large-2"><a href="{{ page.homepage }}">{{ page.title }}</a></div>
   <div class="cell large-2">{{ page.author }}</div>
@@ -22,5 +23,7 @@
   {% endif %}
   {% endfor %}
 </div>
+
 {% endfor %}
+
 {% include tail.html %}
