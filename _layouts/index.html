@@ -35,9 +35,9 @@
 
   {% for page in news_directory %}
   <div class="cell" style="margin-bottom: 1px; margin-top: 1px;">
-    <hr/>
     <h3>{{ page.name  | date: "%d %b %y"}} | {{ page.title }}</h3> 
     {{ page.content }}
+    <hr/>
   </div>
   {% endfor %}
 </div>
