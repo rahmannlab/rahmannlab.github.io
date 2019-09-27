@@ -8,7 +8,7 @@ street: V183
 room: 1.08a
 city: Essen
 tel: +49 (201) 723-4045
-image: blank.png
+# image: forster.png
 # www:
 ---
 

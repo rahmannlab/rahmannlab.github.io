@@ -1,8 +1,8 @@
 {% include head.html %}
 {{ content }}
 
-{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'people'"%}
-{% assign roles = "principal investigators, scientists, student assistants, administration" | split: "," %}
+{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'people'" | sort | reverse %}
+{% assign roles = "principal investigators, scientists, students and student assistants, administration" | split: "," %}
 
 {% for role in roles %}
 <h2>{{ role | strip | capitalize }}</h2>

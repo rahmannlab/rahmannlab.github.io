@@ -10,6 +10,7 @@ city: Essen
 tel: +49 (201) 723-4048<br/>+49 (231) 755-7713
 image: rahmann.jpg
 bib: rahmann.bib
+www: rahmannlab.de/people/rahmann
 ---
 
 Prof. Sven Rahmann holds the Chair of Genome Informatics at the Faculty of Medicine at Duisburg-Essen University since June 2011. The chair focuses on new algorithms and statistical methods for integration of multi-omics data and on the analysis of next-generation sequencing data. In collaboration with other groups, the methods are applied towards medical and biological questions. For example, how can we identify the genetic causes for rare diseases? How do different subtypes of a tumor differ in their gene expression patterns? How do environmental stress factors affect ecosystems on all levels?

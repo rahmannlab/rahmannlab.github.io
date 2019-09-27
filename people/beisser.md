@@ -9,7 +9,7 @@ room: 'S05 V05 F39'
 city: Uni Essen
 bib: beisser.bib
 tel: '+49 (201) 1834514'
-# image: daniela.png
+# image: beisser.png
 www: dbeisser.de
 ---
 
