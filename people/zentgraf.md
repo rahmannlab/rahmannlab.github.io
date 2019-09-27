@@ -7,7 +7,7 @@ fullname: Jens Zentgraf
 street: OH14
 room: 215
 city: Dortmund
-tel: 7778
+tel: +49 (231) 755-7778
 image: blank.png
 # www:
 ---

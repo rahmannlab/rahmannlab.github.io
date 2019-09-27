@@ -7,9 +7,9 @@ fullname: Henning Timm
 street: V183
 room: 1.09
 city: Essen
-tel: 4046
-image: henning.jpg
-www: <a href="https://henningtimm.gitlab.io">henningtimm.gitlab.io</a>
+tel: +49 (201) 723-4046
+image: timm.jpg
+www: henningtimm.gitlab.io
 bib: timm.bib
 ---
 

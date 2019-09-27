@@ -1,15 +1,19 @@
 {% include head.html %}
 {% assign image = page.image %}
 {% if image == nil %}{% assign image = "blank.png" %}{% endif %}
+
 <div class="grid-x">
+
 <div class="cell">
 <h2>{{ page.fullname }}</h2>
 </div>
-<div class="cell large-4">
+
+<div class="cell large-3">
   <img src="/people/images/{{ image }}" style="float: left; margin-right:10px;">
 </div>
+
 <div class="cell large-1"></div>
-<div class="cell large-7">
+<div class="cell large-8">
   <div class="grid-x">
     <div class="cell large-3">Büro</div>
     {% if page.city == "Essen" %}
@@ -48,7 +52,8 @@ TU Dortmund<br />
     {% endif %}
 	
     {% if page.www %}
-    <div class="cell large-3">WWW</div><div class="cell large-9">{{ page.www }}</div>
+    <div class="cell large-3">WWW</div>
+	<div class="cell large-9"><a href="https://{{ page.www }}">{{ page.www }}</a></div>
     {% endif %}
 	
   </div>
