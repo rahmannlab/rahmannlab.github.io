@@ -1,7 +1,7 @@
 ---
 layout: person
 
-role: chair
+role: 'principal investigator'
 degree: Prof. Dr.
 fullname: Sven Rahmann
 street: V183

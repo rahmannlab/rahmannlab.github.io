@@ -3,11 +3,11 @@ layout: person
 
 role: scientist
 # degree: MSc.
-fullname: Jens Zentgraf
-street: OH14
+fullname: Marianna D\'Addario
+street:  OH14
 room: 215
 city: Dortmund
-tel: 7778
+tel: 7742
 image: blank.png
 # www:
 ---

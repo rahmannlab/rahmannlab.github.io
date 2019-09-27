@@ -4,7 +4,7 @@ layout: person
 role: scientist
 # degree: MSc.
 fullname: Elias Kuthe
-street:  Otto-Hahn-Str. 14
+street:  OH14
 room: 215
 city: Dortmund
 tel: 7742
@@ -13,4 +13,3 @@ image: blank.png
 ---
 
 I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics.
-Currently, I work as a PhD student in Prof. Sven Rahmanns group, Bioinformatics, Computer Science XI, TU Dortmund University, Germany.
