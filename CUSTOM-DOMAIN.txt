@@ -1,0 +1,19 @@
+The URL genomeinformatics.uni-due.de 
+points to the public webspace of Sven's account
+ht0884@staff.uni-duisburg-essen.de.
+In the folder public_html/, we need a single file
+index.php:
+
+<?php
+header("Location: https://rahmannlab.github.io/"); 
+?>
+
+This redirects genomeinformatics.uni-due.de to rahmannlab.github.io.
+
+
+Next, to use www.rahmannlab.de as a custom domain for the website,
+Sven must set CNAME entry of his domain at goneo to
+rahmannlab.github.io
+In addition, under settings in gitlab,
+"custom domain" must be set to www.rahmannlab.de
+(scroll far down!).
