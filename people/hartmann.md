@@ -7,7 +7,7 @@ fullname: Till Hartmann
 street: V183
 room: 1.09
 city: Essen
-tel: 4046
+tel: +49 (201) 723-4046
 image: hartmann.png
 # www:
 ---

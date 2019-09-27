@@ -3,11 +3,11 @@ layout: person
 
 role: scientist
 # degree: MSc.
-fullname: Marianna D\'Addario
+fullname: Marianna D'Addario
 street:  OH14
 room: 215
 city: Dortmund
-tel: 7742
+tel: +49 (201) 755-7742
 image: blank.png
 # www:
 ---

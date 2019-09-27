@@ -14,6 +14,8 @@
     <div class="cell large-3">Büro</div>
     {% if page.city == "Essen" %}
     <div class="cell large-9">Virchowstr. 183, 1.OG,<br />Raum {{ page.room }}</div>
+    {% elsif page.city == "Uni Essen" %}
+    <div class="cell large-9">Universitätsstr. 5,<br />Raum {{ page.room }}</div>
     {% elsif page.city == "Dortmund" %}
     <div class="cell large-9">Otto-Hahn-Str. 14,<br />Raum {{ page.room }}</div>
     {% endif %}
@@ -41,7 +43,8 @@ TU Dortmund<br />
     </div>
 	
     {% if page.tel %}
-    <div class="cell large-3">Telefon</div><div class="cell large-9">{% if page.city == "Essen" %}+49 201 723-{% elsif page.city == "Dortmund" %} +49 231 755-{% endif %}{{ page.tel }}</div>
+    <div class="cell large-3">Telefon</div>
+	<div class="cell large-9">{{ page.tel }}</div>
     {% endif %}
 	
     {% if page.www %}
