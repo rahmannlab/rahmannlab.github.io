@@ -2,6 +2,7 @@
 layout: basic
 
 title: Standard Read Mapping
+linktext: Read Mapping
 summary: Mapping of next generation sequence reads against a reference genome using the Burrows-Wheeler Aligner (BWA)
 ---
 ## Standard Read Mapping

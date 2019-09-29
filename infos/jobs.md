@@ -1,5 +1,7 @@
 ---
 layout: basic
+linktext: Jobs/Stellen
+description: offene Stellen am Lehrstuhl
 ---
 
 
