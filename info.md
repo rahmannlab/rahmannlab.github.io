@@ -2,6 +2,6 @@
 layout: info
 ---
 
-### Wichtige Hinweise
+### Useful Information
 
-Diese Seite enthält Hinweise zu den Lehrveranstaltungen von Prof. Rahmann.
+This page contains useful information of various types, especially for students about theses and exams, but also about available services and open positions.

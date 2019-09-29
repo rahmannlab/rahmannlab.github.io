@@ -1,13 +1,13 @@
 ---
 layout: basic
-linktext: Abschlussarbeiten
+linktext: Theses / Abschlussarbeiten
 description: Hinweise zu Abschlussarbeiten
-who: Bachelor, Master, Diplom
+who: Bachelor, Master
 ---
 
-## Hinweise Abschlussarbeit
+# Hinweise zu Abschlussarbeiten
 
-### Warum eine Abschlussarbeit in der Bioinformatik?
+## Warum eine Abschlussarbeit in der Bioinformatik?
 
 * Die Interessen der Gruppe liegen vor allem im Bereich der **Algorithmischen** Bioinformatik.
 * Hier bietet sich die Gelegenheit, alles, was man im Studium über Entwurf und Analyse von Algorithmen gelernt hat, in den Lebenswissenschaften anzuwenden.
@@ -17,7 +17,7 @@ who: Bachelor, Master, Diplom
 * Wer zudem den Dialog mit Biologen, Chemikern, und Biotechnologen aktiv sucht und andere Disziplinen verstehen lernt, hat als Informatiker bei den Unternehmen der entsprechenden Branchen hervorragende Berufschancen.
 
 
-### Wie bekommt man ein Thema?
+## Wie bekommt man ein Thema?
 
 Wenn Sie erwägen, eine Abschlussarbeit im Bereich der Bioinformatik zu schreiben (oder sich überhaupt für dieses Fach interessieren), ist folgendes Vorgehen empfehlenswert:
 
@@ -31,7 +31,7 @@ Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e
 7. Vermeiden Sie, mit der Einstellung “Ich brauch da mal ein Thema für eine Arbeit” zu kommen. Das klappt nur in den seltensten Fällen! Die Abschlussarbeit ist ein sehr wichtiger Teil des Studiums, und Sie sollten ausführlich darüber nachdenken, worüber und bei wem Sie eine Arbeit schreiben wollen.
 
 
-### Vorbereitung und Anmeldung
+## Vorbereitung und Anmeldung
 
 * Bitte machen Sie sich mit der Prüfungsordnung vertraut!
 * Lernen Sie die Feinheiten Ihres Textverarbeitungs- oder Schriftsatzsystems kennen, bevor Sie eine längere wichtige Arbeit schreiben.
@@ -42,7 +42,7 @@ Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e
 * Hier sind [Formulare für den Antrag auf Erst- und Zweitbetreuung](http://www.cs.uni-dortmund.de/nps/de/Studium/Ordnungen_Handbuecher_Beschluesse/Formulare/index.html), die von Ihnen ausgefüllt werden müssen.
 
 
-### Während der Betreuungsphase
+## Während der Betreuungsphase
 
 * Kurz nach dem offiziellen Beginn der Arbeit müssen Sie einen Einführungsvortrag im DDH-Seminar halten (siehe unten).
 * Bitte bereiten Sie sich gut auf die Betreuungs-Gespräche vor. Erstellen Sie eine Liste mit Fragen und Unklarheiten, damit wir nichts vergessen. Im Schnitt halte ich wöchentliche bis 14-tägige Termine für sinnvoll.
@@ -53,7 +53,7 @@ Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e
 * Der Arbeitsaufwand ist laut Prüfungsordnung hoch: Bei der Bearbeitungsdauer von 4 bis 6 Montaten (Diplom, Master) wird von einer Vollzeit-Beschäftigung ausgegangen! Die Bearbeitungszeit für eine Bachelorarbeit beträgt 4 Monate; hierbei wird aber nicht von Vollzeit ausgegangen!
 
 
-### Abgabe und Benotung
+## Abgabe und Benotung
 
 * Für die schriftliche Arbeit gelten meine Hinweise zu Ausarbeitungen, wie sie auch für Seminare und Proseminare gelten.
 * Für die Einhaltung der formalen Randbedingungen und Fristen sind Sie selbst verantwortlich.
@@ -64,9 +64,10 @@ Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e
 * **Gegenüber Plagiaten habe ich Null Toleranz**. In solchen Fällen ist die Abschlussarbeit selbstredend nicht bestanden. Soweit es die Gesetze zulassen, kommt auch eine Anzeige wegen der Verletzung geistigen Eigentums in Betracht.
 
 
-### Informationen zum DDH-Seminar
+## Informationen zum DDH-Seminar
 
 * Die Arbeit soll von Ihnen zwei mal im [Abschlussarbeits-Seminar (“DDH-Seminar”)](http://ls11-www.cs.uni-dortmund.de/ddh.jsp) des Lehrstuhl 11 präsentiert werden, und zwar einmal mit einem **Einführungsvortrag** nach der Einarbeitung, und einmal mit einem **Abschlussvortrag** wenige Wochen nach (zur Not auch kurz vor) Abgabe der Arbeit. Ohne diese beiden Vorträge wird Ihre Arbeit nicht angenommen.
 * Die Organisation der Termine wird von Carsten Gutwenger und Karsten Klein am Lehrstuhl verwaltet. Kümmern Sie sich frühzeitig um die Termine
 * Einführungsvortrag (30 min + Diskussion): Sie sollen zeigen, dass Sie die **Themenstellung** verstanden und sich eingearbeitet haben. Erste Ideen sollen präsentiert werden.
 * Abschlussvortrag (45 min + Diskussion): Fassen Sie die Themenstellung kurz zusammen. Stellen Sie die Methoden vor, die Sie in der Arbeit benutzen. Erläutern Sie Ihre **Ergebnisse** und **diskutieren** Sie Ihre Arbeit im Kontext; gehen Sie dabei auch auf offen gebliebene Fragen ein oder Probleme, die sich nicht lösen ließen.
+

@@ -1,7 +1,7 @@
 ---
 layout: basic
-linktext: Jobs/Stellen
-description: offene Stellen am Lehrstuhl
+linktext: Jobs / Stellen
+description: Open positions (jobs) at the chair
 ---
 
 
