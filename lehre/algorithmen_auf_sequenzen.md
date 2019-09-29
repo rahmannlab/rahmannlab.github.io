@@ -8,7 +8,7 @@ linktext: Algorithmen auf Sequenzen
 
 ### Wintersemester 2018/19
 
-Die Vorlesung hat jetzt eine neue eigene Seite:\\
+Die Vorlesung hat jetzt eine eigene Seite:\\
 [https://rahmannlab.gitlab.io/algorithmen-auf-sequenzen](https://rahmannlab.gitlab.io/algorithmen-auf-sequenzen).
 
 Informationen zur Vorlesung ab WS2018/19 finden Sie nur dort!

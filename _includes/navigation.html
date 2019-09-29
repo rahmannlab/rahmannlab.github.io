@@ -4,7 +4,7 @@
     <li><a href="/research.html">Research</a></li>
     <li><a href="/software.html">Software</a></li>
     <li class="is-dropdown-submenu-parent">
-      <a href="#">Lehre</a>
+      <a href="/lehre.html">Lehre</a>
       <ul class="menu">
         {% assign directory = site.pages | where_exp: "item" , "item.path contains 'lehre'"%}
         {% for page in directory %}
@@ -13,7 +13,7 @@
       </ul>
     </li>
     <li class="is-dropdown-submenu-parent">
-      <a href="#">Infos</a>
+      <a href="/infos.html">Infos</a>
       <ul class="menu">
         {% assign directory = site.pages | where_exp: "item" , "item.path contains 'infos'"%}
         {% for page in directory %}
