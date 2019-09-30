@@ -1,17 +1,20 @@
 <div class="cell navigation" style="margin-bottom: 3ex; margin-top: 2ex;">
-  <ul class="dropdown menu" data-dropdown-menu>
+<ul class="dropdown menu" data-dropdown-menu>
+    <li><a href="/index.html">Home</a></li>
     <li><a href="/people.html">People</a></li>
     <li><a href="/research.html">Research</a></li>
     <li><a href="/software.html">Software</a></li>
+
     <li class="is-dropdown-submenu-parent">
       <a href="/lehre.html">Lehre</a>
       <ul class="menu">
-        {% assign directory = site.pages | where_exp: "item" , "item.path contains 'lehre'"%}
+        {% assign directory = site.pages | where_exp: "item" , "item.path contains 'lehre/'"%}
         {% for page in directory %}
         <li><a href="{{ page.url }}">{{page.linktext}}</a></li>
         {% endfor %}
       </ul>
     </li>
+
     <li class="is-dropdown-submenu-parent">
       <a href="/info.html">Infos</a>
       <ul class="menu">
@@ -21,6 +24,7 @@
         {% endfor %}
       </ul>
     </li>
-    <li><a href="/impressum.html">Impressum</a></li>
-  </ul>
+
+    <li><a href="/news.html">News Archive</a></li>
+</ul>
 </div>

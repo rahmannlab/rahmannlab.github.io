@@ -1,8 +1,9 @@
 ---
 layout: basic
-
+date: 2019-09-24
 title: Friedmund Neumann Award 2019 of the Schering Stiftung goes to Johannes Köster
 ---
+
 The Schering Sitftung has awarded the [Friedmund Neumann Award 2019](https://scheringstiftung.de/en/programm/lebenswissenschaften/nachwuchsfoerderung/friedmund-neumann-preis/friedmund-neumann-preis-2019/) to Johannes Köster.
 Congratulations, Johannes!
 

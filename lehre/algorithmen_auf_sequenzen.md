@@ -1,7 +1,7 @@
 ---
 layout: basic
-
 linktext: Algorithmen auf Sequenzen
+instructor: Prof. Dr. Sven Rahmann
 ---
 
 ## Vorlesung “Algorithmen auf Sequenzen”

@@ -1,7 +1,7 @@
 ---
 layout: basic
-
 linktext: Algorithmische Bioinformatik
+instructor: Prof. Dr. Sven Rahmann
 ---
 
 # Vorlesung “Algorithmische Bioinformatik”

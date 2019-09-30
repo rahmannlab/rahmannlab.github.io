@@ -1,6 +1,6 @@
 ---
 layout: basic
-
+date: 2019-09-17
 title: Genome Informatics at GCB 2019
 ---
 

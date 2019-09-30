@@ -1,0 +1,27 @@
+{% include head.html %}
+
+{{ content }}
+
+{% assign firstdate = "0001-01-01" | date: '%s' %}
+{% assign currentdate = site.time | date: '%s' %}
+{% assign news_directory = site.pages | where_exp: "item" , "item.path contains 'news'" | sort: "date" | reverse %}
+
+<div class="grid-x">
+
+  {% for page in news_directory %}
+  {% assign newsdate = page.date | date: '%s' %}
+  {% assign secondsSince = currentdate | minus: newsdate %}
+  {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+  {% assign daysSince = hoursSince | divided_by: 24  %}
+
+  {% if daysSince < 40000 %}
+  <div class="cell" style="margin-bottom: 5px; margin-top: 1px;">
+    <h2>{{ page.date | date: "%d %b %Y"}} ({{ daysSince }} days ago) | {{ page.title }}</h2> 
+    {{ page.content | markdownify }}
+    <hr/>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+
+{% include tail.html %}
