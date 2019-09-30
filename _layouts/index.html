@@ -45,7 +45,7 @@
 
   {% if daysSince <= 750 %}
   <div class="cell" style="margin-bottom: 5px; margin-top: 1px;">
-    <h2>{{ page.date | date: "%d %b %Y"}} ({{ daysSince }} days ago) | {{ page.title }}</h2> 
+    <h2>{{ page.date | date: "%d %b %Y"}} | {{ page.title }}</h2> 
     {{ page.content | markdownify }}
     <hr/>
   </div>
