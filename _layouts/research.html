@@ -2,19 +2,28 @@
 
 {{ content }}
 
-{% assign research_directory = site.pages | where_exp: "item" , "item.path contains 'research'"%}
+{% assign research_directory = site.pages | where_exp: "item" , "item.path contains 'research/'" | sort: "date" | reverse %}
 
 {% assign stati = "current, past" | split: "," %}
 
 {% for status in stati %}
-<h3>{{ status | strip | capitalize }} Projects</h3>
+<h1>{{ status | strip | capitalize }} research projects</h1>
 <div class="grid-x">
-  {% for page in research_directory %}
-  {% if status contains page.status %}
+  {% for project in research_directory %}
+  {% if status contains project.status %}
   <div class="cell" style="margin-bottom: 30px;">
-    <a href="#">{{ page.title }}</a><br />
-    {{ page.author }}<br />
-    {% if page.collaboration %}in collaboration with {{ page.collaboration }}{% endif %}
+    <a href="{{ project.url }}"><h2>{{ project.title }}</h2></a>
+    <p>
+    <b>Investigators:</b> {{ project.members }}<br/>
+    {% if project.collaborators %}
+    <b>Collaborators:</b> {{ project.collaborators }}<br/>
+    {% endif %}
+    <b>Funding:</b> {{ project.funding }}
+    </p><p>
+    {% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }}" width="25%" display="block" />{% endif %}
+    <b>Summary:</b> {{ project.summary }}
+    (<a href="{{ project.url }}">Details</a>)
+    </p><hr/>
   </div>
   {% endif %}
   {% endfor %}
