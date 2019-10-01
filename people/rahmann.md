@@ -5,7 +5,7 @@ role: 'principal investigator'
 degree: Prof. Dr.
 fullname: Sven Rahmann
 street: V183
-room: 1.10
+room: '1.10'
 city: Essen
 tel: +49 (201) 723-4048<br/>+49 (231) 755-7713
 image: rahmann.jpg
