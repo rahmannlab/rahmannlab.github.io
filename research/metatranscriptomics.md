@@ -3,10 +3,10 @@ title: Metatranscriptomics
 members: Daniela Beisser & Sven Rahmann
 collaborators: Jens Boenigk (biodiversity chair), Essen
 summary: We developed a reference database, workflow and tool to assign reads from eukaryotic metatranscriptome experiments to both species and a functional class.
-funding: DFG SPP 1701 (Dynatrait) and internal
+funding: internal
 image: /research/metatranscriptomics.jpg
 software: TaxMapper
-status: past
+status: current
 layout: project
 date: 2018-01-01
 ---
