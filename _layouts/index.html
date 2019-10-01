@@ -43,9 +43,10 @@
   {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
   {% assign daysSince = hoursSince | divided_by: 24  %}
 
-  {% if daysSince <= 750 %}
+  {% if daysSince <= 730 %}
   <div class="cell" style="margin-bottom: 5px; margin-top: 1px;">
-    <h2>{{ page.date | date: "%d %b %Y"}} | {{ page.title }}</h2> 
+    <h2>{{ page.date | date: "%d %b %Y"}} | {{ page.title }}</h2>
+    <a href="{{ page.image }}"><img src="{{ page.image }}" width="{{ page.imagewidth }}%" display="block" style="padding: 20px;"/></a>
     {{ page.content | markdownify }}
     <hr/>
   </div>
