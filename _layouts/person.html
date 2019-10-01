@@ -81,14 +81,14 @@ TU Dortmund<br />
             <span class="journal" style="font-style: italic;"></span>
         </div>
         <div class="if booktitle" style="display: inline-block;">
-            <span class="booktitle"></span>
+            <span class="booktitle" style="font-style: italic;"></span>
         </div>
         <div id="info" style="display: inline-block;">
             <span class="if url" style="margin-left: 0.5em">
               <a class="url" style="color:black; font-size:12px">[view online]</a>
             </span>
             <span class="if doi">
-                <a class="bibtexVar" href="http://doi.org/+doi+" extra="doi" style="font-size: 10pt; color: #444;">
+                <a class="bibtexVar" href="https://doi.org/+doi+" extra="doi" style="font-size: 10pt; color: #444;">
                     &nbsp;[doi]
                 </a>
             </span>
@@ -104,13 +104,13 @@ TU Dortmund<br />
     </div>
     <div class="bibtex_structure">
       <div class="group year" extra="DESC number">
-      	  <div style="padding-bottom:10px;"></div>
-      	  <div class="sort journal" extra="DESC string">
-          	<div class="templates"></div>
-          </div>
-      </div>
+        <div style="padding-bottom:10px; padding-top:0px;"></div>
+        <div class="sort journal" extra="ASC string">
+          <div class="templates"></div>
+        </div>
+     </div>
     </div>
-    <div id="bibtex_display"></div>
+  <div id="bibtex_display"></div>
 </div>
 {% endif %}
 
