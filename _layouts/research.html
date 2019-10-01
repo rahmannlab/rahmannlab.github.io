@@ -14,7 +14,7 @@
   <div class="cell" style="margin-bottom: 30px;">
     <a href="{{ project.url }}"><h2>{{ project.title }}</h2></a>
     <p>
-    {% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }}" width="30%" display="block" style="padding: 15px;" />{% endif %}
+    {% if project.image %}<a href="{{ project.image }}"><img src="{{ project.image }}" alt="{{ project.title }}" width="30%" display="block" style="padding: 15px;" /></a>{% endif %}
     <b>Investigators:</b> {{ project.members }}<br/>
     {% if project.collaborators %}
     <b>Collaborators:</b> {{ project.collaborators }}<br/>

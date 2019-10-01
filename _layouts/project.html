@@ -11,7 +11,7 @@
 {% endif %}
 </p>
 
-{% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}" width="30%" display="block" style="padding: 15px;" />{% endif %}
+{% if page.image %}<a href="{{ page.image }}"><img src="{{ page.image }}" alt="{{ page.title }}" width="50%" display="block" style="padding: 15px;" /></a>{% endif %}
 {{ content }}
 
 {% include tail.html %}
