@@ -14,11 +14,10 @@
     <div class="cell large-6" style="margin-bottom: 20px">
       <a href={{ page.url }}>
       <img src="/people/images/{{ image }}" style="float: left; margin-right:10px; max-width: 150px;">
-      <b>{{ page.degree }} {{ page.fullname }}</b><br />
+      <b>{{ page.degree }} {{ page.fullname }}</b></a><br />
       {{ page.street }}{% if page.street and page.room %},{% endif %} {{ page.room }}<br />
       {{ page.city }}<br />
 	  {% if page.tel%}{{ page.tel }}<br />{% endif %}
-      </a>
     </div>
     {% endif %}
   {% endfor %}
