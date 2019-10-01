@@ -14,13 +14,12 @@
   <div class="cell" style="margin-bottom: 30px;">
     <a href="{{ project.url }}"><h2>{{ project.title }}</h2></a>
     <p>
+    {% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }}" width="25%" display="block" style="padding: 15px;" />{% endif %}
     <b>Investigators:</b> {{ project.members }}<br/>
     {% if project.collaborators %}
     <b>Collaborators:</b> {{ project.collaborators }}<br/>
     {% endif %}
-    <b>Funding:</b> {{ project.funding }}
-    </p><p>
-    {% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }}" width="25%" display="block" />{% endif %}
+    <b>Funding:</b> {{ project.funding }}<br/>
     <b>Summary:</b> {{ project.summary }}
     (<a href="{{ project.url }}">Details</a>)
     </p><hr/>

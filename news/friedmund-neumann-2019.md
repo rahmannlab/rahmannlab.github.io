@@ -7,7 +7,7 @@ title: Friedmund Neumann Award 2019 of the Schering Stiftung goes to Johannes KÃ
 The Schering Sitftung has awarded the [Friedmund Neumann Award 2019](https://scheringstiftung.de/en/programm/lebenswissenschaften/nachwuchsfoerderung/friedmund-neumann-preis/friedmund-neumann-preis-2019/) to Johannes KÃ¶ster.
 Congratulations, Johannes!
 
-![Friedmund Neumann Award 2019](news/friedmund-neumann-2019.jpg){:width="50%" display="block"}
+![Friedmund Neumann Award 2019](news/friedmund-neumann-2019.jpg){:width="45%" display="block" style="padding: 20px;"}
 
 Image credits: Friedmund Neumann Award 2019 of the Schering Stiftung.
 Award ceremony, 24.09.2019 in Berlin.

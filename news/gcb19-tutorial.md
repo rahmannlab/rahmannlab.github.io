@@ -4,7 +4,7 @@ layout: basic
 title: Tutorial on k-mer hashing at GCB 2019
 ---
 
-![Friedmund Neumann Award 2019](/news/gcb19-tutorial.jpg){:width="30%" display="block"}
+![Foundations of alignment-free sequence analysis: k-mer hashing](/news/gcb19-tutorial.jpg){:width="30%" display="block" style="padding: 20px;"}
 
 Jens Zentgraf and Sven Rahmann gave a tutorial on [foundations of alignment-free sequence analysis: k-mer hashing](https://gcb2019.de/fundamentals-of-alignment-free-sequence-analysis-k-mer-hashing/) at the German Conference on Bioinformatics (GCB) 2019 in Heidelberg.
 

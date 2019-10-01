@@ -5,8 +5,7 @@
 <b>Funding:</b> {{ page.funding }}
 </p>
 
-{% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}" width="30%" display="block" />{% endif %}
+{% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}" width="30%" display="block" style="padding: 15px;" />{% endif %}
 {{ content }}
-
 
 {% include tail.html %}
