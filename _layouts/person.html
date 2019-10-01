@@ -15,16 +15,16 @@
 <div class="cell large-1"></div>
 <div class="cell large-8">
   <div class="grid-x">
-    <div class="cell large-3">Büro</div>
+    <div class="cell large-2">Office</div>
     {% if page.city == "Essen" %}
-    <div class="cell large-9">Virchowstr. 183, 1.OG,<br />Raum {{ page.room }}</div>
+    <div class="cell large-10">Virchowstr. 183, 1.OG,<br />room {{ page.room }}</div>
     {% elsif page.city == "Uni Essen" %}
-    <div class="cell large-9">Universitätsstr. 5,<br />Raum {{ page.room }}</div>
+    <div class="cell large-10">Universitätsstr. 5,<br />room {{ page.room }}</div>
     {% elsif page.city == "Dortmund" %}
-    <div class="cell large-9">Otto-Hahn-Str. 14,<br />Raum {{ page.room }}</div>
+    <div class="cell large-10">Otto-Hahn-Str. 14,<br />room {{ page.room }}</div>
     {% endif %}
-    <div class="cell large-3">Postadresse</div>
-    <div class="cell large-9">
+    <div class="cell large-2">Mails</div>
+    <div class="cell large-10">
 {{ page.fullname }}<br />
 
 {% if page.city == "Essen" %}
@@ -47,13 +47,13 @@ TU Dortmund<br />
     </div>
 	
     {% if page.tel %}
-    <div class="cell large-3">Telefon</div>
-	<div class="cell large-9">{{ page.tel }}</div>
+    <div class="cell large-2">Phone</div>
+	<div class="cell large-10">{{ page.tel }}</div>
     {% endif %}
 	
     {% if page.www %}
-    <div class="cell large-3">WWW</div>
-	<div class="cell large-9"><a href="http://{{ page.www }}">{{ page.www }}</a></div>
+    <div class="cell large-2">WWW</div>
+	<div class="cell large-10"><a href="http://{{ page.www }}">{{ page.www }}</a></div>
     {% endif %}
 	
   </div>
