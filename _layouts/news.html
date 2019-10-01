@@ -17,7 +17,7 @@
   {% if daysSince < 40000 %}
   <div class="cell" style="margin-bottom: 5px; margin-top: 1px;">
     <h2>{{ page.date | date: "%d %b %Y"}} ({{ daysSince }} days ago) | {{ page.title }}</h2> 
-    <a href="{{ page.image }}"><img src="{{ page.image }}" width="{{ page.imagewidth }}%" display="block" style="padding: 15px;"/></a>
+    {% if page.image %}<a href="{{ page.image }}"><img src="{{ page.image }}" width="{{ page.imagewidth }}%" display="block" style="padding: 15px;"/></a>{% endif %}
     {{ page.content | markdownify }}
     <hr/>
   </div>
