@@ -2,6 +2,6 @@
 layout: info
 ---
 
-### Useful Information
+# Useful Information
 
 This page contains useful information of various types, especially for students about theses and exams, but also about available services and open positions.

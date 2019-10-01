@@ -4,7 +4,7 @@ layout: basic
 
 # Impressum
 
-Diese Webseite, [rahmannlab.de](https://rahmannlab.de), ist die Webseite des Lehrstuhls für Genominformatik der Medizinischen Fakultät der Universität Duisburg-Essen, der von Prof. Dr. Sven Rahmann geleitet wird.
+Diese Webseite, [rahmannlab.de](https://www.rahmannlab.de), ist die Webseite des Lehrstuhls für Genominformatik der Medizinischen Fakultät der Universität Duisburg-Essen, der von Prof. Dr. Sven Rahmann geleitet wird.
 
 Fragen und Kommentare zu dieser Webseite sollten gerichtet werden an:
 

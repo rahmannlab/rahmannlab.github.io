@@ -18,7 +18,7 @@
     <li class="is-dropdown-submenu-parent">
       <a href="/info.html">Infos</a>
       <ul class="menu">
-        {% assign directory = site.pages | where_exp: "item" , "item.path contains 'infos'"%}
+        {% assign directory = site.pages | where_exp: "item" , "item.path contains 'infos'" | sort: "order" %}
         {% for page in directory %}
         <li><a href="{{ page.url }}">{{page.linktext}}</a></li>
         {% endfor %}

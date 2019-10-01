@@ -1,7 +1,7 @@
 {% include head.html %}
 
 {{ content }}
-{% assign directory = site.pages | where_exp: "item" , "item.path contains 'infos'"%}
+{% assign directory = site.pages | where_exp: "item" , "item.path contains 'infos'" | sort: "order" %}
 
 <div class="grid-x">
   <ul>

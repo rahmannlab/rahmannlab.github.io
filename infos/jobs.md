@@ -2,10 +2,11 @@
 layout: basic
 linktext: Jobs / Stellen
 description: Open positions (jobs) at the chair
+order: 30
 ---
 
 
-## Jobs
+# Jobs
 
 Jederzeit sind bei uns Studierende willkommen, die eine Abschlussarbeit (B.Sc. oder M.Sc) oder eine Studienarbeit schreiben möchten.
 

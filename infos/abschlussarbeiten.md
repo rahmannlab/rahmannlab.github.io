@@ -1,8 +1,9 @@
 ---
 layout: basic
-linktext: Theses / Abschlussarbeiten
+linktext: Abschlussarbeiten / Theses
 description: Hinweise zu Abschlussarbeiten
-who: Bachelor, Master
+who: Bachelor- und Masterstudierende
+order: 10
 ---
 
 # Hinweise zu Abschlussarbeiten
@@ -24,7 +25,7 @@ Wenn Sie erwägen, eine Abschlussarbeit im Bereich der Bioinformatik zu schreibe
 1. Versuchen Sie, möglichst früh festzustellen, wo Ihre Interessen liegen, um in diesem Bereich Vorlesungen und Seminare zu belegen. Dann haben Sie dort eine gute Grundlage für eine Abschlussarbeit.
 2. Besuchen Sie aktiv eine der in diesem Bereich angebotenen Vorlesungen (z.B. Algorithmen auf Sequenzen, Algorithmische Bioinformatik, Rekonstruktion biologischer Netzwerke).
 3. Besuchen Sie anschließend das Hauptseminar “Aktuelle Themen der Bioinformatik” zur Vertiefung (für Master- und Diplomarbeiten).
-4. Werfen Sie einen Blick auf unsere [Forschungsgebiete](http://genomeinformatics.uni-due.de/research).
+4. Werfen Sie einen Blick auf unsere [Forschungsgebiete](/research).
 5. Sprechen Sie mich in der Vorlesung und/oder im Seminar auf mögliche Themen zu Abschlussarbeiten an.\\
 Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e-mail und vereinbaren einen Termin.
 6. Wenn wir uns noch nicht persönlich kennen, möchte ich, dass Sie Vorschläge für Themen machen, die Sie interessieren, und vor allem begründen, warum das für Sie interessant ist und warum Sie für dieses Thema qualifiziert sind.
@@ -55,7 +56,8 @@ Alternativ (wenn Sie mich gerade nicht finden können): Schreiben Sie mir eine e
 
 ## Abgabe und Benotung
 
-* Für die schriftliche Arbeit gelten meine Hinweise zu Ausarbeitungen, wie sie auch für Seminare und Proseminare gelten.
+* Für die schriftliche Arbeit gelten meine [Hinweise zu Ausarbeitungen](/infos/ausarbeitungen), wie sie auch für Seminare und Proseminare gelten.
+* Die Abgabe erfolgt seit 01.10.2019 an der TU Dortmund ausschließlich [elektronisch über ExaBase](https://www.tu-dortmund.de/universitaet/aktuelles/meldung/studierende-koennen-abschlussarbeiten-digital-abgeben/).
 * Für die Einhaltung der formalen Randbedingungen und Fristen sind Sie selbst verantwortlich.
 * Bei der Benotung kommen grundsätzlich alle Noten in Frage.
 * Der Vollständigkeit halber sei darauf hingewiesen, dass eine Abschlussarbeit mit ‘nicht ausreichend’ bewertet werden kann (siehe die jeweils gültige Prüfungsordnung).

@@ -1,10 +1,12 @@
 ---
 layout: basic
-linktext: Exams / Prüfungen
+linktext: Prüfungen / Exams
 description: Hinweise zu mündlichen Prüfungen
+who: Bachelor- und Masterstudierende
+order: 20
 ---
 
-## Hinweise Prüfungen
+# Hinweise zu mündlichen Prüfungen
 
 Diese Seite soll bei der Vorbereitung auf mündliche Prüfungen bei Prof. Rahmann helfen.
 
