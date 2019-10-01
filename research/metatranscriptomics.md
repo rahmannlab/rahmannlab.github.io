@@ -5,6 +5,7 @@ collaborators: Jens Boenigk (biodiversity chair), Essen
 summary: We developed a reference database, workflow and tool to assign reads from eukaryotic metatranscriptome experiments to both species and a functional class.
 funding: DFG SPP 1701 (Dynatrait) and internal
 image: /research/metatranscriptomics.jpg
+software: TaxMapper
 status: past
 layout: project
 date: 2018-01-01
@@ -19,9 +20,9 @@ The custom database includes peptide sequences translated from transcriptomes of
 We do not attempt to assign sequence reads on species or genera level, but to higher taxonomic groups.
 The biggest problem is the misassignment of sequences to incorrect species, we therefore perform rigorous filtering, in which we evaluate the distance between the best hit and next hit in another taxonomic group.
 
-The developed tool [TaxMapper](/software.html), available at bitbucket and bioconda, is built in a modular way to be applicable stepwise with user-set parameters or as a complete easy-to-use analysis with standard parameters starting from a RAPsearch mapping file to a visualization of community composition.
+The developed tool [TaxMapper](/software#TaxMapper), available at bitbucket and bioconda, is built in a modular way to be applicable stepwise with user-set parameters or as a complete easy-to-use analysis with standard parameters starting from a RAPsearch mapping file to a visualization of community composition.
 Additionally, we develop a reliable workflow for microeukaryotic metatranscriptome analysis.
-Written as a rule-based [Snakemake](/software.html) workflow, it unites all major bioinformatic steps: 
+Written as a rule-based [Snakemake](/software#Snakemake) workflow, it unites all major bioinformatic steps: 
 * preprocessing of raw reads,
 * functional and taxonomic assignment with TaxMapper,
 * and statistical analyses.

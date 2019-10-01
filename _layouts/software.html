@@ -1,15 +1,11 @@
 {% include head.html %}
 
-<h1>Software</h1>
-
 {{ content }}
-
 
 {% assign directory = site.pages | where_exp: "item" , "item.path contains 'software'" | sort: "year" | reverse %}
 {% assign stati = "popular, recent, older" | split: "," %}
-
 {% for status in stati %}
-<h3>{{ status | strip | capitalize }}</h3>
+<h2>{{ status | strip | capitalize }} software</h2>
 <div class="grid-x">
   <div class="cell large-2"><b>Tool</b></div>
   <div class="cell large-2"><b>Author(s)</b></div>
@@ -17,7 +13,8 @@
   
   {% for page in directory %}
   {% if status contains page.status %}
-  <div class="cell large-2"><a href="{{ page.homepage }}">{{ page.title }}</a></div>
+  <a name></a>
+  <div class="cell large-2"><a name="{{ page.title }}" href="{{ page.homepage }}">{{ page.title }}</a></div>
   <div class="cell large-2">{{ page.author }}</div>
   <div class="cell large-8">{{ page.description }}</div>
   {% endif %}

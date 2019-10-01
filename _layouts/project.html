@@ -1,8 +1,14 @@
 {% include head.html %}
 
 <h1>{{ page.title }}</h1>
-<p><b>Investigtors:</b> {{ page.members }}<br/>
+<p><b>Investigators:</b> {{ page.members }}<br/>
+{% if page.collaborators %}
+<b>Collaborators:</b> {{ page.collaborators }}<br/>
+{% endif %}
 <b>Funding:</b> {{ page.funding }}
+{% if page.software %}
+<br/><b>Software:</b> <a href="/software#{{ page.software }}">{{ page.software }}</a>
+{% endif %}
 </p>
 
 {% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}" width="30%" display="block" style="padding: 15px;" />{% endif %}

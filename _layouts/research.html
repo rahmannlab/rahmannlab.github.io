@@ -22,6 +22,9 @@
     <b>Funding:</b> {{ project.funding }}<br/>
     <b>Summary:</b> {{ project.summary }}
     (<a href="{{ project.url }}">Details</a>)
+    {% if project.software %}
+    <br/><b>Software:</b> <a href="/software#{{ project.software }}">{{ project.software }}</a>
+    {% endif %}
     </p><hr/>
   </div>
   {% endif %}
