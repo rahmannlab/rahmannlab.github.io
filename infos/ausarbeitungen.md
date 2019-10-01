@@ -51,19 +51,19 @@ Die Titelseite muss folgende Informationen enthalten:
 * So ist es in Ordnung:
 ~~~
 1 Einleitung
-  …(Hier folgt ein Überblick über die einzelnen Unterabschnitte des ersten Kapitels)…
-  1.1 Die DNA-Struktur
-      …(Hier folgt Text zur DNA-Struktur)…
-  1.2 DNA-Strukturvorhersage
-      …(Hier Text zur Problematik der DNA-Strukturvorhersage)…
-  1.3 Formale Problemstellung
-      …(Hier geben Sie die formale Problemstellung an, die im weitern Verlauf der Arbeit untersucht wird. Jeder vernünftige Mensch erwartet jetzt selbstverständlich, dass das untersuchte Problem etwas mit DNA-Strukturvorhersage zu tun hat.)…
-  2 Statistische Modellierung
-    …(hier folgen viele weitere Abschnitte und Unterabschnitte)…
-  ...
-  6 Diskussion
-  (7 Zusammenfassung)
-  Literaturverzeichnis
+    (Überblick über die einzelnen Unterabschnitte des ersten Kapitels)
+    1.1 Die DNA-Struktur
+        (Hier folgt Text zur DNA-Struktur)
+    1.2 DNA-Strukturvorhersage
+        (Hier Text zur Problematik der DNA-Strukturvorhersage)
+    1.3 Formale Problemstellung
+        (Hier geben Sie die formale Problemstellung an, die im weitern Verlauf der Arbeit untersucht wird. Jeder vernünftige Mensch erwartet jetzt selbstverständlich, dass das untersuchte Problem etwas mit DNA-Strukturvorhersage zu tun hat.)
+2 Statistische Modellierung
+    (hier folgen viele weitere Abschnitte und Unterabschnitte)…
+...
+6 Diskussion
+(7 Zusammenfassung)
+Literaturverzeichnis
 ~~~
 
 
