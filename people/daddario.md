@@ -9,6 +9,7 @@ room: 215
 city: Dortmund
 tel: +49 (231) 755-7778
 image: daddario.jpg
+bib: daddario.bib
 www: ls11-www.cs.tu-dortmund.de/staff/daddario
 bib: daddario.bib
 ---

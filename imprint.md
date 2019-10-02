@@ -15,8 +15,8 @@ Universitätsklinikum Essen\\
 Hufelandstr. 55\\
 45147 Essen
 
-[Offizielle Seiten der Medizinischen Fakultät](http://www.uni-due.de/med/index.php)\\
-[Offizielles Impressum der Universität Duisburg-Essen](https://www.uni-due.de/de/impressum.shtml)
+[Webseite der Medizinischen Fakultät](http://www.uni-due.de/med/index.php)\\
+[Impressum der Universität Duisburg-Essen](https://www.uni-due.de/de/impressum.shtml)
 
 ---
 

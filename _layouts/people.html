@@ -31,7 +31,12 @@
 <div class="grid-x"><div class="cell large-12"><ul>
 {% for page in alumni %}
   <li>
-    <a href="{{ page.www }}">{{ page.degree }} {{ page.fullname }}</a>: {{ page.role }} ({{ page.period }}){% if page.currently %}, now {{ page.currently }}.{% endif %}
+    {% if page.www %}
+    <a href="{{ page.www }}">{{ page.degree }} {{ page.fullname }}</a>:
+    {% else %}
+    {{ page.degree }} {{ page.fullname }}:
+    {% endif %}
+    {{ page.role }} ({{ page.period }}){% if page.currently %}, now {{ page.currently }}.{% endif %}
   </li>
 {% endfor %}
 </ul></div></div>
