@@ -12,6 +12,6 @@ image: schroeder.jpg
 www: christopherschroeder.bitbucket.io
 ---
 
-I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics, specialized on exome and whole-genome bisulphite (WGBS) data.
-Currently, I work as a postdoc in Prof. Sven Rahmanns group, Chair of Genome Informatics, University Duisburg-Essen, Germany.
-
+I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics, specialized on exome and whole-genome bisulfite sequencing (WGBS) data.
+I worked as a doctoral student in <a href="http://www.deutsches-epigenom-programm.de" target="_blank">DEEP</a> (Deutsches Epigenom Programm).
+Currently, I am a postdoc with Christel Depienne at the Institute for Human Genetics and at the Chair of Genome Informatics, University Duisburg-Essen, Germany.

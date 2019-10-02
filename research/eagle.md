@@ -1,6 +1,7 @@
 ---
 title: Exome analysis with EAGLE
-members: Christopher Schröder & Sven Rahmann (formerly also Marcel Martin)
+members: Christopher Schröder, Felix Mölder & Sven Rahmann
+alumni: Marcel Martin
 collaborators: Institute for Human Genetics, University Hospital Essen
 summary: EAGLE is an exome-sequencing pipeline with a web frontend. It automates most stepsfrom FASTQ files to variant calls, stores the calls and metadata about patients, samples, etc. in a database and allows interactive analysis via a web frontend.
 image: /research/eagle-overlap.png

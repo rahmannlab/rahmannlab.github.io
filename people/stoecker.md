@@ -13,4 +13,5 @@ image: stoecker.jpg
 #bib: stoecker.bib
 ---
 
-I am a computer scientist writing my doctoral thesis about protein hypernetworks.
+ I am a doctoral student at the Chair of Genome Informatics, University Duisburg-Essen, Germany.
+ My current research interests are long reads (especially from PacBio SMRT sequencing) and protein hypernetworks.
