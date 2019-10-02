@@ -10,6 +10,7 @@ city: Dortmund
 tel: +49 (231) 755-7778
 image: daddario.jpg
 www: ls11-www.cs.tu-dortmund.de/staff/daddario
+bib: daddario.bib
 ---
 
 I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics.
