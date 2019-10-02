@@ -8,7 +8,7 @@ street: V183
 room: 1.09
 city: Essen
 tel: +49 (201) 723-4046
-#image: stoecker.jpg
+image: /people/stoecker.jpg
 #www: 
 #bib: stoecker.bib
 ---
