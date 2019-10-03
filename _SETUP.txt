@@ -31,3 +31,40 @@ You still don't have all themes for jekyll, but doing the following will auto-in
 
 jekyll new TESTTEST
 rm -rf TESTTEST
+
+
+
+Setup of custom domains
+=======================
+(www.rahmannlab.de; genomeinformatics.uni-due.de)
+
+
+The URL genomeinformatics.uni-due.de 
+points to the public webspace of Sven's account
+ht0884@staff.uni-duisburg-essen.de.
+In the folder public_html/, we need a single file
+.htaccesss
+that will do a dirirect to www.rahmannlab.de or rahmannlab.github.io:
+~~~
+TODO: .htaccess contents
+~~~
+
+Alternative (if .htaccess does not work)
+use a file index.php:
+~~~
+<?php
+header("Location: https://rahmannlab.github.io/"); 
+?>
+~~~
+This also redirects genomeinformatics.uni-due.de to rahmannlab.github.io.
+
+
+Next, to use www.rahmannlab.de as a custom domain for the website,
+Sven must set the CNAME entry of his domain at the provider (goneo) to
+'rahmannlab.github.io'.
+This is done via goneo's web interface.
+
+In addition, under settings in gitlab,
+"custom domain" must be set to www.rahmannlab.de
+(scroll far down!).
+(This simply creates a CNAME file with contents 'www.rahmannlab.de' in the repository.)
