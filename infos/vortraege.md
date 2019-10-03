@@ -1,6 +1,6 @@
 ---
 layout: basic
-linktext: Vorträge / Presentations
+linktext: Vorträge
 description: Hinweise zu Vorträgen
 who: Bachelor- und Masterstudierende
 order: 15

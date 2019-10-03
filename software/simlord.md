@@ -4,5 +4,6 @@ status: recent
 author: Bianca Stöcker, Johannes Köster & Sven Rahmann
 description:  a read simulator for third generation sequencing reads focused on the Pacific Biosciences SMRT error model
 year: 2016
+image: /software/simlord.png
 homepage: https://bitbucket.org/genomeinformatics/simlord
 ---

@@ -1,6 +1,6 @@
 ---
 layout: basic
-linktext: Abschlussarbeiten / Theses
+linktext: Abschlussarbeiten
 description: Hinweise zu Abschlussarbeiten
 who: Bachelor- und Masterstudierende
 order: 10
