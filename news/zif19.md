@@ -1,6 +1,6 @@
 ---
 title: ZiF workshop on computational pan-genomics at Bielefeld University
-date: 2019-10-01
+date: 2019-09-30
 #image: /news/sisap19.svg
 #imagewidth: 50
 layout: basic
