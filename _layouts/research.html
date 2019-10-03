@@ -11,8 +11,10 @@
 <div class="grid-x">
   {% for project in research_directory %}
   {% if status contains project.status %}
-  <div class="cell" style="margin-bottom: 30px;">
-    <a href="{{ project.url }}"><h2>{{ project.title }}</h2></a>
+  {% assign tag = project.tag %}
+  {% if tag == nil %}{% assign tag = project.title | split: " " | first %}{% endif %}
+  <div class="cell" style="margin-bottom: 10px;">
+    <a name="{{ tag }}" href="{{ project.url }}"><h2>{{ project.title }}</h2></a>
     <p>
     {% if project.image %}<a href="{{ project.image }}"><img src="{{ project.image }}" alt="{{ project.title }}" width="30%" display="block" style="padding: 15px;" /></a>{% endif %}
     <b>Investigators:</b> {{ project.members }}<br/>

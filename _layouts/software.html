@@ -1,22 +1,26 @@
 {% include head.html %}
-
 {{ content }}
-
 {% assign directory = site.pages | where_exp: "item" , "item.path contains 'software/'" | sort: "year" | reverse %}
 {% assign stati = "popular, recent, older" | split: "," %}
+
 {% for status in stati %}
 <h1>{{ status | strip | capitalize }} software</h1>
+
 <div class="grid-x">
-  <div class="cell large-2"><b>Tool</b></div>
-  <div class="cell large-2"><b>Author(s)</b></div>
-  <div class="cell large-8"><b>Description</b></div>
-  
-  {% for page in directory %}
-  {% if status contains page.status %}
-  <a name></a>
-  <div class="cell large-2"><a name="{{ page.title }}" href="{{ page.homepage }}">{{ page.title }}</a></div>
-  <div class="cell large-2">{{ page.author }}</div>
-  <div class="cell large-8">{{ page.description }}</div>
+  {% for tool in directory %}
+  {% if status contains tool.status %}
+  <div class="cell" style="margin-bottom: 10px;">
+    <a name="{{ tool.title }}" href="{{ tool.homepage }}"><h2>{{ tool.title }}</h2></a>
+    <p>
+    {% if tool.image %}<a href="{{ tool.image }}"><img src="{{ tool.image }}" alt="{{ tool.title }}" width="30%" display="block" style="padding: 15px;" /></a>{% endif %}
+    <b>Author(s):</b> {{ tool.author }}<br/>
+    {% if tool.project %}
+    <b>Research project:</b> <a href="/research#{{ tool.project }}">{{ tool.project | capitalize }}</a><br/>
+    {% endif %}
+    <b>Description:</b> {{ tool.description }}
+    (<a href="{{ tool.homepage }}">Homepage</a>).
+    </p><hr/>
+  </div>
   {% endif %}
   {% endfor %}
 </div>
