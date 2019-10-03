@@ -12,13 +12,13 @@
   <div class="cell" style="margin-bottom: 10px;">
     <a name="{{ tool.title }}" href="{{ tool.homepage }}"><h2>{{ tool.title }}</h2></a>
     <p>
-    {% if tool.image %}<a href="{{ tool.image }}"><img src="{{ tool.image }}" alt="{{ tool.title }}" width="30%" display="block" style="padding: 15px;" /></a>{% endif %}
-    <b>Author(s):</b> {{ tool.author }}<br/>
+    {% if tool.image %}<a href="{{ tool.image }}"><img src="{{ tool.image }}" alt="{{ tool.title }}" width="30%" display="block" style="padding: 10px;" /></a>{% endif %}
+    <b>Description:</b> {{ tool.description }}
+    (<a href="{{ tool.homepage }}">Homepage</a>).<br/>
     {% if tool.project %}
     <b>Research project:</b> <a href="/research#{{ tool.project }}">{{ tool.project | capitalize }}</a><br/>
     {% endif %}
-    <b>Description:</b> {{ tool.description }}
-    (<a href="{{ tool.homepage }}">Homepage</a>).
+    <b>Author(s):</b> {{ tool.author }}
     </p><hr/>
   </div>
   {% endif %}
