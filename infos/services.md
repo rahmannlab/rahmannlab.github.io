@@ -1,9 +1,9 @@
 ---
 layout: services
 linktext: Services
-description: Services available from the chair of Genome informatics
+description: Services and collaborations available from the chair of Genome informatics
 who: collaboration partners
-order: 99
+order: 7
 ---
 
 # Services

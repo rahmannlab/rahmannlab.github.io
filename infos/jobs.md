@@ -1,8 +1,9 @@
 ---
 layout: basic
 linktext: Jobs / Stellen
-description: Open positions (jobs) at the chair
-order: 30
+description: Open positions at the chair of Genome Informatics
+who: scientists, students
+order: 3
 ---
 
 
