@@ -14,7 +14,8 @@ instructor: Prof. Dr. Sven Rahmann
 **Material**:  [Skript-Entwurf](abi19/skript.pdf)\\
 **Prüfungen**: 6 CP; mündlich nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich.
 
-|Di 08.10. |  Einführung, Simulation von Zufallssequenzen |
+|Di 08.10. | Einführung, Simulation von Zufallssequenzen |
+|          | Übung: [Blatt 1](abi19/blatt01.pdf). Material: [Gene von *E. coli*](abi19/ecoli_K12_MG1655_genes.fa)
 |Di 15.10. |  Textmodelle |
 |Di 22.10. |  (fällt aus) |
 |Di 29.10. |  Textmodelle |
