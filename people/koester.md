@@ -8,7 +8,7 @@ street: V183
 room: 1.13
 city: Essen
 tel: +49 (201) 723-1908
-#image: koester.jpg
+image: koester.png
 www: koesterlab.github.io
 ---
 
