@@ -1,5 +1,6 @@
 import random
 from collections import Counter
+from pprint import pprint
 
 
 # das Alphabet wird als globale Variable definiert.
@@ -98,8 +99,20 @@ def zaehle_sequenzen(fastaname):
             # hier kann man noch etwas mit seqname und seq machen
     return nseq
 
+def aufgabe2():
+    fastaname = "ecoli_K12_MG1655_genes.fa"
+    c = Counter()
+    with open(fastaname) as f:
+        for seqname, seq in read_fasta(f):
+            assert len(seq) % 3 == 0
+            assert seq[0:3] in ("ATG", "GTG")
+            for j in range(3, len(seq), 3):
+                c[seq[j:j+3]] += 1
+    pprint(c)
+    print(sum(c.values()))
+
 
 if __name__ == "__main__":
-    aufgabe1()
+    aufgabe2()
     
 

@@ -15,13 +15,13 @@ instructor: Prof. Dr. Sven Rahmann
 **Prüfungen**: 6 CP; mündlich nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich.
 
 |Di 08.10. | Einführung, Simulation von Zufallssequenzen |
-|          | Übung: [Blatt 1](abi19/blatt01.pdf). Material: [Gene von *E. coli*](abi19/ecoli_K12_MG1655_genes.fa)
-|Di 15.10. | <font color="crimson">Achtung! Aufgund eines Arzttermins kann die Vorlesung ggf. etwas später beginnen!</font><br/>Textmodelle. Rechnen mit kleinen Wahrscheinlichkeiten. |
+|          | Übung: [Blatt 1](abi19/blatt01.pdf). Material: [Gene von *E. coli*](abi19/ecoli_K12_MG1655_genes.fa).  Lösung: [Python](abi19/uebung1.py)
+|Di 15.10. | Textmodelle: M0, M1, M*k*, Markovmodelle variabler Ordnung. |
 |          | Übung: [Blatt 2](abi19/blatt02.pdf) | 
-|Di 22.10. |  (fällt aus) |
-|Di 29.10. |  Textmodelle |
-|Di 05.11. |  Parameterschätzung |
-|Di 12.11. |  Hidden Markov Modelle |
+|Di 22.10. | <font color="crimson">Achtung! Um 08:30 keine Vorlesung. Die Vorlesung wird 12:15-13:45 in OH12/1.055 von Jens Zentgraf vertreten. Keine Übung!</font><br/>Allgemeine Textmodelle; Rechnen mit kleinen Wahrscheinlichkeiten. |
+|Di 29.10. |  Textmodelle: Parameterschätzung |
+|Di 05.11. |  Hidden Markov Modelle |
+|Di 12.11. |  Hidden Markov Modelle: Anwendungen |
 |Di 19.11. |  (fällt aus) |
 |Di 26.11. |  HMM-Training |
 |Di 03.12. |  HMM-Erweiterungen |
