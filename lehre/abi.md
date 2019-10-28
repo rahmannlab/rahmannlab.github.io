@@ -19,13 +19,14 @@ instructor: Prof. Dr. Sven Rahmann
 |Di 15.10. | Textmodelle: M0, M1, M*k*, Markovmodelle variabler Ordnung. |
 |          | Übung: [Blatt 2](abi19/blatt02.pdf) | 
 |Di 22.10. | <font color="crimson">Achtung! Um 08:30 keine Vorlesung. Die Vorlesung wird 12:15-13:45 in OH12/1.055 von Jens Zentgraf vertreten. Keine Übung!</font><br/>Allgemeine Textmodelle; Rechnen mit kleinen Wahrscheinlichkeiten. |
-|Di 29.10. |  Textmodelle: Parameterschätzung |
-|Di 05.11. |  Hidden Markov Modelle |
-|Di 12.11. |  Hidden Markov Modelle: Anwendungen |
+|Di 29.10. |  Textmodelle: Parameterschätzung. Einführung in Hidden-Markov-Modelle und Anwendungen |
+|          |  Übung: [Blatt 3](abi19/blatt03.pdf)
+|Di 05.11. |  Hidden Markov Modelle: Algorithmen |
+|Di 12.11. |  Hidden Markov Modelle: Training und Erweiterungen |
 |Di 19.11. |  (fällt aus) |
-|Di 26.11. |  HMM-Training |
-|Di 03.12. |  HMM-Erweiterungen |
-|Di 03.12. |  Motivmodelle, insbes. PWMs (keine Übung!) |
+|Di 26.11. |  Markov Random Fields |
+|Di 03.12. |  (Puffer) |
+|Di 03.12. |  Motivmodelle, insbes. PWMs |
 |Di 10.12. |  Probabilistische arithmetische Automaten |
 |Di 17.12. |  Anwendungen von PAAs |
 |(Ferien)  |  |
