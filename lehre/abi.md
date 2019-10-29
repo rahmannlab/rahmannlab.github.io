@@ -19,7 +19,7 @@ instructor: Prof. Dr. Sven Rahmann
 |Di 15.10. | Textmodelle: M0, M1, M*k*, Markovmodelle variabler Ordnung. |
 |          | Übung: [Blatt 2](abi19/blatt02.pdf) | 
 |Di 22.10. | <font color="crimson">Achtung! Um 08:30 keine Vorlesung. Die Vorlesung wird 12:15-13:45 in OH12/1.055 von Jens Zentgraf vertreten. Keine Übung!</font><br/>Allgemeine Textmodelle; Rechnen mit kleinen Wahrscheinlichkeiten. |
-|Di 29.10. |  Textmodelle: Parameterschätzung. Einführung in Hidden-Markov-Modelle und Anwendungen |
+|Di 29.10. |  Textmodelle: Parameterschätzung. Einführung in Hidden-Markov-Modelle. Material: [ML- und MAP-Schätzung der Erfolgswahrscheinlichkeit beim Münzwurf](http://www.mi.fu-berlin.de/wiki/pub/ABI/Genomics12/MLvsMAP.pdf) |
 |          |  Übung: [Blatt 3](abi19/blatt03.pdf)
 |Di 05.11. |  Hidden Markov Modelle: Algorithmen |
 |Di 12.11. |  Hidden Markov Modelle: Training und Erweiterungen |
