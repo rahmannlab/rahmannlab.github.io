@@ -86,4 +86,5 @@ Weitere Originalliteratur (wissenschaftliche Aufsätze, “paper”), die im Lau
 * mündliche Prüfung von 20-30 Minuten Dauer oder Klausur von 90 Minuten Dauer
 * Die genaue Prüfungsform wird abhängig von der Teilnehmerzahl kurz nach Vorlesungsbeginn festgelegt.
 * Vordruck für die Prüfungsanmeldung ausfüllen, bei Frau Jankord (OH14 / R2.39) einen Termin/Uhrzeit geben lassen, von Prof. Rahmann oder Frau Jankord unterschreiben lassen; wird von Frau Jankord zur Prüfungsverwaltung geschickt.
+* Bei Fragen wenden Sie sich bitte per e-mail an den Veranstalter.
 
