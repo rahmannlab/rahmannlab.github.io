@@ -22,10 +22,11 @@ instructor: Prof. Dr. Sven Rahmann
 |          | <font color="crimson">Keine Übung!</font> |
 |Di 29.10. |  Textmodelle: Parameterschätzung. Einführung in Hidden-Markov-Modelle. Material: [ML- und MAP-Schätzung der Erfolgswahrscheinlichkeit beim Münzwurf](http://www.mi.fu-berlin.de/wiki/pub/ABI/Genomics12/MLvsMAP.pdf) |
 |          |  Übung: [Blatt 3](abi19/blatt03.pdf) |
-|Di 05.11. |  Hidden Markov Modelle: Algorithmen |
+|Di 05.11. |  Hidden Markov Modelle: Algorithmen (Forward, Viterbi) |
 |          |  Übung: [Blatt 4](abi19/blatt04.pdf) |
-|Di 12.11. |  Hidden Markov Modelle: Training und Erweiterungen |
-|Di 19.11. |  (fällt aus) |
+|Di 12.11. |  Hidden Markov Modelle: Algorithmen (Forward-Backward), Training und Erweiterungen |
+|          |  Übung: [Blatt 5](abi19/blatt05.pdf) |
+|Di 19.11. |  ? |
 |Di 26.11. |  Markov Random Fields |
 |Di 03.12. |  (Puffer) |
 |Di 03.12. |  Motivmodelle, insbes. PWMs |
