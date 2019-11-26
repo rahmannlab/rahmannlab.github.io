@@ -27,9 +27,9 @@ instructor: Prof. Dr. Sven Rahmann
 |Di 12.11. |  Hidden Markov Modelle: Algorithmen (Forward-Backward), Training |
 |          |  Übung: [Blatt 5](abi19/blatt05.pdf) |
 |Di 19.11. |  <font color="crimson">fällt aus; keine Vorlesung; keine Übung</font> |
-|Di 26.11. |  HMMs: Erweiterungen; Markov Random Fields |
-|Di 03.12. |  (Puffer) |
-|Di 03.12. |  Motivmodelle, insbes. PWMs |
+|Di 26.11. |  HMMs: Erweiterungen. [Artikel zur Verweildauermodellierung](https://link.springer.com/content/pdf/10.1007%2F11851561_3.pdf). Kein neues Übungsblatt. |
+|Di 03.12. |  Motivmodelle, insbesondere PWMs |
+|          |  [Blatt 6](abi19/blatt06.pdf)
 |Di 10.12. |  Probabilistische arithmetische Automaten |
 |Di 17.12. |  Anwendungen von PAAs |
 |(Ferien)  |  |
