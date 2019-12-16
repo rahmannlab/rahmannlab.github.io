@@ -30,10 +30,11 @@ instructor: Prof. Dr. Sven Rahmann
 |Di 26.11. |  HMMs: Erweiterungen. [Artikel zur Verweildauermodellierung](https://link.springer.com/content/pdf/10.1007%2F11851561_3.pdf). Kein neues Übungsblatt. |
 |Di 03.12. |  <font color="crimson">fällt wegen Krankheit aus!</font>|
 |Di 10.12. |  Motivmodelle, insbesondere PWMs. |
-|          |  [Blatt 6](abi19/blatt06.pdf)
+|          |  Übung: [Blatt 6](abi19/blatt06.pdf)
 |Di 17.12. |  Probabilistische arithmetische Automaten; Anwendungen von PAAs. |
-|          |  [Blatt 7](abi19/blatt07.pdf)
-|(Ferien)  |  |
+|          |  Übung: [Blatt 7](abi19/blatt07.pdf), Material: [Corynebacterium diphtheriae gzipped FASTA](abi19/material07/c_diphtheriae.fa.gz)
+|(Weihnachts-)  |  |
+|(ferien)       |  |
 |Di 07.01. |  Phylogenetik: Merksmalsbasierte Methoden |
 |Di 14.01. |  Phylogenetik: Merkmalsbasierte Methoden |
 |Di 21.01. |  Phylogenetik: Distanzbasierte Methoden |
