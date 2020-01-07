@@ -32,10 +32,11 @@ instructor: Prof. Dr. Sven Rahmann
 |Di 10.12. |  Motivmodelle, insbesondere PWMs. |
 |          |  Übung: [Blatt 6](abi19/blatt06.pdf)
 |Di 17.12. |  Probabilistische arithmetische Automaten; Anwendungen von PAAs. |
-|          |  Übung: [Blatt 7](abi19/blatt07.pdf), Material: [Corynebacterium diphtheriae gzipped FASTA](abi19/material07/c_diphtheriae.fa.gz)
+|          |  Übung: [Blatt 7](abi19/blatt07.pdf), Material: [Corynebacterium diphtheriae gzipped FASTA](abi19/material07/c_diphtheriae.fa.gz) |
 |(Weihnachts-)  |  |
 |(ferien)       |  |
-|Di 07.01. |  Phylogenetik: Merksmalsbasierte Methoden |
+|Di 07.01. |  Probabilistische arithmetische Automaten: Konstruktion über DAAs |
+|          |  Übung: [Blatt 8](abi19/blatt08.pdf) |
 |Di 14.01. |  Phylogenetik: Merkmalsbasierte Methoden |
 |Di 21.01. |  Phylogenetik: Distanzbasierte Methoden |
 |Di 28.01. |  Phylogenetik: Distanzbasierte Methoden |
