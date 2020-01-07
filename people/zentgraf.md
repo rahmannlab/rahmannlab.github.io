@@ -9,6 +9,7 @@ room: 215
 city: Dortmund
 tel: +49 (231) 755-7778
 image: zentgraf.png
+bib: zentgraf.bib
 # www:
 ---
 
