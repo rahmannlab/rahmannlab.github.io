@@ -37,7 +37,8 @@ instructor: Prof. Dr. Sven Rahmann
 |(ferien)       |  |
 |Di 07.01. |  Probabilistische arithmetische Automaten: Konstruktion über DAAs |
 |          |  Übung: [Blatt 8](abi19/blatt08.pdf) |
-|Di 14.01. |  Phylogenetik: Merkmalsbasierte Methoden |
+|Di 14.01. |  Phylogenetik: Bäume, Anzahlen, Merkmalsbasierte Methoden |
+|          |  Übung: [Blatt 9](abi19/blatt09.pdf) |
 |Di 21.01. |  Phylogenetik: Distanzbasierte Methoden |
 |Di 28.01. |  Phylogenetik: Distanzbasierte Methoden |
 
