@@ -8,11 +8,14 @@ instructor: Prof. Dr. Sven Rahmann
 
 ## Wintersemester 2019/20
 
+Wegen ausgefallener Veranstaltungen wird es einen Nachholtermin geben: [Umfrage](
+https://terminplaner4.dfn.de/iuAvqSBLJExqdgYv).
+
 **Vorlesung**: Di 08:30-10:00 in OH12 / 1.056\\
 **Übungen**:   Di 12:15-13:45 in OH12 / 1.055\\
 **Modul**:     INF-MSc-606, Forschungsbereich Algorithmen und Komplexität\\
 **Material**:  [Skript-Entwurf](abi19/skript.pdf)\\
-**Prüfungen**: 6 CP; mündlich nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich.
+**Prüfungen**: 6 CP; mündlich nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich. [Informationen](/infos/pruefungen).
 
 |Di 08.10. | Einführung, Simulation von Zufallssequenzen |
 |          | Übung: [Blatt 1](abi19/blatt01.pdf). Material: [Gene von *E. coli*](abi19/ecoli_K12_MG1655_genes.fa).  Lösung: [Python](abi19/uebung1.py)
