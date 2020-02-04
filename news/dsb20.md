@@ -1,7 +1,7 @@
 ---
 title: Genome Informatics presenting at DSB 2020
 date: 2020-02-04
-image: /news/dsb20.jpg
+image: /news/inria-rennes.jpg
 imagewidth: 25
 layout: basic
 ---
