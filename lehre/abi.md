@@ -8,7 +8,7 @@ instructor: Prof. Dr. Sven Rahmann
 
 ## Wintersemester 2019/20
 
-Wegen ausgefallener Veranstaltungen wird es einen Nachholtermin geben: Mittwoch 12.02.2020 um 10ct in ???.
+Wegen ausgefallener Veranstaltungen wird es einen Nachholtermin geben: Mittwoch 12.02.2020 um 10:15-11:45 in OH14/202.
 
 **Vorlesung**: Di 08:30-10:00 in OH12 / 1.056\\
 **Übungen**:   Di 12:15-13:45 in OH12 / 1.055\\
@@ -45,8 +45,8 @@ Wegen ausgefallener Veranstaltungen wird es einen Nachholtermin geben: Mittwoch 
 |          |  Übung: [Blatt 10](abi19/blatt10.pdf) |
 |Di 28.01. |  Phylogenetik: Distanzbasierte Methoden |
 |          |  Übung: [Blatt 11](abi19/blatt11.pdf) |
-|Mi 12.02. |  Phylogenetik: Details zu Neighbor Joining |
-|          |  (Kein neues Übungsblatt) |
+|Mi 12.02. |  Phylogenetik: Details zu Neighbor Joining (OH14/202!) |
+|          |  Besprechung von Blatt 11; kein neues Blatt. |
 
 
 ---
