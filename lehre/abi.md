@@ -8,13 +8,11 @@ instructor: Prof. Dr. Sven Rahmann
 
 ## Wintersemester 2019/20
 
-Wegen ausgefallener Veranstaltungen wird es einen Nachholtermin geben: Mittwoch 12.02.2020 um 10:15-11:45 in OH14/202.
-
 **Vorlesung**: Di 08:30-10:00 in OH12 / 1.056\\
 **Übungen**:   Di 12:15-13:45 in OH12 / 1.055\\
 **Modul**:     INF-MSc-606, Forschungsbereich Algorithmen und Komplexität\\
 **Material**:  [Skript-Entwurf](abi19/skript.pdf)\\
-**Prüfungen**: 6 CP; mündlich nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich. [Informationen](/infos/pruefungen).
+**Prüfungen**: 6 CP; mündlich, **13.03.2020** und nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich. [Informationen](/infos/pruefungen).  [Anmeldeformular](https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.3/Fachstudiengaenge/Fakultaet_Informatik/Anmeldung_mdl._BSc._MSc_Inf_AngInf.pdf)
 
 |Di 08.10. | Einführung, Simulation von Zufallssequenzen |
 |          | Übung: [Blatt 1](abi19/blatt01.pdf). Material: [Gene von *E. coli*](abi19/ecoli_K12_MG1655_genes.fa).  Lösung: [Python](abi19/uebung1.py)
@@ -43,7 +41,7 @@ Wegen ausgefallener Veranstaltungen wird es einen Nachholtermin geben: Mittwoch 
 |          |  Übung: [Blatt 9](abi19/blatt09.pdf) |
 |Di 21.01. |  Phylogenetik: Merkmalsbasierte Methoden: Maximum Parsimony, Minimum Flip |
 |          |  Übung: [Blatt 10](abi19/blatt10.pdf) |
-|Di 28.01. |  Phylogenetik: Distanzbasierte Methoden |
+|Di 28.01. |  Phylogenetik: Distanzbasierte Methoden: Hierarchisches Clustern (UPGMA), Neighbor Joining |
 |          |  Übung: [Blatt 11](abi19/blatt11.pdf) |
 |Mi 12.02. |  Phylogenetik: Details zu Neighbor Joining (OH14/202!) |
 |          |  Besprechung von Blatt 11; kein neues Blatt. |
