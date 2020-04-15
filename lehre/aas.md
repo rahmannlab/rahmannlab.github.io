@@ -4,39 +4,36 @@ linktext: Algorithmen auf Sequenzen
 instructor: Prof. Dr. Sven Rahmann
 ---
 
-## Vorlesung “Algorithmen auf Sequenzen”
+# Vorlesung “Algorithmen auf Sequenzen”
+Bachelor-Modul INF-Bsc-315 (Informatik, TU Dortmund)
 
-### Wintersemester 2018/19
+## Sommersemester 2020
 
-Die Vorlesung hat jetzt eine eigene Seite:\\
-[https://rahmannlab.gitlab.io/algorithmen-auf-sequenzen](https://rahmannlab.gitlab.io/algorithmen-auf-sequenzen).
+Wegen der COVID-19-Situation findet die Vorlesung ausschließlich online statt.
+Der Vorlesungsinhalt wird per Video zur Verfügung gestellt.
+Zu den Kontaktzeiten werden Fragen beantwortet und Übungsaufgaben gemeinsam besprochen und gelöst, sowie Miniprojekte in Angriff genommen.
+**Dabei wird vorausgesetzt, dass die jeweils genannten Vorlesungsvideos bereits bekannt sind!**
 
-Informationen zur Vorlesung ab WS2018/19 finden Sie nur dort!
+**Vorlesung**: Videos, freie Zeiteinteilung. Das Vorlesungsvideo muss aber **vor** der entsprechenden Kontaktzeit gesehen worden sein!\\
+**Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Zoom. Den Zugangslink und Passwort erhalten Sie nach Anmeldung im LSF.\\
+**Material**: Skript-Entwurf\\
+**Prüfungen**: Es werden nur mündliche Prüfungen angeboten. Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest.
 
----
+Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein Zoom-Zugangslink und Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
 
-### Wintersemester 2016/17
-
-**Vorlesung**: Do 08:30-10:00 in OH14/304.\\
-**Übungen**:   Do 12:15-13:00 in OH14/304.\\
-**Material**:    Skript-Entwurf (Oktober 2014)\\
-**Prüfungen**: Für das Bachelor-Modul INF-BSc-315 werden in diesem Semester nur mündliche Prüfungen angeboten.  Die erweiterte Prüfung zur Diplom-Spezialvorlesung (3V+1Ü, SpG 4,6,7) wird nur mündlich angeboten.  Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest.
-
-| Do 20.10. | **Vorlesung**: Einführung, Vokabeln (Folien); Bitsequenzen, population count (Folien) <br /> **Übung**: Blatt 1 |
-| Do 27.10. | **Vorlesung**: Rank-Datenstruktur (Folien), Problem der Mustersuche: naiv (Folien) <br /> **Übung**: Blatt 2 |
-| Do 03.11. | **Vorlesung**: Mustersuche: NFA und Shift-And (Folien), DFA und Knuth-Morris-Pratt (Folien) <br /> **Übung**: Blatt 3 mit Zusatzaufgaben |
-| Do 10.11. | **Vorlesung**: Sublineare Algorithmen zur Mustersuche (Horspool, BNDM; Folien). <br /> **Übung**: Blatt 4 |
-| Do 17.11. | **Vorlesung**: Mengen von Mustern (Folien), erweiterte Musterklassen (Folien). <br /> **Übung**: Blatt 5 |
-| Do 24.11. | **Vorlesung** und **Übung** fallen heute wegen Krankheit aus!
-| Do 01.12. | **Vorlesung**: Volltext-Indexdatenstrukturen: Suffixtries und Suffixbäume (Folien) <br /> **Übung**: Blatt 6 |
-| Do 08.12. | **Vorlesung**: Suffixarrays und Anwendungen (Folien) <br /> **Übung**: Blatt 7 |
-| Do 15.12. | **Vorlesung**: SA-IS-Algorithmus zur Konstruktion von Suffixarrays (Folien s.o.) <br /> **Übung**: Blatt 8 |
-| Do 22.12. | **Vorlesung**: BWT, FM-Index (Folien) <br /> **Übung**: Blatt 9 |
-| Do 12.01. | **Vorlesung**: Hamming-Distanz, q-Gramm-Distanz, Edit-Distanz, longest common subsequence, Berechnung der Edit-Distanz, Alignments, Anzahl verschiedener Alignments (Folien) <br /> **Übung**: Blatt 10 |
-| Do 19.01. | **Vorlesung**: Algorithmen zur fehlertoleranten Musterusche (Folien) <br /> **Übung**: Blatt 11 |
-| Do 26.01. | **Vorlesung**: Four-Russians-Methode (Folien), Alignment-Varianten (Folien) <br /> **Übung**: Blatt 12 |
-| Do 02.02. | **Vorlesung**: Sequenzalignment: Erweiterungen (Folien) <br /> **Übung**: Blatt 13 |
-| Do 09.02. | **Vorlesung**: Zusammenfassung, Fragen, Prüfungen <br /> keine **Übung**! |
+| Do 23.04. | **Videos**: Definitionen und Begriffe; naiver Algorithmus zur exakten Mustersuche (werden vorausgesetzt). Aufgaben 1. |
+| Do 30.04. | **Videos:** exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus; exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus |
+| Do 07.05. | **Videos:** exakte Musterusche mit sublinearen Algorithmen |
+| Do 14.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern (verallgemeinerter Shift-And-Algorithmus, Aho-Corasick)
+| Do 21.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus |
+| Do 28.05. | **Videos:** O-Notation, Bitoperationen, population count, Rank-Datenstruktur auf Bitarrays |
+| Do 04.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen |
+| Do 11.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen |
+| Do 18.06. | **Videos:** Burrows-Wheeler-Transformation (BWT), Backward Search |
+| Do 25.06. | **Videos:** Rank-Datenstruktur auf Bitarrays, FM-Index, Waveletbäume | 
+| Do 02.07. | **Videos:** Distanzmaße zwischen Strings, Fehlertolerante Mustersuche, Four-Russians-Trick |
+| Do 09.07. | **Videos:** Sequenzalignment |
+| Do 16.07. | **Videos:** Erweiterungen zum Sequenzalignment |
 
 ---
 
