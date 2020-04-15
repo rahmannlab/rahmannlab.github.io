@@ -5,7 +5,9 @@
 {% assign directory = site.pages | where_exp: "item" , "item.path contains 'lehre/'"%}
 <ul>
   {% for page in directory %}
+  {% if page.linktext %}
   <li><a href="{{ page.url }}">{{ page.linktext }}</a> ({{ page.instructor }})</li>
+  {% endif %}
   {% endfor %}
 </ul>
 
