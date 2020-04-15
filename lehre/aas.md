@@ -21,12 +21,12 @@ Zu den Kontaktzeiten werden Fragen beantwortet und Übungsaufgaben gemeinsam bes
 
 Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein Zoom-Zugangslink und Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
 
-| Do 23.04. | **Videos**: Definitionen und Begriffe; naiver Algorithmus zur exakten Mustersuche (werden vorausgesetzt). Aufgaben 1. |
-| Do 30.04. | **Videos:** exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus; exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus |
-| Do 07.05. | **Videos:** exakte Musterusche mit sublinearen Algorithmen |
-| Do 14.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern (verallgemeinerter Shift-And-Algorithmus, Aho-Corasick)
-| Do 21.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus |
-| Do 28.05. | **Videos:** O-Notation, Bitoperationen, population count, Rank-Datenstruktur auf Bitarrays |
+| Do 23.04. | **Videos (werden vorausgesetzt!):**<br/>  01. [Einführung, Definitionen und Begriffe](https://www.youtube.com/watch?v=OzhP9uLP24g);<br/> 02. naiver Algorithmus zur exakten Mustersuche.<br/> **Aufgaben:** [Blatt 1](aas20/01). |
+| Do 30.04. | **Videos:**<br/> 03. exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus; <br/> **Aufgaben:** [Blatt 2](aas20/02). |
+| Do 07.05. | **Videos:**<br/> 04. exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus.<br/> 
+| Do 14.05. | **Videos:** exakte Musterusche mit sublinearen Algorithmen |
+| Do 21.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern (verallgemeinerter Shift-And-Algorithmus, Aho-Corasick)
+| Do 28.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count, Rank-Datenstruktur auf Bitarrays |
 | Do 04.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen |
 | Do 11.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen |
 | Do 18.06. | **Videos:** Burrows-Wheeler-Transformation (BWT), Backward Search |
