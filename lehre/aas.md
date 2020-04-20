@@ -11,15 +11,15 @@ Bachelor-Modul INF-Bsc-315 (Informatik, TU Dortmund)
 
 Wegen der COVID-19-Situation findet die Vorlesung ausschließlich online statt.
 Der Vorlesungsinhalt wird per Video zur Verfügung gestellt.
-Zu den Kontaktzeiten werden Fragen beantwortet und Übungsaufgaben gemeinsam besprochen und gelöst, sowie Miniprojekte in Angriff genommen.
+Zu den Kontaktzeiten werden online Fragen beantwortet und Übungsaufgaben gemeinsam besprochen und gelöst, sowie Miniprojekte in Angriff genommen.
 **Dabei wird vorausgesetzt, dass die jeweils genannten Vorlesungsvideos bereits bekannt sind!**
 
 **Vorlesung**: Videos, freie Zeiteinteilung. Das Vorlesungsvideo muss aber **vor** der entsprechenden Kontaktzeit gesehen worden sein!\\
-**Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Zoom. Den Zugangslink und Passwort erhalten Sie nach Anmeldung im LSF.\\
+**Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Big Blue Button. Den Zugangslink und Passwort erhalten Sie nach Anmeldung im LSF.\\
 **Material**: Skript-Entwurf\\
-**Prüfungen**: Es werden nur mündliche Prüfungen angeboten. Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest.
+**Prüfungen**: Es werden nur mündliche Prüfungen angeboten. Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest. Es ist vorgesehen, Präsenzprüfungen durchzuführen.
 
-Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein Zoom-Zugangslink und Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
+Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueButton-Zugangslink und ggf. ein Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
 
 | Do 23.04. | **Videos (werden vorausgesetzt!):**<br/>  01. [Einführung, Definitionen und Begriffe](https://www.youtube.com/watch?v=OzhP9uLP24g);<br/> 02. naiver Algorithmus zur exakten Mustersuche.<br/> **Aufgaben:** [Blatt 1](aas20/01). |
 | Do 30.04. | **Videos:**<br/> 03. exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus; <br/> **Aufgaben:** [Blatt 2](aas20/02). |
