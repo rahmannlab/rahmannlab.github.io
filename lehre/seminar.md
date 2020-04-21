@@ -12,6 +12,7 @@ Es dient der Vertiefung und Erweiterung des Stoffes aus einer der Bioinformatik-
 ## Sommersemester 2020
 
 **Modul**:            INF-MSc-102 (Seminar)\\
+**Anmeldung**:        bis Freitag 24.04.2020 im LSF
 **Vorbesprechung**:   TBA\\
 **Beratungstermine**: TBA\\
 **Kozeptabgabe**:     TBA\\
@@ -49,4 +50,6 @@ Verlangt wird ein ca. 45-minütiger Vortrag, der eine aktuelle Arbeit verständl
 Beachten Sie dabei unbedingt die [Hinweise zu Seminar-Ausarbeitungen](/infos/ausarbeitungen)!
 
 Es wird darum gebeten, bei Interesse vorab eine e-mail an den Veranstalter zu schreiben (vorname.nachname@tu-dortmund.de).
+**Die formale Anmeldung erfolgt über das LSF-System der TU Dortmund!**
+
 Grundsätzlich empfehle ich, dieses Seminar nur zu belegen, wenn Sie vorher mindestens eine Bioinformatik-Vorlesung bei mir gehört haben oder an einer Projektgruppe in diesem Bereich teilgenommen haben (oder gerade daran teilnehmen); ansonsten müssen Sie u.U. sehr viel Zeit auf die Erarbeitung biologischer Grundlagen verwenden.
