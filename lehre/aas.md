@@ -22,10 +22,10 @@ Zu den Kontaktzeiten werden online Fragen beantwortet und Übungsaufgaben gemein
 Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueButton-Zugangslink und ggf. ein Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
 
 | Do 23.04. | **Videos (werden vorausgesetzt!):**<br/>  01. [Einführung, Definitionen und Begriffe](https://www.youtube.com/watch?v=OzhP9uLP24g);<br/> 02. [naiver Algorithmus zur exakten Mustersuche](https://www.youtube.com/watch?v=RhGC23lfY2U).<br/> **Aufgaben:** [Blatt 1](aas20/01). |
-| Do 30.04. | **Videos:**<br/> 03. exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus; <br/> **Aufgaben:** [Blatt 2](aas20/02). |
-| Do 07.05. | **Videos:**<br/> 04. exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus.<br/> 
-| Do 14.05. | **Videos:** exakte Musterusche mit sublinearen Algorithmen |
-| Do 21.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern (verallgemeinerter Shift-And-Algorithmus, Aho-Corasick)
+| Do 30.04. | **Videos:**<br/> 03. [Exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus](https://www.youtube.com/watch?v=7xt6ZtwSyyg). <br/> **Aufgaben:** [Blatt 2](aas20/02). |
+| Do 07.05. | **Videos:**<br/> 04. [Exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus](https://www.youtube.com/watch?v=WDDj1DrjnoY).<br/> 
+| Do 14.05. | **Videos:** exakte Musterusche mit sublinearen Algorithmen, Horspool-Algorithmus und BNDM. |
+| Do 21.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern; verallgemeinerter Shift-And-Algorithmus, Aho-Corasick-Algorithmus. |
 | Do 28.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count, Rank-Datenstruktur auf Bitarrays |
 | Do 04.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen |
 | Do 11.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen |
