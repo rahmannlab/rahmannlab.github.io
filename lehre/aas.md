@@ -21,7 +21,7 @@ Zu den Kontaktzeiten werden online Fragen beantwortet und Übungsaufgaben gemein
 
 Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueButton-Zugangslink und ggf. ein Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
 
-| Do 23.04. | **Videos (werden vorausgesetzt!):**<br/>  01. [Einführung, Definitionen und Begriffe](https://www.youtube.com/watch?v=OzhP9uLP24g);<br/> 02. [naiver Algorithmus zur exakten Mustersuche](https://www.youtube.com/watch?v=RhGC23lfY2U).<br/> **Aufgaben:** [Blatt 1](aas20/01). |
+| Do 23.04. | **Videos (werden vorausgesetzt!):**<br/>  01. [Einführung, Definitionen und Begriffe](https://www.youtube.com/watch?v=OzhP9uLP24g);<br/> 02. [naiver Algorithmus zur exakten Mustersuche](https://www.youtube.com/watch?v=RhGC23lfY2U).<br/> **Aufgaben:** [Blatt 1](aas20/01), [Notizen 1](aas20/notizen01.txt). |
 | Do 30.04. | **Videos:**<br/> 03. [Exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus](https://www.youtube.com/watch?v=7xt6ZtwSyyg). <br/> **Aufgaben:** [Blatt 2](aas20/02). |
 | Do 07.05. | **Videos:**<br/> 04. [Exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus](https://www.youtube.com/watch?v=WDDj1DrjnoY).<br/> **Aufgaben:** [Blatt 3](aas20/03). |
 | Do 14.05. | **Videos:**<br/> 05. [Exakte Musterusche mit sublinearen Algorithmen, Horspool-Algorithmus und BNDM]().<br/> **Aufgaben:** [Blatt 4](aas20/04). |

@@ -1,0 +1,83 @@
+Q: Wird diese Übung aufgezeichnet?
+A: Nein, aber diese Notizen können exportiert werden
+
+Q: Steht das Skript seperat zu den Videos zur Verfügung?
+A: Ja. Wird verlinkt.
+
+Q: Auf Folie 9 steht I \subset I schließt das I = I ein? Bei den Teilsequenzen
+A: Ja, gemeint ist \subseteq. Es gibt 3 Symbole: Das, was hier steht, dann \subseteq um explizit die Gleichheit einzuschliessen, dann \subset + \neq übereinander, um sie auszuschliessen. Hier ist die ganze Indexmenge mit dabei.
+
+Q: Kann I dann auch der leeren Menge entsprechen?
+A: Ja.
+
+Q: Können wir nach der Anwendung der Sequenz als Funktion wieder von einem String sprechen? (Bezug zur Übung: "Wieviele Teilstrings [...] hat eine Sequenz der Länge n stets?)
+A: Sequenz "ABC" ist die Funktion s: {0,1,2} -> {A,B,C} mit s(0)=A, s(1)=B, s(2)=C.
+
+Q: Ist eine Sequenz nicht einfach eine Halbordnung? Ist damit nicht dadurch direkt Reflexivität, Transitivität und Symmetrie vorrausgesetzt? 
+A: Nein. Eine Halbordnung ist eine Relation auf einer Menge. Diese erfüllt keine Symmetrie.
+
+----
+
+Zu 1.1:
+a) n*(n+1)/2 +1 Teilstrings.
+b) 2^n
+ 
+zu a) Sei j die Länge des Teilstrings.
+j=0 -> n+1 Teilstrings ????!! Nein. Leeren String gibt es nur einmal.
+j=1 -> n Teilstrings
+j=2 -> n-1 Teilstrings
+j=3 -> n-2 Teilstrings 
+...
+j=n -> 1 Teilstring
+insgesamt  n+(n-1)+(n-2)...+2+1 = n*(n+1)/2 und wegen dem leeren String +1.
+
+zu b) Nach Definition muss die Indexmenge der Teilsequenz eine Teilmenge von I sein, daher gibt es #P(Indexmenge) Teilmengen, also die Kardinalität der Potenzmenge
+
+
+Zu 1.2:
+Wenn es überhaupt geht, braucht man mindestens 16+4-1 = 19 Zeichen, denn darunter hat man weniger als 16 Teilstrings der Länge 4.
+Geht es mit 19 Zeichen, oder braucht man mehr, und wenn ja, wie viele?
+
+Eine mögliche Lösung:
+    0000111101011001000
+    
+Ich habe versucht Teilstrings wie 0001 0010 0100 1000 zu finden, weil diese mit Mustern wie 001000 schon abgedeckt sind. 
+
+Die Aufgabe kann auch durch brute force (Aufzählen aller 2^19 Binärstrings und Testen, ob alle 4er-Teilstrings enthalten sind) gelöst werden.
+
+Allgemeines Problem: Ist immer bei Alphabetgrösse k und Teilstringlänge j die optimale Lösung durch Länge k^j + j - 1 gegeben? (Für k=2, j=4 geht es.)
+
+Überraschende Antwort: Ja, das geht immer!
+Stichwort: Eulerpfad in DeBruijn-Graphen. Koten sind die Teilstrings der Länge j-1, Kanten zwischen Knoten bei Überlapp j-2, dann entspricht eine Kante einem j-mer. Graph, der alle j-mere als Kanten hat. Eulerpfad, wenn er existiert, wäre die Lösung. Gibt es immer, für jedes j und k.
+
+
+Zu 1.3:
+1.) 4^q DNA-Sequenzen der Länge q; DNA-Alphabet: {A,C,G,T}.
+2.) Reverses Komplement: A <-> T, C<->G undbetrachte revesen String. Also AACG -> CGTT ->AACG
+ Reflexivität steht in Def., Symmetrie, weil revcomp(revcomp(s)) = s
+ Transitivität: u~v, v~w, gilt dann auch u~w ? Ja, Fallunterscheidung.
+3.) q=1: 4 DNA-Sequenzen, aber A ~ T, C ~ G, also bleiben 2 "verschiedene" Sequenzen, 2 == 4/2
+    q=2: 16 DNA-Sequenzen. Verschiedene:
+    AA ~ TT,
+    AC ~ GT,
+    AG ~ CT,
+    AT ~ AT  <--- !!!
+    d.h. es gibt auf jeden Fall mehr als 16/2 = 8 verschiedene Sequenzen (es gibt 10)
+    Selbstkomplementäre Sequenzen gibt es nur für gerade q.
+    Wie viele? 4^(q/2)
+    Also [4^q - 4^(q/2)] / 2 + 4^(q/2) Äquivalenzklassen für gerade q.
+    Für ungerade q gibt es kein Problem: 4^q / 2.
+
+Zu 1.4:
+Soll nur eine Erinnerung sein, in den alten Aufzeichnungen zu Analysis nachzuschauen, wie man so etwas ausrechnet.
+Für die weitere Vorlesung nicht entscheidend.
+Heutzutage auch mit Computeralgebrasystemen machbar (z.B. MAPLE, Wolfram Alpha, SymPy vermutlich, ...)
+
+Zu 1.5:
+    Der Beweis kann in gleicher Weise geführt werden.
+    Es ändert sich nur die Berechnung von p,
+    d.h. von der Wahrscheinlichkeit, dass 2 zufällige Zeichen (eins in P, eins in T) übereinstimmen.
+    p = \sum_i  p_i^2
+    Dabei ist p_i * p_i = p_i^2  die W'keit dafür, dass beide Zeichen das i-te Zeichen sind.
+    
+----
