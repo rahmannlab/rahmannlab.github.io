@@ -12,7 +12,7 @@ Es dient der Vertiefung und Erweiterung des Stoffes aus einer der Bioinformatik-
 ## Sommersemester 2020
 
 **Modul**:            INF-MSc-102 (Seminar)\\
-**Anmeldung**:        bis Freitag 24.04.2020 im LSF
+**Anmeldung**:        bis Freitag 24.04.2020 im LSF\\
 **Vorbesprechung**:   TBA\\
 **Beratungstermine**: TBA\\
 **Kozeptabgabe**:     TBA\\
