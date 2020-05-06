@@ -7,7 +7,9 @@ order: 3
 ---
 
 
-# Jobs
+# Offene Stellen
+
+(see below for English version)
 
 Jederzeit sind bei uns Studierende willkommen, die eine Abschlussarbeit (B.Sc. oder M.Sc) oder eine Studienarbeit schreiben möchten.
 
@@ -16,6 +18,8 @@ Von Zeit zu Zeit haben wir offene SHK-Stellen. Bitte kontaktiert bei Interesse S
 Zurzeit haben wir leider keine weiteren offenen Stellen.
 
 ---
+
+# Jobs
 
 We are always looking for exceptional students who want to write a thesis (B.Sc. or M.Sc.) or do an independent study.
 
