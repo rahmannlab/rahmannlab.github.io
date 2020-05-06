@@ -1,0 +1,45 @@
+Notizen vom 30.04.2020
+
+Q & A
+======
+
+Q: Folie 11, "für alle c"?
+A: Nein, nur für das gelesene Textzeichen c.
+
+Q: Wenn in einem Zustand nach -1 ein anderes Zeichen aus Sigma außer das akzeptierende Zeichen eingegeben wird, geht man zum Zustand -1 zurück?
+A: Man muss nicht zurück gehen, da Zustand -1 immer aktiv ist und nie verlassen wird. Die "Aktivität" des Zustands q > -1 "verschwindet" einfach, wenn das falsche Zeichen gelesen wird.
+
+Q: Allgemeine Frage dazu: durch Teilen des Strings müsste ja auch der Algorithmus gut auf Mulitcore-CPUs skalieren, oder?
+A: Ja, das geht auch mit dem naiven Algorithmus, mit Shift-And, aber aufpassen an den "Nahtstellen", d.h. die Teile müssen sich um m-1 Zeichen überlappen.
+
+
+Zu Aufgabenblatt 2
+==================
+
+Zu 2.3:
+23 Zustände?
+
+Da der Automat ja nichtdeterministisch ist, dürften doch 10 Zustände reichen, weil man entsprechend nach dem Lesen von 5, 8 und 9 a's anhalten kann?
+Oh ja, wer die Aufgabe lesen kann, ist klar im Vorteil hups.
+
+Ich glaube es geht um die Reste von 5,8,9
+
+Dann reichen 22 Zustände in 3 Kreisen der Längen jeweils 5, 8, 9, nummeriert mit den Resten {0,1,2,3,4}, {0,1,2,3,4,5,6,7}, {0,...,8}.
+Start ist in den 3 Zuständen mit "0".
+Akzeptierend sind auch die 3 Zustände mit "0".
+
+Ist es nicht sogar notwendig, dass es keinen gemeinsamen Startzustand gibt? Sonst könnten ja auch Wörter der Länge bpsw. 8+5 = 13 akzeptiert werden, oder nicht?
+--> Nicht, wenn man vom gemeinsamen Startzustand in die "1"-Zustände geht und niemals zum Startzustand zurückkehrt.
+
+
+Zu 2.5:
+360 = 5*8*9
+In jedem "Kreis" des NFA ist immer genau ein Zustand aktiv. Es sind alle Kombinationen möglich, da die Längen teilerfremd sind.
+
+---
+
+Hinweis: 
+Mit numba können Sie Python compilieren (bzw. einen Teil davon).
+Damit lässt sich z.B. der shift-And-Algorithmus effizient implementieren.
+
+---
