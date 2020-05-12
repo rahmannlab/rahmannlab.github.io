@@ -1,0 +1,68 @@
+Wichtige Punkte
+==============
+
+   - A(q) ist für q (maximaler aktiver Zustand) eindeutig definiert.
+   - lps-Funktion codiert DFA unabhängig von der Alphabetgrösse
+  - amortisierte Analyse
+
+
+Q & A
+=====
+
+Q: Wenn es im NFA keine Kante für ein Zeichen gab, wird es im DFA eine Kante geben, die mit dem Zeichen auf q0 zurückführt, also den bisher gelesenen String sozusagen "verwirft" ?
+
+A: Man kommt in den Zustand, der durch die Konstruktion über a* -> A(a*) -> U Delta(q, Textzeichen) über alle q aus A(a*) -> maximales Element gegeben ist (Folien 6, 7).
+
+
+Q: In den Folien und im Skript wird, wenn ich mich nicht irre, keine Implementierung für die lps-Funktion angegeben. Wie würde man das in etwa machen? (effizient)
+
+A: genauso wie auf Folie 12 mit Hilfe der Funktion DFA_delta_lps, nur dass diese den Zustand q zurückgibt und Sie die Präfixlänge (q+1) brauchen.
+
+
+Zum Aufgabenblatt 3
+==================
+
+3.1
+Ich habe das (Tom Voellmer)
+
+Q: von zustand 0 müsste die A-Kante doch wieder in den Zustand 0 gehen oder?
+A: Korrekt!
+
+3.2 lps-Funktion
+AGTACGAG | TAG
+00010012    | 342
+
+
+3.3
+Vorschlag: Programmcode um Ausgaben ergänzen, Zustandsfolge ausgeben lassen und Anwendung der lps-Funktion protokollieren
+
+
+3.4
+(s. auch Folie 4)
+A(4) = {4, 1, -1},  p(4)  = 1
+A(1) = {1, -1}
+Geg. A(q), sei p(q) das zweitgrösste Element.
+Dann A(p(q)) = A(q) \ {q}.
+Warum?
+
+Ich habe das lemma von Folie 11 angewendet: Dann ist p(q) = lps(q) - 1. [...]
+
+Das Lemma stimmt weil nur mehrere Zustände aktiv sein können wenn das Präfix mit einem Suffix übereinstimmt. Abgesehen von Zustand -1 (leeres Präfix).
+
+Schlüssel zu allem ist: Aktivtät von Zustand q bestimmt die letzten q+1 Textzeichen. Damit sind gemeinsame Präfixe/Suffixe bis Länge q eindeutig definiert.
+
+
+3.5
+Naiver Algorithmus (alle zykl. Perm. von s testen auf Gleichheit mit t) hat Laufzeit O(n^2).
+Algorithmus in Linearzeit?
+
+Meine Idee war das man s mit sich selber konkateniert und dann den KMP-Algorithmus anwendet mit t als Muster und u := ss als Text.
+
+Dann gilt: Treffer bei Startindex k in u 
+<=>  t = s[k:]s[:k], für k = 0, ..., n-1.
+
+(Man könnte das letzte Zeichen vom zweiten s weglassen in u.)
+
+Die zyklische permutation setzt den selben String oder Teile des Strings wieder hinten bzw vorne an. Dadurch ist äquivalent wenn man den gesamten String dranhängt
+
+
