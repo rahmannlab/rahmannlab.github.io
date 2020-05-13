@@ -25,15 +25,15 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 2. Do 30.04. | **Videos:**<br/> [Exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus](https://www.youtube.com/watch?v=7xt6ZtwSyyg). <br/> **Aufgaben:** [Blatt 2](aas20/02), [Notizen 2](aas20/notizen02.txt). |
 | 3. Do 07.05. | **Videos:**<br/> [Exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus](https://www.youtube.com/watch?v=WDDj1DrjnoY).<br/> **Aufgaben:** [Blatt 3](aas20/03), [Notizen 3](aas20/notizen03.txt). |
 | 4. Do 14.05. | **Videos:**<br/> [Exakte Musterusche mit sublinearen Algorithmen, Horspool-Algorithmus und BNDM](https://youtu.be/5_CsHe37IYI).<br/> **Aufgaben:** [Blatt 4](aas20/04), [Notizen 4](aas20/notizen04.txt). |
-| 5. Mi 20.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern; verallgemeinerter Shift-And-Algorithmus, Aho-Corasick-Algorithmus.<br/> **Aufgaben:** [Blatt 5](aas20/05), [Notizen 5](aas20/notizen05.txt). |
-| 6. Do 28.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count.<br/> **Aufgaben:** [Blatt 6](aas20/06), [Notizen 6](aas20/notizen06.txt). |
-| 7. Do 04.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen |
-| 8. Do 11.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen |
-| 9. Do 18.06. | **Videos:** Burrows-Wheeler-Transformation (BWT), Backward Search |
-| 10. Do 25.06. | **Videos:** Rank-Datenstruktur auf Bitarrays, FM-Index, Waveletbäume | 
-| 11. Do 02.07. | **Videos:** Distanzmaße zwischen Strings, Fehlertolerante Mustersuche, Four-Russians-Trick |
-| 12. Do 09.07. | **Videos:** Sequenzalignment |
-| 13. Do 16.07. | **Videos:** Erweiterungen zum Sequenzalignment |
+| 5. Mi 20.05. | **Videos:**<br/> Algorithmen für die exakte Mustersuche mit Mengen von Mustern; verallgemeinerter Shift-And-Algorithmus, Aho-Corasick-Algorithmus.<br/> **Aufgaben:** [Blatt 5](aas20/05), [Notizen 5](aas20/notizen05.txt). |
+| 6. Do 28.05. | **Videos:**<br/> Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count.<br/> **Aufgaben:** [Blatt 6](aas20/06), [Notizen 6](aas20/notizen06.txt). |
+| 7. Do 04.06. | **Videos:**<br/> Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen.<br/> **Aufgaben:** [Blatt 7](aas20/07), [Notizen 7](aas20/notizen07.txt). |
+| 8. Do 11.06. | **Videos:**<br/> Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen.<br/> **Aufgaben:** [Blatt 8](aas20/08), [Notizen 8](aas20/notizen08.txt). |
+| 9. Do 18.06. | **Videos:**<br/> Burrows-Wheeler-Transformation (BWT), Backward Search |
+| 10. Do 25.06. | **Videos:**<br/> Rank-Datenstruktur auf Bitarrays, FM-Index, Waveletbäume | 
+| 11. Do 02.07. | **Videos:**<br/> Distanzmaße zwischen Strings, Fehlertolerante Mustersuche, Four-Russians-Trick |
+| 12. Do 09.07. | **Videos:**<br/> Sequenzalignment |
+| 13. Do 16.07. | **Videos:**<br/> Erweiterungen zum Sequenzalignment |
 
 ---
 
