@@ -26,7 +26,7 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 3. Do 07.05. | **Videos:**<br/> [Exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus](https://www.youtube.com/watch?v=WDDj1DrjnoY).<br/> **Aufgaben:** [Blatt 3](aas20/03), [Notizen 3](aas20/notizen03.txt). |
 | 4. Do 14.05. | **Videos:**<br/> [Exakte Musterusche mit sublinearen Algorithmen, Horspool-Algorithmus und BNDM](https://youtu.be/5_CsHe37IYI).<br/> **Aufgaben:** [Blatt 4](aas20/04), [Notizen 4](aas20/notizen04.txt). |
 | 5. Mi 20.05. | **Videos:** Algorithmen für die exakte Mustersuche mit Mengen von Mustern; verallgemeinerter Shift-And-Algorithmus, Aho-Corasick-Algorithmus.<br/> **Aufgaben:** [Blatt 5](aas20/05), [Notizen 5](aas20/notizen05.txt). |
-| 6. Do 28.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count, Rank-Datenstruktur auf Bitarrays |
+| 6. Do 28.05. | **Videos:** Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count.<br/> **Aufgaben:** [Blatt 6](aas20/06), [Notizen 6](aas20/notizen06.txt). |
 | 7. Do 04.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen |
 | 8. Do 11.06. | **Videos:** Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen |
 | 9. Do 18.06. | **Videos:** Burrows-Wheeler-Transformation (BWT), Backward Search |
