@@ -1,0 +1,100 @@
+14.05.2020 Sublineare Algorithmen
+
+Q&A
+====
+
+Q: enumerate-Funktion (Folie 6)?
+A: for i, c in enumerate(C) für ein iterable C zählt parallel Index i und Element c auf.
+D.h. für P='abcd' bekommt man nacheinander
+die Paare (i,c) = (0,'a'), (1,'b'), (2,'c'), (3,'d').
+
+Q: Wann ist der BNDM-Algorithmus sinnvoll einzusetzen? Asymptotische Best-case und worst-case Laufzeit sind gleich dem Horspool-Algorithmus.
+A: Horspool ist schlecht bei kleinen Alphabeten (insb. Binär, DNA) und langen Mustern. Hier kann BNDM besser sein, v.a. in der bit-parallelen Implementierung.
+
+
+Aufgaben
+========
+
+(Leider geht die Formatierung zum Teil kaputt beim Export.)
+
+4.1: 
+    
+	* P := AGTACGAG
+	* T := AACGTAAGTACGAGAGTACG
+	*               AGTACGAG
+	*                     GTACGAG
+	*                          AGTACGAG
+	*                                AGTACGAG
+
+Sprungtabelle?
+A: 1
+C: 3
+G: 2
+T: 5
+
+Verschiebungen: 2, 1, 3, 2, 2 ...
+
+
+4.2:
+Wann zeigt Horspool Theta(mn) Laufzeit?
+P=aaa... und T=aaaaaaaaaa...
+P=a^k b^k a ... und T=aaaaaaaaa...
+- Verschiebung immer um 1 (oder kleine Konstante)
+- Fast immer wird das ganze Muster mit dem  Textfenster verglichen (bzw. fester Anteil, K*m mit K>0).
+
+Ich glaube, dass P auch viel größer sein kann, damit der Algorithmus sehr oft vergleichen muss...
+
+4.3:
+Horspool ist (relativ) schlecht bei kleinem Alphabet (binär, DNA) und langen Mustern. Wie kann man ihn in dem Fall aber verbessern?
+
+Kann Sprungtabelle z.B. auf Zeichenpaaren oder sogar Tripeln berechnen
+Binär: 2 Zeichen, 4 Paare, 8 Tripel
+DNA: 4 Zeichen, 16 Paare, 64 Tripel
+Berechne Verschiebung dann z.B. anhand der letzten 2 oder 3 Zeichen im Textfenster
+
+P = AGTACGAG (Länge 8)
+Sprungtabelle für die letzten 2 Zeichen im Textfenster
+AA: 8
+AC: 3
+AG: 6
+AT: 8
+CA: 8
+...
+TT: 8
+
+Man könnte mehrere Vergleiche durchführen, also auch das erste und das mittlere Zeichen des Musters vergleichen.
+-> Stimmt, aber den meisten Nutzen hat man, wenn man die letzten Zeichen nutzt.
+
+Kann zusätzlich Hashfunktion, die z.B. 16 DNA-Paare auf {0,1,...,7} abbildet, dann Sprungtabelle auf den Hashwerten bauen.
+
+
+4.4
+
+	* P := AGTACGAG
+	* T := AACGTAAGTACGAGAGTACG
+
+ AGTACGAG
+[AACGTAAG]  TACGAGAGTACG
+
+                   AGTACGAG
+AACGTA [AGTACGAG] AGTACG
+
+                                   AGTACGAG
+AACGTAAGTACG [AGAGTACG]
+
+                                        AGTACGAG
+AACGTAAGTACGAG [AGTACG......] Abbruch
+
+Sprünge: 6, 6, 2.
+
+
+
+Programmieraufgabe:
+    
+Links zum Code repository (z.B. github, gitlab, ..) gerne an:
+Sven.Rahmann -at/ tu-dortmund \\ de
+
+Bei mir ist horspool bei 1Mio zeichen 8.6x schneller (C++)
+in welcher programmiersprache wurde das geschrieben tom? C
+
+    
