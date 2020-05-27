@@ -24,7 +24,7 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 1. Do 23.04. | **Videos:**<br/> [Einführung, Definitionen und Begriffe](https://www.youtube.com/watch?v=OzhP9uLP24g);<br/> [naiver Algorithmus zur exakten Mustersuche](https://www.youtube.com/watch?v=RhGC23lfY2U).<br/> **Aufgaben:** [Blatt 1](aas20/01), [Notizen 1](aas20/notizen01.txt). |
 | 2. Do 30.04. | **Videos:**<br/> [Exakte Mustersuche mit nichtdeterministischen endlichen Automaten, Shift-And-Algorithmus](https://www.youtube.com/watch?v=7xt6ZtwSyyg). <br/> **Aufgaben:** [Blatt 2](aas20/02), [Notizen 2](aas20/notizen02.txt). |
 | 3. Do 07.05. | **Videos:**<br/> [Exakte Mustersuche mit deterministischen endlichen Automaten, Knuth-Morris-Pratt-Algorithmus](https://www.youtube.com/watch?v=WDDj1DrjnoY).<br/> **Aufgaben:** [Blatt 3](aas20/03), [Lösung zu 3.1 von Tom Voellmer](aas20/loesung03-1.pdf), [Notizen 3](aas20/notizen03.txt). |
-| 4. Do 14.05. | **Videos:**<br/> [Exakte Musterusche mit sublinearen Algorithmen, Horspool-Algorithmus und BNDM](https://youtu.be/5_CsHe37IYI).<br/> **Aufgaben:** [Blatt 4](aas20/04), [Notizen 4](aas20/notizen04.txt). |
+| 4. Do 14.05. | **Videos:**<br/> [Exakte Musterusche mit sublinearen Algorithmen, Horspool-Algorithmus und BNDM](https://youtu.be/5_CsHe37IYI).<br/> **Aufgaben:** [Blatt 4](aas20/04), [Notizen 4](aas20/notizen04.txt); [Benchmark von Philipp Hüttig](https://github.com/Bricktricker/Mustersuche). |
 | 5. **Mi 20.05.** | **Videos:**<br/> [Algorithmen für die exakte Mustersuche mit Mengen von Mustern: verallgemeinerter Shift-And-Algorithmus, Aho-Corasick-Algorithmus](https://youtu.be/jVUlcLexMzU).<br/> **Aufgaben:** [Blatt 5](aas20/05), [Lösung zu 5.1 und 5.2 von Tom Voellmer](aas20/loesung05-1-2.pdf), [Notizen 5](aas20/notizen05.txt). |
 | 6. Do 28.05. | **Videos:**<br/> [Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus; O-Notation, Bitoperationen, population count](TODO).<br/> **Aufgaben:** [Blatt 6](aas20/06), [Notizen 6](aas20/notizen06.txt). |
 | 7. Do 04.06. | **Videos:**<br/> Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen.<br/> **Aufgaben:** [Blatt 7](aas20/07), [Notizen 7](aas20/notizen07.txt). |
@@ -32,7 +32,7 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 9. Do 18.06. | **Videos:**<br/> Burrows-Wheeler-Transformation (BWT), Backward Search |
 | 10. Do 25.06. | **Videos:**<br/> Rank-Datenstruktur auf Bitarrays, FM-Index, Waveletbäume | 
 | 11. Do 02.07. | **Videos:**<br/> Distanzmaße zwischen Strings, Fehlertolerante Mustersuche, Four-Russians-Trick |
-| 12. Do 09.07. | **Videos:**<br/> Sequenzalignment |
+| 12. Do 09.07. | **Videos:**<br/> Sequenzalignment (z.B. DNA, Proteine) |
 | 13. Do 16.07. | **Videos:**<br/> Erweiterungen zum Sequenzalignment |
 
 ---
