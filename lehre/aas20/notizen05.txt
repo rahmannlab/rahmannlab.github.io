@@ -1,0 +1,41 @@
+20.05.2020
+
+Q&A
+===
+
+Q: Fall in einem Zustand 2 Muster ausgegeben werden, schreibt man beide in die Menge über dem Zustand?
+
+A: Kommt darauf an, was man darstellen will. Benutzt man eine explizite Ausgabeliste für jeden Zustand, dann ja. (Das ist für die graphische Darstellung am sinnvollsten.) Eine typische Implementierung würde man mit einer separaten linked list für die auszugebenden Muster umsetzen.
+
+
+
+
+Aufgaben
+========
+
+5.1, 5.2: 
+siehe Loesung von Tom Voellmer (PDF)
+
+
+5.3:
+Mindestens 3 Möglichkeiten:
+    
+1. vollständige Ausgabeliste in jedem Zustand
+Vorteil: schnell. Nachteil: Speicherbedarf O(k^2) bei k Mustern im worst case
+
+2. max. 1 Ausgabe pro Zustand, Ausgabe nur in akzeptierenden Zuständen (die einem der Muster entsprechen), weitere Ausgaben durch vollständige Verfolgung der lps-Kette in jedem Zustand
+Vorteil: kein zusätzlicher Speicherbedarf (lps ist vorhanden). Nachteil: Zeitverlust, O(m) pro Zustand, Mustersuche kann sich auf O(mn) verlangsamen.
+
+3. max. 1 Ausgabe pro Zustand, zusätzlich max. 1 link auf nächste Ausgabe in der lps-Kette.
+Vorteil: geringer zusätzlicher Speicherbedarf (O(1) pro Zustand); kein Zeitverlust bei Ausgabe.
+
+Wenn alle Muster gleich lang sind, braucht man nichts davon!
+
+
+5.4:
+BNDM-Algorithmus benötigt Suffixautomaten des reversen Musters (nichtdeterministisch!).
+Zu s mit |s|=n hat der Aho-Corasick-Automat aller Suffixe von s die Grösse O(n^2), denn die Summe der Längen aller Suffixe ist 1 + 2 + ... + n = (n+1)*n/2 = O(n^2).
+Damit Konstruktionszeit auch O(n^2); diese ist linear in der Grösse.
+
+Zu schlecht für ernsthafte Anwendungen (z.B. Humangenom) -> Suffixbaum
+
