@@ -1,0 +1,24 @@
+
+Aufgaben
+========
+
+7.1: n Blätter, 1 Wurzel, k echte innere Knoten
+Zähle ausgehende Kanten = eingehende Kanten
+eingehende Kanten: k + n
+ausgehende Kanten: a >= 2*k + 1  [+2 für n>=2]
+
+k + n = a >= 2k+1    |  -k - 1
+n - 1 >= k, also k <= n- 1 echte innere Knoten
+Kanten: k + n <= n-1 + n = 2n-1
+
+
+7.3:
+nochmal an Hand einer Skizze erklärt
+
+
+7.4:
+In Ukkonen's Algorithmus nach Phase i seien L Blätter vorhanden. Welche Beziehung gilt zwischen i, L und der Stringtiefe d der aktiven Position?
+
+L + d = i + 1
+Entweder wird in Phase i direkt das Blatt erzeugt oder die aktive Position wandert 1 Zeichen nach unten.
+Beim "Nachholen" eines Blattes verringert sich d um 1, so dass L + d konstant bleibt.

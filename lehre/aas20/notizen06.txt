@@ -1,0 +1,32 @@
+Notizen zu Vorlesung und Blatt 6
+================================
+
+Q: Das erste Element eines Musters mit optionalen Zeichen darf nicht optional sein, weil die Kante sonst im nicht abgebildeten Startzustand starten würde; das Bit ist in der I-Maske nicht vorhanden?!
+
+A: Richtig. Man kann ein optionales Randelement aber einfach weglassen und mit dem reduzierten Muster suchen.
+
+
+Aufgaben
+========
+
+6.3:
+
+Zweierpotenz? x & (x-1) == 0 and x!=0
+    
+x & (-x) tut was? 
+löscht alle Bits bis auf das rechteste gesetzte 1-Bit
+-x = ~(x-1), 
+also x & ~(x-1)
+    
+0101010111010000
+===========01111
+fffffffffff10000
+0000000000010000
+    
+n & (n-1) == 0 testet ob popcount(n) <= 1 ist.
+Wenn ja, entscheidet x != 0, ob popcount(n) = 1 oder = 0 ist
+Wenn nein, dann sind mind. 2 Bits gesetzt in n.
+Rechteste gesetzte Bit: q := n & (-n)
+n := n & ~q löscht das rechteste Bit.
+Wiederhole...
+
