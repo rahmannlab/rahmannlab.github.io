@@ -28,12 +28,12 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 5. **Mi 20.05.** | **Videos:**<br/> [Algorithmen für die exakte Mustersuche mit Mengen von Mustern: verallgemeinerter Shift-And-Algorithmus, Aho-Corasick-Algorithmus](https://youtu.be/jVUlcLexMzU).<br/> **Aufgaben:** [Blatt 5](aas20/05), [Lösung zu 5.1 und 5.2 von Tom Voellmer](aas20/loesung05-1-2.pdf), [Notizen 5](aas20/notizen05.txt). |
 | 6. Do 28.05. | **Videos:**<br/>[Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus](https://youtu.be/xc0ImOr7x08);<br/> Anhang: [Bitoperationen, population count](https://youtu.be/ltIYPjjAdts).<br/> **Folien:**<br/> [Suche nach erweiterten Mustern, Verallgemeinerungen des Shift-And-Algorithmus](aas20/mustersuche-erweitert.pdf);<br/> Anhang: [Bitoperationen, population count](aas20/bitsequenzen.pdf).<br/> **Aufgaben:** [Blatt 6](aas20/06), [Notizen 6](aas20/notizen06.txt). |
 | 7. Do 04.06. | **Videos:**<br/> [Volltext-Indexdatenstrukturen: Suffixbäume, Algorithmus von Ukkonen, Anwendungen](https://youtu.be/g-gCVz9DMsY).<br/> **Aufgaben:** [Blatt 7](aas20/07), [Notizen 7](aas20/notizen07.txt). |
-| 8. Do 11.06. | **Videos:**<br/> Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen.<br/> **Aufgaben:** [Blatt 8](aas20/08), [Notizen 8](aas20/notizen08.txt). |
-| 9. Do 18.06. | **Videos:**<br/> Burrows-Wheeler-Transformation (BWT), Backward Search |
-| 10. Do 25.06. | **Videos:**<br/> Rank-Datenstruktur auf Bitarrays, FM-Index, Waveletbäume | 
-| 11. Do 02.07. | **Videos:**<br/> Distanzmaße zwischen Strings, Fehlertolerante Mustersuche, Four-Russians-Trick |
-| 12. Do 09.07. | **Videos:**<br/> Sequenzalignment (z.B. DNA, Proteine) |
-| 13. Do 16.07. | **Videos:**<br/> Erweiterungen zum Sequenzalignment |
+| 8. **Mi 10.06.** | **Videos:**<br/> [Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen](https://youtu.be/8NdCNlfSBYc).<br/> **Aufgaben:** [Blatt 8](aas20/08), [Notizen 8](aas20/notizen08.txt). |
+| 9. Do 18.06. | **Videos:**<br/> [Burrows-Wheeler-Transformation (BWT), Backward Search](TODO).<br/> **Aufgaben:** [Blatt 9](aas20/09), [Notizen 9](aas20/notizen09.txt). |
+| 10. Do 25.06. | **Videos:**<br/> [Rank-Datenstruktur auf Bitarrays, FM-Index, Waveletbäume](TODO).<br/>  **Aufgaben:** [Blatt 10](aas20/10), [Notizen 8](aas20/notizen10.txt). |
+| 11. Do 02.07. | **Videos:**<br/> [Distanzmaße zwischen Strings, Fehlertolerante Mustersuche, Four-Russians-Trick](TODO).<br/>  **Aufgaben:** [Blatt 11](aas20/11), [Notizen 11](aas20/notizen11.txt). |
+| 12. Do 09.07. | **Videos:**<br/> [Sequenzalignment (z.B. DNA, Proteine)](TODO).<br/>  **Aufgaben:** [Blatt 12](aas20/12), [Notizen 12](aas20/notizen12.txt). |
+| 13. Do 16.07. | **Videos:**<br/> Erweiterungen zum Sequenzalignment.<br/>  **Aufgaben:** [Blatt 13](aas20/13), [Notizen 13](aas20/notizen13.txt). |
 
 ---
 
