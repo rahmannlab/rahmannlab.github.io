@@ -1,0 +1,26 @@
+Wichtige Punkte:
+- Suffixarray (SA, pos) ist die Blattebene des Suffixbaum (Anfangspositionen der lexikographisch sortierten Suffixe), Permuation der Zahlen von 0 bis n-1 (bei einem Text der Länge n)
+- lcp-Array bildet die Baumstruktur ab.
+- Beide arrays (pos, lcp) können in Linearzeit konstruiert werden: pos mit SAIS, lcp mit Alg. von Kasai (aus Text + pos). SAIS ist kompliziert; Kasai ist einfach.
+- 3 Anwendungen (längster wdh. Teilstring, kürzester eindeutiger Teilstring, längster gemeinsamer Teilstring zweier Strings)
+
+
+Q&A:
+====
+
+Q: Ich habe noch nicht so ganz verstanden wie die Reihenfolge der Zeichen in dem Suffix Array zu stande kommt.
+A: Es wird vorausgesetzt, dass das Alphabet total geordnet ist. Die Ordnung muss mit dem Alphabet angegeben werden. Nach Definition ist $ kleiner als jeder Buchstabe. Hier $ < i < m < p < s (Folie 4).
+
+
+Aufgaben
+========
+
+8.1: Bitte zum Verständnis des SAIS-Alg. durchführen; bei Fragen oder Hindernissen bitte melden! Korrekte Antwort kann mit naivem Algorithmus erhalten werden.
+
+8.2: Am besten während des Videos überlegen, warum kein L-Typ Suffix vergessen werden kann. Tipp: Es liegt daran, dass man von links nach rechts läuft.
+
+8.3: Es gibt immer einen "aktiven" / aktuellen Pfad ganz rechts im schon existierenden Baum. Der nächste lcp-Wert bestimmt, in welcher Stringtiefe auf dem aktiven Pfad das nächste Blatt verbunden wird.
+
+8.4: eindeutig = einzigartig, der Teilstring soll nur einmal vorkommen und nicht $ enthalten.
+Algorithmus: Man bestimmt für jedes Suffix sein kürzestes eindeutiges Präfix. Dessen Länge ist max(lcp[r],lcp[r-1])+1 (für das Suffix bei Rang r). Randfälle beachten! Von all den zulässigen Maxima (ohne $!) nimmt man das kleinste.
+
