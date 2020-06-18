@@ -1,0 +1,48 @@
+
+Aufgabe 9.1:
+Transformieren Sie den BWT-transformierten Text rrt$bttommooooo zurück.
+
+                     1 1 1 1 1
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4
+ r r t $ b t t o m m o o o o o
+ $ b m m o o o o o o r r t t t  (sortierte Buchstaben)
+ 3 4 8 9 71011121314 0 1 2 5 6  (ursprüngliche Ränge in der BWT)
+ 
+ m o t  o r  bootmotor$
+ 3 9 14 6 11 ...
+
+
+Aufgabe 9.2: 
+Führen Sie auf dem Text mississippi$  eine Rückwärtssuche (Backward Search)
+mit dem Muster miss durch.
+Erstellen Sie dazu die BWT und alle weiteren notwendigen Hilfsarrays.
+
+             11
+p: 012345678901
+T: mississippi$
+
+                                          1  1
+r:          0  1  2  3  4  5  6  7  8  9  0  1
+pos[r]:    11 10  7  4  1  0  9  8  6  3  5  2
+
+bwt[r]:     i  p  s  s  m  $  p  i  s  s  i  i
+T[pos[r]]:  $  i  i  i  i  m  p  p  s  s  s  s
+
+less = {'$':0, 'i':1, 'm':5, 'p':6, 's':8}
+
+P: miss
+ : [ 0, 11]
+s: [ 8, 11]
+s: [10, 11]: L+ = less[s] + Occ[s,7] = 8 + 2;  R+ = less[s] + Occ[s,11] - 1 = 8 + 4 - 1 = 11
+i: [ 3,  4]: L+ = less[i] + Occ[i,9] = 1 + 2;  R+ = less[i] + Occ[i,11] - 1 = 1 + 4 - 1 = 4
+m: [ 5,  5]:
+
+
+Aufgabe 9.3:
+Zum Iterieren der BWT benötigt man eine Variante ohne Wächter,
+denn nach der 1. Iteration steht der Wächter nicht mehr am Ende!
+Man speichert dann die BWT und die Position des ersten Zeichens des Textes.
+Weitere Iterationen "bringen nichts", da man bereits bei der 1. Iteration
+die Suffixe sortiert und damit maximale gemeinsame Teilstrings (Wiederholungen) 
+gefunden und ausgenutzt hat.
+
