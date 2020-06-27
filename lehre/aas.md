@@ -15,7 +15,7 @@ Zu den Kontaktzeiten werden online Fragen beantwortet und Übungsaufgaben gemein
 **Dabei wird vorausgesetzt, dass die jeweils genannten Vorlesungsvideos bereits bekannt sind!**
 
 **Vorlesung**: Videos, freie Zeiteinteilung. Das Vorlesungsvideo muss aber **vor** der entsprechenden Kontaktzeit gesehen worden sein!\\
-**Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Big Blue Button. Den Zugangslink und Passwort erhalten Sie nach Anmeldung im LSF.\\
+**Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Big Blue Button. Den Zugangslink und das Passwort erhalten Sie nach Anmeldung im LSF.\\
 **Material**: [Skript-Entwurf](aas20/skript.pdf)\\
 **Prüfungen**: Es werden nur mündliche Prüfungen angeboten. Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest. Es ist vorgesehen, Präsenzprüfungen durchzuführen.
 
@@ -31,8 +31,8 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 8. **Mi 10.06.** | **Videos:**<br/> [Volltext-Indexdatenstrukturen: Suffixarrays, SAIS-Algorithmus, Anwendungen](https://youtu.be/8NdCNlfSBYc).<br/> **Aufgaben:** [Blatt 8](aas20/08), [Notizen 8](aas20/notizen08.txt). |
 | 9. Do 18.06. | **Videos:**<br/> [Burrows-Wheeler-Transformation (BWT), Backward Search](https://youtu.be/eSskeH3ZRoc).<br/>Anhang: [Rank-Datenstruktur für Bitsequenzen](https://youtu.be/G-OHfDIkkUo).<br/> **Aufgaben:** [Blatt 9](aas20/09), [Notizen 9](aas20/notizen09.txt). |
 | 10. Do 25.06. | **Videos:**<br/> [Distanzmaße zwischen Strings; Berechnung der Edit-Distanz und verwandter Maße](https://youtu.be/UYigEheyTCs).<br/> Anhang: [Die Four-Russians-Methode](https://youtu.be/lPfffXPF3cw)<br/> **Aufgaben:** [Blatt 10](aas20/10), [Notizen 10](aas20/notizen10.txt). |
-| 11. Do 02.07. | **Videos:**<br/> [Fehlertolerante Mustersuche (Ukkonen, Shift-And); Four-Russians-Trick](TODO).<br/>  **Aufgaben:** [Blatt 11](aas20/11), [Notizen 11](aas20/notizen11.txt). |
-| 12. Do 09.07. | **Videos:**<br/> [Biologisches Sequenzalignment (DNA, Proteine)](TODO).<br/>  **Aufgaben:** [Blatt 12](aas20/12), [Notizen 12](aas20/notizen12.txt). |
+| 11. Do 02.07. | **Videos:**<br/> [Fehlertolerante Mustersuche (Ukkonen, Shift-And; Hybrid auf Volltext-Index)](https://youtu.be/NKuMSnu7Ad4).<br/>  **Aufgaben:** [Blatt 11](aas20/11), [Notizen 11](aas20/notizen11.txt). |
+| 12. Do 09.07. | **Videos:**<br/> [Biologisches Sequenzalignment (4 Varianten)](TODO).<br/>  **Aufgaben:** [Blatt 12](aas20/12), [Notizen 12](aas20/notizen12.txt). |
 | 13. Do 16.07. | **Videos:**<br/> [Erweiterungen zum Sequenzalignment](TODO).<br/>  **Aufgaben:** [Blatt 13](aas20/13), [Notizen 13](aas20/notizen13.txt). |
 
 ---

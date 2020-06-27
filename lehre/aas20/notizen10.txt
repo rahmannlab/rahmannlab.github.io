@@ -1,0 +1,122 @@
+Q & A:
+======
+
+3 Definitionen der Edit-Distanz von s, t:
+1. min Anzahl Edit-Operationen, die s in t transformieren
+2. min Kosten aller Alignments von s, t
+3. min Kosten eines Pfades vom Start zum Zielknoten im Edit-Graphen
+
+
+Aufgaben
+========
+
+Aufgabe 10.1
+
+a0) d >= 0: klar, zählen Edit-Operationen
+a1) x = y -> d(x,y) = 0: klar
+a2) d(x,y) = 0 -> x=y: d(x,y)=0 heisst, es gibt keine Edit-Operation; die Transformation besteht also im "Abschreiben" von links nach rechts, damit kommt der Originalstring wieder heraus.
+
+b) d(x,y) = d(y,x): Die Edit-Sequenzen s->t und t->s stehen in einer 1:1 Beziehung mit gleichen Kosten (Ersetzungen -> Ersetzungen; Insertionen -> Deletionen; Deletionen -> Insertionen); damit sind auch die minimalen Kosten gleich.
+
+c) d(x,y) <= d(x,z) + d(z,y):
+Nimm Alignment A1 zu d(x,z), A2 d(z,y). Idee: Konstruiere Alignment A (durch "Verkettung"), das x in y transformiert und Kosten höchstens d(x,z)+d(z,y) hat. 
+Nach Definition ist d(x,y)  <= Kosten(A) <= d(x,z) + d(z,y).
+Entscheidend ist, dass man A aus (einfachen) Regeln herleiten kann aus A1, A2.
+
+x = jaegerboot
+z = ja-gertee- 
+    MMDMMMXXXD 5
+    
+    MMXMXXXXI  6
+z = jagertee-  
+y = jamesbond
+
+    MMDXMXMMXID 6 = 11 - 5
+x = jaegerboo-t
+y = ja-mesbond-
+          **-
+          
+* = XX->M (Kosten 2 gespart!) 
+- = XX->X (Kosten 1 gespart!)
+
+MM = M
+MX = X
+XM = X
+XX = X oder M (spart Kosten 1 oder 2)
+D. = D
+.I = I
+IM = I
+IX = I (spart Kosten 1)
+ID = . (spart Kosten 2)
+MD = D
+XD = D
+
+
+
+Aufgabe 10.2
+
+Edit-Distanz zwischen Strings x, y der Längen m, n; Alphabete disjunkt:
+d(x,y) = max(m,n) 
+       = min(m,n) Veränderungen
+         + |m-n| Löschungen/Einfügungen
+   
+   
+Aufgabe 10.3
+
+#Alignments zwischen Sequenzen der Längen 5 und 5:  1683
+
+```
+from pprint import pprint
+
+def compute_N(upper_bound=5):
+    N = [[1] * (upper_bound+1) for _ in range(upper_bound+1)]
+    for i in range(1, upper_bound+1):
+        for j in range(1, upper_bound+1):
+            N[i][j] = N[i-1][j-1] + N[i-1][j] + N[i][j-1]
+    return N
+
+
+def all_cigars(m,n):
+    if m == 0:
+        yield ['I'] * n
+    elif n == 0:
+        yield ['D'] * m
+    else:
+        for c in all_cigars(m-1,n-1):
+            yield c + ['M']
+        for c in all_cigars(m-1, n):
+            yield c + ['D']
+        for c in all_cigars(m, n-1):
+            yield c + ['I']
+    
+
+
+for c in all_cigars(2,2):
+    print("".join(c))
+    
+N = compute_N(5)
+pprint(N)
+```
+
+Ausgabe:
+
+MM
+IDM
+DIM
+IMD
+IIDD
+MID
+IDID
+DIID
+DMI
+MDI
+IDDI
+DIDI
+DDII
+[[1, 1, 1, 1, 1, 1],
+ [1, 3, 5, 7, 9, 11],
+ [1, 5, 13, 25, 41, 61],
+ [1, 7, 25, 63, 129, 231],
+ [1, 9, 41, 129, 321, 681],
+ [1, 11, 61, 231, 681, 1683]]
+
