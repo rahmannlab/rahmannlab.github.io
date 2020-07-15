@@ -33,7 +33,7 @@ Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueBu
 | 10. Do 25.06. | **Videos:**<br/> [Distanzmaße zwischen Strings; Berechnung der Edit-Distanz und verwandter Maße](https://youtu.be/UYigEheyTCs).<br/> Anhang: [Die Four-Russians-Methode](https://youtu.be/lPfffXPF3cw)<br/> **Aufgaben:** [Blatt 10](aas20/10), [Notizen 10](aas20/notizen10.txt). |
 | 11. Do 02.07. | **Videos:**<br/> [Fehlertolerante Mustersuche (Ukkonen, Shift-And; Hybrid auf Volltext-Index)](https://youtu.be/NKuMSnu7Ad4).<br/>  **Aufgaben:** [Blatt 11](aas20/11), [Notizen 11](aas20/notizen11.txt). |
 | 12. Do 09.07. | **Videos:**<br/> [Biologisches Sequenzalignment (4 Varianten)](https://youtu.be/22aV60iQAak).<br/>  **Aufgaben:** [Blatt 12](aas20/12), [Notizen 12](aas20/notizen12.txt). |
-| 13. Do 16.07. | **Videos:**<br/> [Erweiterungen zum Sequenzalignment](TODO).<br/>  **Aufgaben:** [Blatt 13](aas20/13), [Notizen 13](aas20/notizen13.txt). |
+| 13. Do 16.07. | **Videos:**<br/> [Erweiterungen zum Sequenzalignment](https://youtu.be/sVMjnq_pS20).<br/>  **Aufgaben:** [Blatt 13](aas20/13), [Notizen 13](aas20/notizen13.txt). |
 
 ---
 
