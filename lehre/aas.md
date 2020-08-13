@@ -17,7 +17,12 @@ Zu den Kontaktzeiten werden online Fragen beantwortet und Übungsaufgaben gemein
 **Vorlesung**: Videos, freie Zeiteinteilung. Das Vorlesungsvideo muss aber **vor** der entsprechenden Kontaktzeit gesehen worden sein!\\
 **Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Big Blue Button. Den Zugangslink und das Passwort erhalten Sie nach Anmeldung im LSF.\\
 **Material**: [Skript-Entwurf](aas20/skript.pdf)\\
-**Prüfungen**: Es werden nur mündliche Prüfungen angeboten. Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung. Prüfungstermine stehen noch nicht fest. Es ist vorgesehen, Präsenzprüfungen durchzuführen.
+**Prüfungen**: Es werden nur mündliche Prüfungen angeboten. Es ist kein Leistungsnachweis notwendig zur Prüfungsanmeldung.
+**Prüfungen**: 4 ECTS-Punkte; mündlich, **18.08.2020, 22.09.2020** und weitere nach Vereinbarung.
+Zur Anmeldung ist kein Leistungsnachweis erforderlich. **[Anmeldeformular](https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.3/Fachstudiengaenge/Fakultaet_Informatik/Anmeldung_mdl._BSc._MSc_Inf_AngInf.pdf)**.
+Bitte die **[Informationen](/infos/pruefungen)** beachten! 
+
+
 
 Zur Teilnahme an den Sitzungen am Donnerstag 08:30 - 10:00 Uhr ist ein BigBlueButton-Zugangslink und ggf. ein Passwort erforderlich. Sie erhalten dies vom Veranstalter per email nach Ihrer Anmeldung im LSF.
 

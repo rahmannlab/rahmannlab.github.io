@@ -1,0 +1,25 @@
+Reduktion von lokalem auf globales Alignment:
+
+Zur (spaltenweisen) Berechnung der Scores ist immer nur die aktuelle und die vorige Spalte notwendig, d.h. die Position des Maximums in der Matrix kann mit O(m) Platz ermittelt werden; dies ist der Endpunkt des lokalen Alignments.
+
+Das Problem ist die Ermittlung des Anfangspunkts. Das ist aber der Endpunkt des besten lokalen Alignments der reversen Strings, also kann man einfach wieder die Matrix "rückwärts" berechnen. Dies funktioniert aber nur dann gut, wenn das Maximum in der Matrix eindeutig ist. (Sonst gibt es Zuordnungsprobleme, welcher Anfangspunkt zu welchem Endpunkt gehört.)
+
+Eine Alternative ist, dass man sich zu jedem berechneten Wert S[i,j] merkt, bei welchen Koordinaten der Anfangspunkt des lokalen Alignments liegt, das den Wert S[i,j] generiert hat.
+Man nutzt dazu eine zweite "Matrix" P[i,j] (von der man auch nur die aktuelle und vorige Spalte benötigt) und setzt P[i,j] =
+{ (i,j), wenn S[i,j] = 0 (Start eines alignments),
+{ P[i-1, j-1], wenn S[i,j] = S[i-1, j-1] + ... (diagonaler Vorgänger),
+{ P[i-1, j], wenn S[i,j] = S[i-1,j] - gapkosten (vertikaler Vorgänger),
+{ P[i,j-1], wenn ... (horizontaler Vorgänger).
+
+Nach Berechnung von S[i,j] und P[i,j] prüft man, ob S[i,j] das bisherige Maximum übersteigt. Wenn ja, merkt man sich S[i,j] als aktuell besten Score, (i,j) als aktuellen besten Endpunkt und P[i,j] als aktuell besten Anfangspunkt.
+
+
+Zusammenfassung der Vorlesung:
+=============================
+    
+1. Exakte Mustersuche: viele "kleine" Algorithmen
+2. Volltext-Indexdatenstrukturen: Suffixbaum, Suffixarray; Anwendungen
+3. Fehlertolerante Mustersuche (Edit-Distanz)
+4. Sequenzalignment: Graphen (4 Varianten), allg. Scoringschema, affine Gapkosten, Tracebacks in linearem Platz
+
+
