@@ -1,0 +1,38 @@
+Es geht um 4 Varianten des Alignments:
+    1. global
+    2. semi-global (Mustersuche)
+    3. Überlappdetektion ("free end gaps")
+    4. lokal (beliebige Teilstrings)
+
+Q:
+Eine Frage zu letzter Woche: wie berechnet man die Einträge der DP Matrix in Folie 6? 
+https://rahmannlab.gitlab.io/algorithmen-auf-sequenzen/pdfs/04-2-fehlertolerant-algorithmen.pdf
+    
+A: Das ist der Algorithmus von Ukkonen.
+Immer noch genau so wie bei der Edit-Distanz.
+Nur dass man an jeder Stelle des Textes einsteigen kann. D.h. die nullte Zeile ist == 0.
+    
+Also
+    D[0,j] = 0 fuer alle j.
+    D[i,0] = i fuer alle i
+    D[i,j] = min(D[i-1,j-1] + (s[i-1] != t[j-1]),
+				    D[i-1,j]+1,  
+				    D[i,j-1]+1
+				) fuer i>0 und j > 0.
+
+
+
+Noch ein Hinweis:
+Nicht verwechseln! Wir hatten jetzt zwei Dinge: 
+Edit-Distanz (Minimierung, Einheitskosten),
+Alignment-Score (Maximierung, flexibler).
+Immer aufpassen, worum es gerade geht!
+
+Und Definitionen (D[i,j] ist die Edit-Distanz zwischen der Praefixen der Laengen i, j von s,t) nicht mit Berechungsvorschrift (siehe Frage 1 oben) verwechseln.
+
+
+Tipps:
+
+Ueben Sie das "Rechnen" (Aufgabe 12.1). Das wird schnell muehsam. Aber ein paar Zellen sollte man ausrechnen. Den Rest kann man sich einfach ausgeben lassen.
+
+Ueben Sie das Formulieren (Was ist S[i,j] in Aufgabe 12.2 fuer alle 4 Faelle?). Siehe Beispiel in der Aufgabe. Fuer manche Faelle ist es sehr schwierig bis unmoeglich, eine "schoene" Formulierung zu finden.
