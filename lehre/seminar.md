@@ -11,31 +11,38 @@ Es dient der Vertiefung und Erweiterung des Stoffes aus einer der Bioinformatik-
 
 ## Sommersemester 2020
 
+(Aufgrund der Corona-Situation finden die Vorträge erst im WiSe 2020/21 statt; das Seminar bleibt aber dem SoSe 2020 zugeordnet.)
+
 **Modul**:            INF-MSc-102 (Seminar)\\
-**Anmeldung**:        bis Freitag 24.04.2020 im LSF\\
-**Vorbesprechung**:   TBA\\
-**Beratungstermine**: TBA\\
-**Kozeptabgabe**:     TBA\\
-**Seminartermine**:   TBA\\
-**Finale Abgabe**:    TBA
+**Anmeldung**:        per email, nach Vereinbarung\\
+**Vorbesprechung**:   per BBB, Termine nach Vereinbarung\\
+**Beratungstermine**: per BBB, Termine nach Vereinbarung\\
+**Kozeptabgabe**:     bis 01.03.2021\\
+**Seminartermine**:   10. + 11. März 2021\\
+**Finale Abgabe**:    bis Ende März 2021
 
 
-**Vorläufige Themenliste**
+**Vorläufige Teilnehmer\*innen- und Themenliste**
 
-- Gascuel: [Variante des Neighbor Joining Algorithmus: BioNJ](http://www.atgc-montpellier.fr/download/papers/bionj_1997.pdf)
-- Elias & Lagergren: [Schnelles Neighbor Joining](https://www.sciencedirect.com/science/article/pii/S0304397508009079)
-- Markowski et al.: [Haplotyp-Rekonstruktion aus Genomarchitektur-Mapping-Daten](https://www.biorxiv.org/content/10.1101/2020.01.30.927061v1)
-- Esposito et al.: [Minimale perfekte Hashfunktion "RecSplit"](https://epubs.siam.org/doi/pdf/10.1137/1.9781611976007.14)
-- Graf & Lemire: [XOR-Filter](https://arxiv.org/abs/1912.08258)
-- Kelly et al.: [Lock-Free Hopscotch Hashing](https://arxiv.org/abs/1911.03028)
+| **Vortrag** | **Teilnehmer\*in** | **Thema** |
+| 10.03. 09:00 | Nils Hölscher | Markowski et al.: [Haplotyp-Rekonstruktion aus Genomarchitektur-Mapping-Daten](https://www.biorxiv.org/content/10.1101/2020.01.30.927061v1) |
+| 10.03. 09:45 | Jan Kemming | Graf & Lemire: [XOR-Filter](https://arxiv.org/abs/1912.08258) | 
+| 10.03. 10:45 | Robert Gehde | Kelly et al.: [Lock-Free Hopscotch Hashing](https://arxiv.org/abs/1911.03028) |
+| 10.03. 11:30 | Lena Krieg | Elias & Lagergren: [Schnelles Neighbor Joining |] (https://www.sciencedirect.com/science/article/pii/S0304397508009079) | 
+| 10.03. 13:00 | Thomas Krieg | Esposito et al.: [Minimale perfekte Hashfunktion "RecSplit"](https://epubs.siam.org/doi/pdf/10.1137/1.9781611976007.14) |
+| 10.03. 13:45 | Hendrik Klöß | Gascuel: [Variante des Neighbor Joining Algorithmus: BioNJ](http://www.atgc-montpellier.fr/download/papers/bionj_1997.pdf) |
+
+
+**Weitere Themenvorschläge:**
+
 - Nguyen & Tsigas: [Lock-Free Cuckoo Hashing](https://ieeexplore.ieee.org/abstract/document/6888938)
 - Tarca et al.: [Signaling Pathway Impact Analysis (SPIA)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2732297/)
-- ...
 - single cell type assignment?
 - merging and batch correction for single cell data?
 - other single cell challenges?
 
 ---
+
 
 ## Seminarinhalt
 
