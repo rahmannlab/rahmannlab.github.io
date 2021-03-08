@@ -15,10 +15,10 @@ Es dient der Vertiefung und Erweiterung des Stoffes aus einer der Bioinformatik-
 
 **Modul**:            INF-MSc-102 (Seminar)\\
 **Anmeldung**:        per email, nach Vereinbarung\\
-**Vorbesprechung**:   per BBB, Termine nach Vereinbarung\\
-**Beratungstermine**: per BBB, Termine nach Vereinbarung\\
+**Vorbesprechung**:   per email/discord, Termine nach Vereinbarung\\
+**Beratungstermine**: per email/discord, Termine nach Vereinbarung\\
 **Kozeptabgabe**:     bis 01.03.2021\\
-**Seminartermine**:   10. + 11. März 2021 (online, per BBB)\\
+**Seminartermine**:   10. März 2021 (online, per discord)\\
 **Finale Abgabe**:    bis Ende März 2021
 
 
@@ -26,13 +26,16 @@ Es dient der Vertiefung und Erweiterung des Stoffes aus einer der Bioinformatik-
 
 Die Dauer eines Vortrags inkl. Diskussion sollte ca. 45 Minuten betragen.
 
-| **Termin** | **Teilnehmer\*in** | **Thema** |
+| **Termin** | **Teilnehmer:in** | **Thema** |
 | 10.03. 09:00 | Nils Hölscher | Markowski et al.: [Haplotyp-Rekonstruktion aus Genomarchitektur-Mapping-Daten](https://www.biorxiv.org/content/10.1101/2020.01.30.927061v1) |
-| 10.03. 09:45 | Jan Kemming | Graf & Lemire: [XOR-Filter](https://arxiv.org/abs/1912.08258) | 
+| 10.03. 09:45 | Jan Kemming | Graf & Lemire: [XOR-Filter](https://arxiv.org/abs/1912.08258) |
+| 10.03. 10:30 | (*kurze Pause von 15 min*)
 | 10.03. 10:45 | Robert Gehde | Kelly et al.: [Lock-Free Hopscotch Hashing](https://arxiv.org/abs/1911.03028) |
 | 10.03. 11:30 | Lena Krieg | Elias & Lagergren: [Schnelles Neighbor Joining](https://www.sciencedirect.com/science/article/pii/S0304397508009079) | 
+| 10.03. 12:15 | (*Mittagspause von 45 min*)
 | 10.03. 13:00 | Thomas Krieg | Esposito et al.: [Minimale perfekte Hashfunktion "RecSplit"](https://epubs.siam.org/doi/pdf/10.1137/1.9781611976007.14) |
 | 10.03. 13:45 | Hendrik Klöß | Gascuel: [Variante des Neighbor Joining Algorithmus: BioNJ](http://www.atgc-montpellier.fr/download/papers/bionj_1997.pdf) |
+| 10.03. 14:30 | (*Ende*)
 
 
 **Weitere Themenvorschläge:**
