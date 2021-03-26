@@ -17,7 +17,7 @@ Zu den Kontaktzeiten werden online Fragen beantwortet und Übungsaufgaben gemein
 **Vorlesung**: Videos, freie Zeiteinteilung. Das Vorlesungsvideo muss aber **vor** der entsprechenden Kontaktzeit gesehen worden sein!\\
 **Kontaktzeiten**: jeweils **Donnerstags 08:30-10:00** per Big Blue Button. Den Zugangslink und das Passwort erhalten Sie nach Anmeldung im LSF.\\
 **Material**: [Skript-Entwurf](aas20/skript.pdf)\\
-**Prüfungen**: 4 ECTS-Punkte; mündlich. Nächste Termine: **Dienstag 03.11.2020**, dann vermutlich erst im Januar 2021.  Die meisten Termine gibt es kurz nach Veranstaltungsende (z.B. 18.08.2020, 22.09.2020). Spätere Termine erst, wenn sich genug Interssierte gemeldet haben.\\
+**Prüfungen**: 4 ECTS-Punkte; mündlich. Nächste Termine: **12.04.2021**, weitere nach Vereinbarung.  Die meisten Termine gibt es kurz nach Veranstaltungsende; spätere Termine erst, wenn sich genug Interssierte gemeldet haben.\\
 **[Anmeldeformular](https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.3/Fachstudiengaenge/Fakultaet_Informatik/Anmeldung_mdl._BSc._MSc_Inf_AngInf.pdf)**: Zur Anmeldung ist kein Leistungsnachweis erforderlich. Bitte während des Corona-online-Betriebs das Formular einscannen und unterschrieben per email an den Veranstalter schicken und vorab den Termin (Uhrzeit) bestätigen lassen.
 Bitte die **[Informationen](/infos/pruefungen)** beachten! 
 

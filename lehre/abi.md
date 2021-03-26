@@ -12,9 +12,8 @@ instructor: Prof. Dr. Sven Rahmann
 **Übungen**:   Di 12:15-13:45 in OH12 / 1.055\\
 **Modul**:     INF-MSc-606, Forschungsbereich Algorithmen und Komplexität\\
 **Material**:  [Skript-Entwurf](abi19/skript.pdf)\\
-**Prüfungen**: 6 CP; mündlich, **13.03.2020** und nach Vereinbarung. Zur Anmeldung ist kein Leistungsnachweis erforderlich. [Informationen](/infos/pruefungen).  [Anmeldeformular](https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.3/Fachstudiengaenge/Fakultaet_Informatik/Anmeldung_mdl._BSc._MSc_Inf_AngInf.pdf)
+**Prüfungen**: 6 CP; mündlich <font color="crimson">zurzeit online</font>, nächster Termin **12.04.2021**, weitere nach Vereinbarung. Zur Anmeldung ist **kein** Leistungsnachweis erforderlich. [Informationen](/infos/pruefungen).  [Anmeldeformular](https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.3/Fachstudiengaenge/Fakultaet_Informatik/Anmeldung_mdl._BSc._MSc_Inf_AngInf.pdf)
 
-<font color="crimson">Achtung! Keine Prüfungen bis 19.04.2020 an der TU Dortmund!</font><br/>
 
 |Di 08.10. | Einführung, Simulation von Zufallssequenzen |
 |          | Übung: [Blatt 1](abi19/blatt01.pdf). Material: [Gene von *E. coli*](abi19/ecoli_K12_MG1655_genes.fa).  Lösung: [Python](abi19/uebung1.py)
