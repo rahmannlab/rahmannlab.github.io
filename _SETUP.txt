@@ -25,7 +25,7 @@ You can also install jekyll into your user directory, default `~/.gem`, by repla
 gem install --user-install jekyll bundler
 ```
 
-Now verify (with type -a ...) that you have ruby, gem, jekyll in one(!) verion only on your system.
+Now verify (with type -a ...) that you have ruby, gem, jekyll in one(!) version only on your system.
 
 You still don't have all themes for jekyll, but doing the following will auto-install them.
 
