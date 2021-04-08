@@ -2,7 +2,8 @@
 
 {{ content }}
 
-{% assign directory = site.pages | where_exp: "item" , "item.path contains 'lehre/'"%}
+{% assign directory = site.pages | where_exp: "item" , "item.path contains 'lehre/'" | sort: "date" | reverse %}
+
 <ul>
   {% for page in directory %}
   {% if page.linktext %}

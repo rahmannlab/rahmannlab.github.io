@@ -1,5 +1,6 @@
 ---
 layout: basic
+date: 2020-04-01
 linktext: Algorithmen auf Sequenzen
 instructor: Prof. Dr. Sven Rahmann
 ---

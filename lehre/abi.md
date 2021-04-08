@@ -1,5 +1,6 @@
 ---
 layout: basic
+date: 2019-10-01
 linktext: Algorithmische Bioinformatik
 instructor: Prof. Dr. Sven Rahmann
 ---

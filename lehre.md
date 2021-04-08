@@ -4,5 +4,5 @@ layout: lehre
 
 # Lehre (Teaching)
 
-Different group members teach different courses.
+The following courses are offered by the lab.
 
