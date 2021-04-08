@@ -6,15 +6,16 @@ instructor: Prof. Dr. Sven Rahmann
 ---
 
 # Lecture “Algorithms for Sequence Analysis”
+
 Specialized course, M.Sc. Bioinformatics, Saarland University.\\
-Elective course, M.Sc. Computer Science, Saarland University.\\
+Elective course, M.Sc. Computer Science, Saarland University.
 
-**Prerequisites:** B.Sc. in Bioinformatics or CS, no special requirements.\\
-**Credits:** 9 ECTS credits\\
-**Required time:** 4V+2Ü (4 hours of lectures, 2 hours of exercises per week)\\
-**Registration:** TBD
+| **Prerequisites:** B.Sc. in Bioinformatics or CS, no special requirements. |
+| **Credits:** | 9 ECTS credits |
+| **Required time:** | 4V+2Ü (4 hours of lectures, 2 hours of exercises per week) |
+| **Registration:** | TBD |
 
-**Notes:** Summer 2021 is a virtual online semester. Lectures will be delivered via Zoom. to obtain the Zoom link, please register for the course!
+**Note:** Summer 2021 is a virtual online semester. Lectures will be delivered via Zoom. To obtain the Zoom link, please register for the course.
 
 
 ## Topics
@@ -40,18 +41,20 @@ Lecture recordings and exercise sheets will be linked on this page.
 We will discuss the exercises together as a group.
 For this to work effectively, it is expected that you have watched the lectures or recordings and thought about the problems each week!
 
-**Lectures**: Tue 12:30-14:00 and Thu 08:30-10:00 each week\\
-**Exercises**: will be discussed during first meeting\\
-**Lecture notes**: [TODO](TODO)\\
-**Exams**: 9 ECTS credits. Dates and details TBD.\\
+| **Lectures** | Tue 12:30-14:00 and Thu 08:30-10:00 each week |
+| **Exercises** | will be discussed during first meeting |
+| **Lecture notes** | [TODO](TODO) |
+| **Exams**: 9 ECTS credits. Dates and details TBD. |
+
 There is some general information on exams in German: **[Informationen](/infos/pruefungen)**
+
+#### Schedule Summer 2021
 
 | **Date** | **Topics** |
 | Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool |
 | Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) |
 | Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns |
 | Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes |
-----
 | Tue 27.04. | |
 | Thu 29.04. | |
 | Tue 04.05. | |
