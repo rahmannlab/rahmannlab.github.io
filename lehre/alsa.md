@@ -10,12 +10,9 @@ instructor: Prof. Dr. Sven Rahmann
 Specialized course, M.Sc. Bioinformatics, Saarland University.\\
 Elective course, M.Sc. Computer Science, Saarland University.
 
-| **Prerequisites:** B.Sc. in Bioinformatics or CS, no special requirements. |
+| **Prerequisites:** | B.Sc. in Bioinformatics or CS, no special requirements. |
 | **Credits:** | 9 ECTS credits |
 | **Required time:** | 4V+2Ü (4 hours of lectures, 2 hours of exercises per week) |
-| **Registration:** | TBD |
-
-**Note:** Summer 2021 is a virtual online semester. Lectures will be delivered via Zoom. To obtain the Zoom link, please register for the course.
 
 
 ## Topics
@@ -32,6 +29,8 @@ The following topics will be covered in the course; additional topics may be inc
 * alignment-free methods, *k*-mers, hashing
 * several applications of alignment-free methods
 
+---
+
 
 ## Summer 2021
 
@@ -44,11 +43,11 @@ For this to work effectively, it is expected that you have watched the lectures 
 | **Lectures** | Tue 12:30-14:00 and Thu 08:30-10:00 each week |
 | **Exercises** | will be discussed during first meeting |
 | **Lecture notes** | [TODO](TODO) |
-| **Exams**: 9 ECTS credits. Dates and details TBD. |
+| **Exams** | 9 ECTS credits. Dates and details TBD. [General information](/infos/pruefungen) on exams (in German) |
+| **Registration** | TBD |
+| **Note** | Summer 2021 is a virtual online semester. Lectures will be delivered via Zoom. To obtain the Zoom link, please register for the course. |
 
-There is some general information on exams in German: **[Informationen](/infos/pruefungen)**
-
-#### Schedule Summer 2021
+#### Schedule
 
 | **Date** | **Topics** |
 | Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool |
