@@ -23,33 +23,7 @@
 <script src="/js/vendor/jquery.js"></script>
 <script src="/js/vendor/foundation.min.js"></script>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    },
-    extensions: [
-      "MathMenu.js",
-      "MathZoom.js",
-      "AssistiveMML.js",
-      "a11y/accessibility-menu.js"
-    ],
-    jax: ["input/TeX", "output/CommonHTML"],
-    TeX: {
-      extensions: [
-        "AMSmath.js",
-        "AMSsymbols.js",
-        "noErrors.js",
-        "noUndefined.js",
-      ]
-    }
-  });
-</script>
-
-<script type="text/javascript" async
-  src=src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML"></script>
 
 <script>
   $(document).foundation();
