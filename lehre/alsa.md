@@ -64,10 +64,10 @@ For this to work effectively, it is expected that you have watched the lectures 
 **Note:** [Video recordings of the lectures](https://cms.sic.saarland/alsa/materials) are only available in the CMS for registered students.
 
 | **Date** | **Topics** | **Slides** |
-| Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool | [Slides](alsa21/01-1-naive-horspool.pdf) [Organization](alsa21/00-0-overview.pdf) |
-| Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](01-2-automata.pdf)
-| Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns | [Slides](01-3-bitparallel.pdf)
-| Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | |
+| Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
+| Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
+| Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
+| Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | soon |
 | Tue 27.04. | | |
 | Thu 29.04. | | |
 | Tue 04.05. | | |
