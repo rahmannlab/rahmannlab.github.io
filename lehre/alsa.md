@@ -51,47 +51,49 @@ We will discuss the exercises together as a group.
 For this to work effectively, it is expected that you have watched the lectures or recordings and thought about the problems each week!
 
 | **Instructor** | Prof. Dr. Sven Rahmann |
-| **Lectures** | Tue 12:30-14:00 and Thu 08:30-10:00 each week via Zoom.  These lectures will be recorded! |
+| **Lectures** | Tue 12:30-14:00 and Thu 08:30-10:00 each week via Zoom.  These lectures will be recorded. |
 | **Exercises** | either (A) Tue 14:15-15:45 or (B) Wed 08:30-10:00 |
 | **Lecture notes** | [TODO](TODO) |
 | **Exams** | 9 ECTS credits. Dates and details TBD. [General information](/infos/pruefungen) on exams (in German) |
-| **Registration** | Register at the [CMS](https://cms.sic.saarland/alsa/) until Friday April 16 |
+| **Registration** | Register at the [CMS](https://cms.sic.saarland/alsa/) until Friday April 16. |
 | **Note** | Summer 2021 is a virtual online semester. Lectures will be delivered via Zoom. To obtain the Zoom link, please register for the course and then look at the provided link in the CMS. |
 
 
 #### Schedule
 
-| **Date** | **Topics** |
-| Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool |
-| Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) |
-| Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns |
-| Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes |
-| Tue 27.04. | |
-| Thu 29.04. | |
-| Tue 04.05. | |
-| Thu 06.05. | |
-| Tue 11.05. | |
+**Note:** [Video recordings of the lectures](https://cms.sic.saarland/alsa/materials) are only available in the CMS for registered students.
+
+| **Date** | **Topics** | **Slides** |
+| Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool | [Slides](alsa21/01-1-naive-horspool.pdf) [Organization](alsa21/00-0-overview.pdf) |
+| Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](01-2-automata.pdf)
+| Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns | [Slides](01-3-bitparallel.pdf)
+| Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | |
+| Tue 27.04. | | |
+| Thu 29.04. | | |
+| Tue 04.05. | | |
+| Thu 06.05. | | |
+| Tue 11.05. | | |
 | Thu 13.05. | (Holiday) |
-| Tue 18.05. | |
-| Thu 20.05. | |
-| Tue 25.05. | |
-| Thu 27.05. | |
-| Tue 01.06. | |
+| Tue 18.05. | | |
+| Thu 20.05. | | |
+| Tue 25.05. | | |
+| Thu 27.05. | | |
+| Tue 01.06. | | |
 | Thu 03.06. | (Holiday) |
-| Tue 08.06. | |
-| Thu 10.06. | |
-| Tue 15.06. | |
-| Thu 17.06. | |
-| Tue 22.06. | |
-| Thu 24.06. | |
-| Tue 29.06. | |
-| Thu 01.07. | |
-| Tue 06.07. | |
-| Thu 08.07. | |
-| Tue 13.07. | |
-| Thu 15.07. | |
-| Tue 20.07. | |
-| Thu 23.07. | Wrap-up |
+| Tue 08.06. | | |
+| Thu 10.06. | | |
+| Tue 15.06. | | |
+| Thu 17.06. | | |
+| Tue 22.06. | | |
+| Thu 24.06. | | |
+| Tue 29.06. | | |
+| Thu 01.07. | | |
+| Tue 06.07. | | |
+| Thu 08.07. | | |
+| Tue 13.07. | | |
+| Thu 15.07. | | |
+| Tue 20.07. | | |
+| Thu 23.07. | Wrap-up | |
 
 ---
 

@@ -24,6 +24,7 @@ Bitte melden Sie sich daher frühzeitig wegen Prüfungsterminen bei mir.
 
 **Eine Absprache mit dem Prüfungsausschuss ist notwendig.**
 
+---
 
 ## Sommersemester 2020
 
