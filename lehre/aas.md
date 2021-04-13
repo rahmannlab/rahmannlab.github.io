@@ -8,6 +8,23 @@ instructor: Prof. Dr. Sven Rahmann
 # Vorlesung “Algorithmen auf Sequenzen”
 Bachelor-Modul INF-Bsc-315 (Informatik, TU Dortmund)
 
+## Sommersemester 2021
+
+Ich bin von der Universitätsallianz Ruhr weg an die Universität des Saarlandes gewechselt.
+Meine Vorlesungen an der TU Dortmund finden nicht mehr statt.
+
+Einmalig biete ich Ihnen in diesem Semester an, der (englischen und umfangreicheren!) Vorlesung an der UdS zu folgen, per Zoom-Link.
+Bitte kontaktieren Sie mich per e-mail!
+Gleichzeitig stehen Ihnen die Videoaufnahmen aus dem SoSe 2020 (TU Dortmund) frei auf YouTube zur Verfügung (s.u.).
+
+Prüfungsrelevant ist nur der Stoff vom SoSe 2020 in den Videos, sowie die Aufgben vom SoSe 2020.
+Ihre Prüfung muss in jedem Fall vor dem 31.03.2022 erfolgen.
+Danach werden keine Prüfungen mehr angeboten, auch keine Wiederholungen!
+Bitte melden Sie sich daher frühzeitig wegen Prüfungsterminen bei mir.
+
+**Eine Absprache mit dem Prüfungsausschuss ist notwendig.**
+
+
 ## Sommersemester 2020
 
 Wegen der COVID-19-Situation findet die Vorlesung ausschließlich online statt.
