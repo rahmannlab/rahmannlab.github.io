@@ -38,6 +38,7 @@ The following topics will be covered in the course; additional topics may be inc
 * genome assembly
 * motif search and discovery; statistical evaluation of motifs
 
+Scroll down for course schedule and assignments.
 
 ---
 
@@ -61,13 +62,17 @@ For this to work effectively, it is expected that you have watched the lectures 
 
 #### Schedule
 
-**Note:** [Video recordings of the lectures](https://cms.sic.saarland/alsa/materials) are only available in the CMS for registered students.
+**Note 1:** [Video recordings of the lectures](https://cms.sic.saarland/alsa/materials) are only available in the CMS for registered students.
+**Note 2:** Links for assignment submission are sent out by email to registered students. They are [also available in the CMS](https://cms.sic.saarland/alsa/materials) if you lost the email.
+
 
 | **Date** | **Topics** | **Slides** |
 | Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
 | Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
+|            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom, invitation sent by email |
 | Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
 | Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | soon |
+|            | [Assignment 2](alsa21/sheet2.pdf), submit via github classroom, invitation sent by email |
 | Tue 27.04. | | |
 | Thu 29.04. | | |
 | Tue 04.05. | | |
