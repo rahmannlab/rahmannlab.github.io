@@ -1,7 +1,7 @@
 {% include head.html %}
 {{ content }}
 
-{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'people/'" | sort: "name" | reverse %}
+{% assign people_folder = site.pages | where_exp: "item" , "item.path contains 'uaruhr/'" | sort: "name" | reverse %}
 {% assign roles = "principal investigators, scientists, students and student assistants, administration" | split: "," %}
 
 {% for role in roles %}
@@ -13,7 +13,7 @@
   {% if image == nil %}{% assign image = "blank.png" %}{% endif %}
     <div class="cell large-6" style="margin-bottom: 20px">
       <a href={{ page.url }}>
-      <img src="{{ image }}" style="float: left; margin-right:10px; max-width: 150px;" />
+      <img src="images/{{ image }}" style="float: left; margin-right:10px; max-width: 150px;" />
       <b>{{ page.degree }} {{ page.fullname }}</b></a><br />
       {{ page.street }}{% if page.street and page.room %},{% endif %} {{ page.room }}<br />
       {{ page.city }}<br />
@@ -24,23 +24,6 @@
 </div>
 <div><br/></div>
 {% endfor %}
-
-
-<h2>Alumni</h2>
-{% assign alumni = site.pages | where_exp: "item" , "item.path contains 'alumni/'" | sort: "name" | reverse %}
-<div class="grid-x"><div class="cell large-12"><ul>
-{% for page in alumni %}
-  <li>
-    {% if page.www %}
-    <a href="{{ page.www }}">{{ page.degree }} {{ page.fullname }}</a>:
-    {% else %}
-    {{ page.degree }} {{ page.fullname }}:
-    {% endif %}
-    {{ page.role }} ({{ page.period }}){% if page.currently %}, now {{ page.currently }}.{% endif %}
-  </li>
-{% endfor %}
-</ul></div></div>
-<div><br/></div>
 
 
 {% include tail.html %}

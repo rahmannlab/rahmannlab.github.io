@@ -4,23 +4,28 @@ layout: person
 role: 'principal investigator'
 degree: Prof. Dr.
 fullname: Sven Rahmann
-street: V183
-room: '1.10'
-city: Essen
-tel: +49 (201) 723-4048<br/>+49 (231) 755-7713
+street: Campus, E2.1
+room: '1.14'
+city: 66123 Saarbrücken
+tel: +49 (681) 302-70880
 image: rahmann.jpg
-www: 'www.rahmannlab.de/people/rahmann.html'
+www: 'https://www.rahmannlab.de/people/rahmann'
 bib: rahmann.bib
 
 ---
 
-Prof. Sven Rahmann holds the Chair of Genome Informatics at the Faculty of Medicine at Duisburg-Essen University since June 2011. The chair focuses on new algorithms and statistical methods for integration of multi-omics data and on the analysis of next-generation sequencing data. In collaboration with other groups, the methods are applied towards medical and biological questions. For example, how can we identify the genetic causes for rare diseases? How do different subtypes of a tumor differ in their gene expression patterns? How do environmental stress factors affect ecosystems on all levels?
+Prof. Sven Rahmann is Chair of Algorithmic Bioinformatics at Saarland University.
+His research groups belongs to the Computer Science Department, the Center for Bioinformatics and the Saarland Informatics Campus.
+The chair focuses on new algorithms and statistical methods for integration of multi-omics data and on the analysis of next-generation sequencing data. In collaboration with other groups, the methods are applied towards medical and biological questions. For example, how can we identify the genetic causes for rare diseases? How do different subtypes of a tumor differ in their gene expression patterns? How do environmental stress factors affect ecosystems on all levels?
+Sven is or has been an editor with several journals, including IEEE/ACM Transactions on Computational Biology and Bioinformatics, BMC Bioinformatics and PeerJ, and he has served in the program committee of different bioinformatics conferences, including ISMB, RECOMB-seq, WABI, GCB, and ISBRA. He chaired and organized the German Conference on Bioinformatics (GCB) 2015 in the Ruhr area.
+Sven is a board member of the Fachgruppe Bioinformatik [(FaBI)](https://www.bioinformatik.de)
 
-As University Alliance Ruhr Professor for Bioinformatics, Sven maintains a strong collaboration with the Faculty of Computer Science at TU Dortmund in both his research and teaching activities. There, he leads a project on data dimensionality reduction within the DFG collaborative research center (Sonderforschungsbereich) SFB 876 "Providing information by resource-constrained data analysis". He is an editor with several journals, including IEEE/ACM Transactions on Computational Biology and Bioinformatics and PeerJ and has served in the program committee of different bioinformatics conferences, including ISMB, RECOMB-seq, WABI, GCB, and ISBRA. He chaired and organized the German Conference on Bioinformatics (GCB) 2015 in the Ruhr area.
+Between 2011 and 2021, Sven was Professor for Genome Informatics at the Faculty of Medicine at Duisburg-Essen University and University Alliance Ruhr Professor for Bioinformatics, funded by Mercator Research Center Ruhr, between 2014 and 2019.
+As such, Sven maintained a strong collaboration with the Faculty of Computer Science at TU Dortmund in both his research and teaching activities, where was also a member of the DFG collaborative research center (Sonderforschungsbereich) SFB 876 "Providing information by resource-constrained data analysis". 
 
-Between October 2007 and May 2011, Sven was professor for Bioinformatics for High-Throughput Technologies at the Chair of Algorithm Engineering, Computer Science Department, TU Dortmund. Between August and December 2007, he spent four months at HHMI Janelia Farm Research Campus as a visiting scientist in Gene Myers' lab.
+Between 2007 and 2011, Sven was professor for Bioinformatics for High-Throughput Technologies at the Chair of Algorithm Engineering, Computer Science Department, TU Dortmund. In 2007, he spent four months at HHMI Janelia Farm Research Campus as a visiting scientist in Gene Myers' lab.
 
-Sven was an independent Junior Research Group leader of the Computational Methods for Emerging Technologies (COMET) group, formerly known as the Algorithms and Statistics for Systems Biology group, at Bielefeld University from March 2004 till September 2007. The group closely collaborated with the Genome Informatics group at the Faculty of Technology (Technische Fakultät) at Bielefeld University. During the same time, Sven was also a member of the Institute of Bioinformatics (IfB) at the Center for Biotechnology (CeBiTec), and part of the faculty of the Graduate School in Bioinformatics and Genome Research at Bielefeld University.
+Sven was an independent Junior Research Group leader of the Computational Methods for Emerging Technologies (COMET) group at Bielefeld University from 2004 till 2007. The group closely collaborated with the Genome Informatics group at the Faculty of Technology (Technische Fakultät) at Bielefeld University. During the same time, Sven was also a member of the Institute of Bioinformatics (IfB) at the Center for Biotechnology (CeBiTec), and part of the faculty of the Graduate School in Bioinformatics and Genome Research at Bielefeld University.
 
 From 2001 till 2004, Sven wrote his doctoral thesis on oligonucleotide design for microarrays in the Computational Molecular Biology group at the Max Planck Institute for Molecular Genetics in Berlin under the supervision of Martin Vingron.
 

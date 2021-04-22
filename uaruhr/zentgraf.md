@@ -3,12 +3,13 @@ layout: person
 
 role: scientist
 # degree: MSc.
-fullname: Elias Kuthe
-street:  OH14
+fullname: Jens Zentgraf
+street: OH14
 room: 215
 city: Dortmund
-tel: +49 (231) 755-7742
-image: kuthe.jpg
+tel: +49 (231) 755-7778
+image: zentgraf.png
+bib: zentgraf.bib
 # www:
 ---
 
