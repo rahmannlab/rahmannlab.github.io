@@ -11,6 +11,7 @@ tel: +49 (201) 723-4045
 # www:
 # bib:
 image: moelder.jpg
+where: uaruhr
 ---
 
 I am a staff scientist at the Institute of pathology at University Hospital Essen and a PhD student in Sven Rahmann's Genome Informatics group.
