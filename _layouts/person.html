@@ -9,7 +9,7 @@
 </div>
 
 <div class="cell large-3">
-  <img src="/people/images/{{ image }}" style="float: left; margin-right:10px;">
+  <img src="/people/{{ image }}" style="float: left; margin-right:10px;">
 </div>
 
 <div class="cell large-1"></div>
@@ -34,16 +34,16 @@ Universität Duisburg-Essen<br />
 Universitätsklinikum Essen<br />
 Hufelandstr. 55<br />
 45122 Essen, Germany
-{% elsif page.city == "Uni Essen" %}
+{% elsif page.city contains "Essen" %}
 Universität Duisburg-Essen<br/>
 Universitätsstr. 5<br/>
 45141 Essen, Germany
-{% elsif page.city == "Dortmund" %}
+{% elsif page.city contains "Dortmund" %}
 Bioinformatik<br />
 Informatik XI<br />
 TU Dortmund<br />
 44221 Dortmund, Germany<br />
-{% elsif page.city == "Saarbrücken" %}
+{% elsif page.city contains "Saarbrücken" %}
 Algorithmische Bioinformatik<br />
 Zentrum für Bioinformatik, Campus E2.1<br />
 Universität des Saarlandes<br />
@@ -76,7 +76,7 @@ Universität des Saarlandes<br />
 <h1>Publications</h1>
 <div class="cell">
     <script type="text/javascript" src="/js/bibtex_js.js"></script>
-    <bibtex src="people/{{ page.bib }}"></bibtex>
+    <bibtex src="/people/{{ page.bib }}"></bibtex>
     <div class="bibtex_template">
         <span class="title"  style="font-weight: bold;"></span><br/>
         <div class="if author">
