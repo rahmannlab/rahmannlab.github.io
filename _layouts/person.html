@@ -18,10 +18,12 @@
     <div class="cell large-2">Office</div>
     {% if page.city == "Essen" %}
     <div class="cell large-10">Virchowstr. 183, 1.OG,<br />room {{ page.room }}</div>
-    {% elsif page.city == "Uni Essen" %}
+    {% elsif page.city contains "Essen" %}
     <div class="cell large-10">Universitätsstr. 5,<br />room {{ page.room }}</div>
-    {% elsif page.city == "Dortmund" %}
+    {% elsif page.city contains "Dortmund" %}
     <div class="cell large-10">Otto-Hahn-Str. 14,<br />room {{ page.room }}</div>
+    {% elsif page.city contains "Saarbrücken" %}
+    <div class="cell large-10">Campus E2.1,<br />room {{ page.room }}</div>
     {% endif %}
     <div class="cell large-2">Mails</div>
     <div class="cell large-10">
