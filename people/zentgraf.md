@@ -11,6 +11,7 @@ tel: +49 (231) 755-7778
 image: zentgraf.png
 bib: zentgraf.bib
 # www:
+where: uaruhr and uds
 ---
 
 I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics.

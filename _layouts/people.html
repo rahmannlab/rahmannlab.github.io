@@ -8,7 +8,7 @@
 <h2>{{ role | strip | capitalize }}</h2>
 <div class="grid-x">
   {% for page in people_folder %}
-  {% if role contains page.role %}
+  {% if role contains page.role %} {% if page.where contains "uds" %}
   {% assign image = page.image %}
   {% if image == nil %}{% assign image = "blank.png" %}{% endif %}
     <div class="cell large-6" style="margin-bottom: 20px">
@@ -19,7 +19,7 @@
       {{ page.city }}<br />
     {% if page.tel%}{{ page.tel }}<br />{% endif %}
     </div>
-    {% endif %}
+  {% endif %} {% endif %}
   {% endfor %}
 </div>
 <div><br/></div>

@@ -43,19 +43,24 @@ Bioinformatik<br />
 Informatik XI<br />
 TU Dortmund<br />
 44221 Dortmund, Germany<br />
+{% elsif page.city == "Saarbrücken" %}
+Algorithmische Bioinformatik<br />
+Zentrum für Bioinformatik, Campus E2.1<br />
+Universität des Saarlandes<br />
+66123 Saarbrücken, Germany<br />
 {% endif %}
     </div>
-	
+
     {% if page.tel %}
     <div class="cell large-2">Phone</div>
-	<div class="cell large-10">{{ page.tel }}</div>
+    <div class="cell large-10">{{ page.tel }}</div>
     {% endif %}
-	
+
     {% if page.www %}
     <div class="cell large-2">WWW</div>
-	<div class="cell large-10"><a href="http://{{ page.www }}">{{ page.www }}</a></div>
+    <div class="cell large-10"><a href="{{ page.www }}">{{ page.www }}</a></div>
     {% endif %}
-	
+
   </div>
 </div>
 
@@ -71,7 +76,7 @@ TU Dortmund<br />
 <h1>Publications</h1>
 <div class="cell">
     <script type="text/javascript" src="/js/bibtex_js.js"></script>
-    <bibtex src="/people/bibs/{{ page.bib }}"></bibtex>
+    <bibtex src="people/{{ page.bib }}"></bibtex>
     <div class="bibtex_template">
         <span class="title"  style="font-weight: bold;"></span><br/>
         <div class="if author">
