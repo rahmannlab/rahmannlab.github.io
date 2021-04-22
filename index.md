@@ -1,11 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: index
 ---
 ## Welcome!
 
-The **Genome Informatics group** is headed by Prof. Sven Rahmann.
-It is part of the Faculty of Medicine of the University of Duisburg-Essen and located at the University Hospital Essen.
-Research and teaching are carried out in close cooperation with the chair for Algorithm Engineering (LS XI) of the Faculty of Computer Science at TU Dortmund.
+The **Algorithmic Bioinformatics** group at Saarland University is headed by Prof. Sven Rahmann.
+It belongs to both the [Mathematics and Informatics Faculty ("MI")](https://www.uni-saarland.de/en/department/department-of-computer-science.html) and the [Center for Bioinformatics (ZBI)](https://zbi-www.bioinf.uni-sb.de/en) and is part of Saarland Informatics Campus (SIC)](https://saarland-informatics-campus.de/en/).
