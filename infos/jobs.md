@@ -1,7 +1,7 @@
 ---
 layout: basic
 linktext: Jobs / Stellen
-description: Open positions at the chair of Genome Informatics
+description: Open positions in the group of Algorithmic Bioinformatics
 who: scientists, students
 order: 3
 ---
@@ -12,13 +12,13 @@ order: 3
 (see below for English version)
 
 
-### DFG-Gradiuertenkolleg WisPerMed
-Eine dreijährige voll finanzierte Doktorand\*inn\*en-Stelle (TV-L E13, 100%) ist so bald wie möglich im DFG-geförderten Graduiertenkolleg [WisPerMed](https://wispermed.org) (Wissens- und datenbasierte Personalisierung von Medizin am Point-of-Care) zu besetzen.
-Unser Forschungsprojekt (FP06) befasst sich mit genomweiten Variantendaten und ihrer Interpretation.
-Arbeitet mit Johannes Köster und Sven Rahmann, nutzt und lernt Snakemake, Python, Rust, ...
-Entwickelt Software, die zukünftig einen Unterschied in der klinischen Praxis machen wird und lebt dabei Reproduzierbarkeit und Codequalität!
-Unterstützt zukünftige Ärzt\*inn\*e\*n, Informationen über Patienten schnell und situationsbezogen zu erhalten.
-Unser [Poster](https://wispermed.org/?mdocs-file=84) enthält mehr Informationen zum Projekt. Bewerbt euch über [WisPerMed](https://wispermed.org)!
+### Postdoc oder Doktorand:in (3 Jahre, Vollzeit, 100%)
+In der Algorithmischen Bioinformatik suchen wir für bis zu 3 Jahre befristet eine:n Doktorand:in:en oder Postdoc mit dem Qualifikationsziel Promotion bzw. Habilitation oder Qualifikation für eine Juniorprofessur.
+
+Erwünscht wird eine Mitarbeit an algorithmisch ausgerichteten Projekten der Arbeitsgruppe,
+ etwa an alignmentfreien Methoden für die DNA- und Proteinsequenzanalyse oder im Bereich der Epigenomik.
+
+Bei Interesse wird darum gebeten, aussagekräftige Unterlagen an Prof. Sven Rahmann zu senden (z.B. Masterarbeit, Notenspiegel, eigene Projekte z.B. im open source Bereich o.ä.).
 
 ### Stellen für Studierende
 Jederzeit sind bei uns Studierende willkommen, die eine Abschlussarbeit (B.Sc. oder M.Sc) oder eine Studienarbeit schreiben möchten.
@@ -31,14 +31,9 @@ Bitte kontaktiert bei Interesse Sven Rahmann mit einer aussagekräftigen e-mail.
 
 # Open Positions
 
-### Research Training Group WisPerMed
-Fully-funded 3-year position (TV-L E13, 100%) for a doctoral student (m/f/d) in our Research Training Group [WisPerMed](https://wispermed.org/research-training-group-wispermed-eng/) ("Knowledge and data based personalization of medicine at the point of care") in a research project on genome-wide variant data and its interpretation.
-Use and learn Snakemake, Python, Rust, ...
-Develop software that will make a difference in clinical practice with a focus on reproducibility and code quality.
-Help future doctors to access patient-related information quickly and in context.
-Work with Johannes Köster and Sven Rahmann.
-Please take a look at this [poster](https://wispermed.org/?mdocs-file=171) and apply immediately via [WisPerMed](https://wispermed.org/research-training-group-wispermed-eng/).
+### Postdoc or PhD Student (3 years, full time, 100%)
 
+see above
 
 ### Positions for Students
 We are always looking for exceptional students who want to write a thesis (B.Sc. or M.Sc.) or do an independent study.
