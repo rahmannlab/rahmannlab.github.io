@@ -9,14 +9,14 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="91.740196mm"
    height="90.039307mm"
-   viewBox="0 0 91.740196 90.039309"
+   viewBox="0 0 91.740196 90.039307"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
    sodipodi:docname="albi.svg"
    inkscape:export-filename="albi.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
   <title
      id="title133">UdS AlBI Owl</title>
   <defs
@@ -30,7 +30,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
      inkscape:cx="104.49415"
-     inkscape:cy="110.31953"
+     inkscape:cy="167.46238"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -43,12 +43,15 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="true"
+     showborder="true"
+     borderlayer="true">
     <inkscape:grid
        type="xygrid"
        id="grid22"
        originx="-1.8493934"
-       originy="-16.779462" />
+       originy="-16.779464" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -86,13 +89,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-7.5527024,-139.71376)">
-    <rect
-       style="fill:#ffffff;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       id="rect1041"
-       width="94.401947"
-       height="114.28031"
-       x="5.7033091"
-       y="123.08599" />
     <path
        style="fill:none;stroke:#155724;stroke-width:1.43614;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 13.640809,149.39263 12.317892,178.4968"

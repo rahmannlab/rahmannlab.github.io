@@ -1,6 +1,6 @@
 ---
 layout: basic
-linktext: Vorträge
+linktext: Infos Vorträge
 description: Hinweise zu Vorträgen
 who: Bachelor- und Masterstudierende
 order: 15
@@ -25,7 +25,8 @@ Die Hinweise auf dieser Seite sind einer Zusammenstellung von Prof. Dr. Markus C
     * Ihren Namen
     * Namen der Veranstaltung und Bezeichnung des Lehrstuhls / Veranstalters
     * Datum des Vortrags, mindestens das Semester
-    
+
+
 ## Inhalt des Vortrags und Gestaltung der Folien
 
 * **Gesunden Menschenverstand benutzen!** Das ist schon im Allgemeinen meist eine ganz gute Idee, und empfiehlt sich auch bei Fragestellungen der Foliengestaltung. Fragen wie &#8220;Was würde ich selber gerne sehen?&#8221;, &#8220;Würde ich selbst die Folien nachvollziehen können, hätte ich das Paper nicht gelesen?&#8221;, etc. helfen oft schon auf die Sprünge.

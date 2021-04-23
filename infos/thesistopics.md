@@ -11,6 +11,7 @@ order: 9
 The following is an **incomplete** list of ideas for thesis topics in (Algorithmic) Bioinformatics that may be supervised by members of the group.
 You are encouraged to suggest your own ideas and follow your own interests as well.
 
+----
 
 ## Polishing circular assemblies from long reads
 
@@ -22,6 +23,7 @@ In the long run, this project may be extended to write an optimized assembler fo
 
 **Contact:** Sven Rahmann
 
+----
 
 ## Converting images of structural formulas of organic molecules to a formal representation (InChI)
 
@@ -32,3 +34,4 @@ This will involve AI methods like deep neural networks, but also methods for gra
 
 **Contact:** Sven Rahmann
 
+----

@@ -1,6 +1,6 @@
 ---
 layout: basic
-linktext: Ausarbeitungen
+linktext: Infos Ausarbeitungen
 description: Hinweise zu Ausarbeitungen
 who: Bachelor- und Masterstudierende
 order: 16

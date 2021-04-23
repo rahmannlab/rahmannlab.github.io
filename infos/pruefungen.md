@@ -1,6 +1,6 @@
 ---
 layout: basic
-linktext: Prüfungen
+linktext: Infos Prüfungen
 description: Hinweise zu mündlichen Prüfungen
 who: Bachelor- und Masterstudierende
 order: 20

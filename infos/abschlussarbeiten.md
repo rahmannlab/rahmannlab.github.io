@@ -1,6 +1,6 @@
 ---
 layout: basic
-linktext: Abschlussarbeiten
+linktext: Infos Abschlussarbeiten
 description: Hinweise zu Abschlussarbeiten
 who: Bachelor- und Masterstudierende
 order: 10
