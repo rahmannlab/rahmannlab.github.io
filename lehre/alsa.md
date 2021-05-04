@@ -79,6 +79,7 @@ For this to work effectively, it is expected that you have watched the lectures 
 |            | [Assignment 3](alsa21/sheet3.pdf), submit via github classroom, invitation sent by email |
 | Tue 04.05. | Applications of suffix arrays and linear-time lcp construction (Kasai's algorithm) | Slides above |
 | Thu 06.05. | Linear-time suffix array construction: SAIS algorithm | [Slides](alsa21/02-3-sais.pdf) |
+|            | [Assignment 4](alsa21/sheet4.pdf), submit via github classroom, invitation sent by email |
 | Tue 11.05. | | |
 | Thu 13.05. | (Holiday) |
 | Tue 18.05. | | |
