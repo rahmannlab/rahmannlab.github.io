@@ -68,17 +68,17 @@ For this to work effectively, it is expected that you have watched the lectures 
 
 
 | **Date** | **Topics** | **Slides** |
-| Tue 13.04. | Administrative issues. Exact pattern matching: Naive, Horspool | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
-| Thu 15.04. | Exact pattern matching: Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
+| Tue 13.04. | **Exact pattern matching:** Naive, Horspool. (Adminstrative issues.) | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
+| Thu 15.04. |  Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
 |            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom, invitation sent by email |
-| Tue 20.04. | Exact pattern matching: Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
+| Tue 20.04. | Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
 | Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | [Slides](alsa21/01-4-python.pdf) |
 |            | [Assignment 2](alsa21/sheet2.pdf), submit via github classroom, invitation sent by email |
-| Tue 27.04. | Full-text index data structures: Suffix trees, Ukkonen's algorithm. | [Slides](alsa21/02-1-suffixtrees.pdf)|
-| Thu 29.04. | Full-text index data structures: Suffix arrays and enhancements; applications. | [Slides](alsa21/02-2-suffixarrays.pdf)|
+| Tue 27.04. | **Full-text index data structures:** Suffix trees, Ukkonen's algorithm. | [Slides](alsa21/02-1-suffixtrees.pdf)|
+| Thu 29.04. | Ukkonen's algorithm: Skip/count trick analysis. Suffix arrays and enhancements (lcp). | [Slides](alsa21/02-2-suffixarrays.pdf)|
 |            | [Assignment 3](alsa21/sheet3.pdf), submit via github classroom, invitation sent by email |
-| Tue 04.05. | Linear-time suffix array construction: SAIS algorithm | |
-| Thu 06.05. | | |
+| Tue 04.05. | Applications of suffix arrays and linear-time lcp construction (Kasai's algorithm) | Slides above |
+| Thu 06.05. | Linear-time suffix array construction: SAIS algorithm | [Slides](alsa21/02-3-sais.pdf) |
 | Tue 11.05. | | |
 | Thu 13.05. | (Holiday) |
 | Tue 18.05. | | |
