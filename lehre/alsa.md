@@ -68,22 +68,24 @@ For this to work effectively, it is expected that you have watched the lectures 
 
 
 | **Date** | **Topics** | **Slides** |
-| Tue 13.04. | **Exact pattern matching:** Naive, Horspool. (Adminstrative issues.) | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
+| Tue 13.04. | **Exact pattern matching:** Naive, Horspool. Adminstrative issues. | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
 | Thu 15.04. |  Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
 |            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom, invitation sent by email |
 | Tue 20.04. | Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
 | Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | [Slides](alsa21/01-4-python.pdf) |
 |            | [Assignment 2](alsa21/sheet2.pdf), submit via github classroom, invitation sent by email |
 | Tue 27.04. | **Full-text index data structures:** Suffix trees, Ukkonen's algorithm. | [Slides](alsa21/02-1-suffixtrees.pdf)|
-| Thu 29.04. | Ukkonen's algorithm: Skip/count trick analysis. Suffix arrays and enhancements (lcp). | [Slides](alsa21/02-2-suffixarrays.pdf)|
+| Thu 29.04. | Ukkonen's algorithm: Skip/count trick analysis. Suffix arrays and enhancements (lcp). | [Slides](alsa21/02-2-suffixarrays.pdf) |
 |            | [Assignment 3](alsa21/sheet3.pdf), submit via github classroom, invitation sent by email |
 | Tue 04.05. | Applications of suffix arrays and linear-time lcp construction (Kasai's algorithm) | Slides above |
 | Thu 06.05. | Linear-time suffix array construction: SAIS algorithm | [Slides](alsa21/02-3-sais.pdf) |
 |            | [Assignment 4](alsa21/sheet4.pdf), submit via github classroom, invitation sent by email |
-| Tue 11.05. | | |
+| Tue 11.05. | SAIS algorithm, implementation details | [Code](alsa21/sais.py) |
+|            | [Assignment 5](alsa21/sheet5.pdf), submit via github classroom, invitation sent by email |
 | Thu 13.05. | (Holiday) |
-| Tue 18.05. | | |
-| Thu 20.05. | | |
+| Tue 18.05. | Connections between suffix trees and suffix arrays; range minimum queries (RMQs) | [Slides](alsa21/02-4-connections.pdf)|
+| Thu 20.05. | The Burrows-Wheeler transform (BWT) and applications | [Slides](alsa21/02-5-bwt.pdf) |
+|            | [Assignment 6](alsa21/sheet6.pdf), submit via github classroom, invitation sent by email |
 | Tue 25.05. | | |
 | Thu 27.05. | | |
 | Tue 01.06. | | |
