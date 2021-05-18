@@ -66,3 +66,12 @@ In each of the thesis projects offered here, we will explore a different genome-
 This includes the analysis of real datasets, either publically available ones, or exclusive data provided by partners from the Faculty of Medicine or Biology.
 
 **Contact:** Sven Rahmann
+
+----
+
+## Fast PWM matching using just-in-time compilation
+
+Fifteen to twenty years ago, the first algorithm appeared that allowed fast matching of position weight matrices (PWMs) against genomes.
+These algorithms have since been further engineered and the resulting tools have become quite sophisticated, e.g. [MOODS](https://www.cs.helsinki.fi/group/pssmfind/).
+We would like to find out whether the speed of PWM matching can be further improved using just-in-time compilation techniques when the matcher is compiled after the motif is known.
+
