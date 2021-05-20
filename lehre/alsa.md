@@ -84,10 +84,11 @@ For this to work effectively, it is expected that you have watched the lectures 
 |            | [Assignment 5](alsa21/sheet5.pdf), submit via github classroom, invitation sent by email |
 | Thu 13.05. | (Holiday) |
 | Tue 18.05. | Connections between suffix trees and suffix arrays; range minimum queries (RMQs) | [Slides](alsa21/02-4-connections.pdf)|
-| Thu 20.05. | The Burrows-Wheeler transform (BWT) and applications | [Slides](alsa21/02-5-bwt.pdf) |
+| Thu 20.05. | The Burrows-Wheeler transform (BWT) and backward search | [Slides](alsa21/02-5-bwt.pdf) |
 |            | [Assignment 6](alsa21/sheet6.pdf), submit via github classroom, invitation sent by email |
-| Tue 25.05. | | |
-| Thu 27.05. | | |
+| Tue 25.05. | Compression and the BWT | [Slides](alsa21/02-6-compression.pdf) |
+| Thu 27.05. | Rank/select queries in sublinear space | [Slides](alsa21/02-7-rankselect.pdf) |
+|            | [Assignment 7](alsa21/sheet7.pdf), submit via github classroom, invitation sent by email |
 | Tue 01.06. | | |
 | Thu 03.06. | (Holiday) |
 | Tue 08.06. | | |

@@ -36,7 +36,7 @@ This will involve AI methods like deep neural networks, but also methods for gra
 
 ----
 
-## Porting and improving scientific software to just-in-time compiled Python
+## Improving and porting and scientific software to just-in-time compiled Python
 
 A large fraction of scientific software in the biosciences is written in C/C++ (especially numerical code and simulation-heavy code) or in R (especially high-level statistical methods).
 
@@ -75,3 +75,4 @@ Fifteen to twenty years ago, the first algorithm appeared that allowed fast matc
 These algorithms have since been further engineered and the resulting tools have become quite sophisticated, e.g. [MOODS](https://www.cs.helsinki.fi/group/pssmfind/).
 We would like to find out whether the speed of PWM matching can be further improved using just-in-time compilation techniques when the matcher is compiled after the motif is known.
 
+**Contact:** Sven Rahmann
