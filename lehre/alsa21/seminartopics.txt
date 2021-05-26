@@ -1,0 +1,13 @@
+* Suffix array: Skew algorithm
+* Suffix array: fast practical algorithm ?
+
+* Cartesian Tree construction (RMQ -> LCA -> 1RMQ)
+
+* Practical Rank and Select:
+
+* Wavelet matrix: https://users.dcc.uchile.cl/~gnavarro/ps/spire12.4.pdf
+
+* Fully Functional Suffix Trees and Optimal Text Searching in BWT-Runs Bounded Space (JACM)
+
+* BWA?
+* minimap?
