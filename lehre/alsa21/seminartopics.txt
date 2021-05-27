@@ -1,6 +1,6 @@
 * Suffix array: Skew algorithm
 * Suffix array: fast practical algorithm ?
-
+* Arithmetics on Suffix Arrays of Fibonacci Words
 * Cartesian Tree construction (RMQ -> LCA -> 1RMQ)
 
 * Practical Rank and Select:
