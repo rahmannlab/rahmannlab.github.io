@@ -1,6 +1,8 @@
 * Suffix array: Skew algorithm
 * Suffix array: fast practical algorithm ?
 * Arithmetics on Suffix Arrays of Fibonacci Words
+* Fischer, Johannes; Kurpicz, Florian (5 October 2017). "Dismantling DivSufSort". Proceedings of the Prague Stringology Conference 2017. arXiv:1710.01896.
+
 * Cartesian Tree construction (RMQ -> LCA -> 1RMQ)
 
 * Practical Rank and Select:
