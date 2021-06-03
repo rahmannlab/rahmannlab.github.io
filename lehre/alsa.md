@@ -90,11 +90,12 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 25.05. | FM index, rank in sublinear space, wavelet trees | [Slides](alsa21/02-6-fmindex.pdf) |
 | Thu 27.05. | Text compression | [Slides](alsa21/02-7-compression.pdf) |
 |            | [Assignment 7](alsa21/sheet7.pdf), submit via github classroom, invitation sent by email |
-| Tue 01.06. | Approximate pattern matching, edit distance | |
+| Tue 01.06. | Distance and similarity measures; edit distance | [Slides](alsa21/03-1-dist-sim.pdf) |
 | Thu 03.06. | (Holiday) |
-| Tue 08.06. | | |
-| Thu 10.06. | | |
-| Tue 15.06. | | |
+|            | [Assignment 8](alsa21/sheet8.pdf), submit via github classroom, invitation sent by email |
+| Tue 08.06. | Error tolerant pattern matching algorithms I | |
+| Thu 10.06. | Error tolerant pattern matching algorithms II | |
+| Tue 15.06. | Pairwise sequence alignment (and variations) | |
 | Thu 17.06. | | |
 | Tue 22.06. | | |
 | Thu 24.06. | | |
