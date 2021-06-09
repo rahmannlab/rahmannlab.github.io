@@ -69,7 +69,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 
 
 | **Date** | **Topics** | **Slides** |
-| Tue 13.04. | **Exact pattern matching:** Naive, Horspool. Adminstrative issues. | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
+| Tue 13.04. | **Exact pattern search:** Naive, Horspool. Adminstrative issues. | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
 | Thu 15.04. |  Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
 |            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom, invitation sent by email |
 | Tue 20.04. | Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
@@ -90,7 +90,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 25.05. | FM index, rank in sublinear space, wavelet trees | [Slides](alsa21/02-6-fmindex.pdf) |
 | Thu 27.05. | Text compression | [Slides](alsa21/02-7-compression.pdf) |
 |            | [Assignment 7](alsa21/sheet7.pdf), submit via github classroom, invitation sent by email |
-| Tue 01.06. | Distance and similarity measures; edit distance | [Slides](alsa21/03-1-dist-sim.pdf) |
+| Tue 01.06. | **Error tolerant pattern search:** Distance and similarity measures; edit distance | [Slides](alsa21/03-1-dist-sim.pdf) |
 | Thu 03.06. | (Holiday) |
 |            | [Assignment 8](alsa21/sheet8.pdf), submit via github classroom, invitation sent by email |
 | Tue 08.06. | Error tolerant pattern matching algorithms I | [Slides](alsa21/03-2-patternsearch-1.pdf) |
@@ -106,7 +106,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 13.07. | | |
 | Thu 15.07. | | |
 | Tue 20.07. | | |
-| Thu 23.07. | Wrap-up | |
+| Thu 22.07. | **Summary:** Recurring topics, Comments about exam | |
 
 ---
 
