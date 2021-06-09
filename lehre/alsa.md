@@ -93,10 +93,10 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 01.06. | Distance and similarity measures; edit distance | [Slides](alsa21/03-1-dist-sim.pdf) |
 | Thu 03.06. | (Holiday) |
 |            | [Assignment 8](alsa21/sheet8.pdf), submit via github classroom, invitation sent by email |
-| Tue 08.06. | Error tolerant pattern matching algorithms I | |
-| Thu 10.06. | Error tolerant pattern matching algorithms II | |
-| Tue 15.06. | Pairwise sequence alignment (and variations) | |
-| Thu 17.06. | | |
+| Tue 08.06. | Error tolerant pattern matching algorithms I | [Slides](alsa21/03-2-patternsearch-1.pdf) |
+| Thu 10.06. | Error tolerant pattern matching algorithms II | [Slides](alsa21/03-2-patternsearch-2.pdf) |
+| Tue 15.06. | DNA Read Mapping | |
+| Thu 17.06. | Pairwise sequence alignment (and variations) | |
 | Tue 22.06. | | |
 | Thu 24.06. | | |
 | Tue 29.06. | | |
