@@ -71,35 +71,36 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | **Date** | **Topics** | **Slides** |
 | Tue 13.04. | **Exact pattern search:** Naive, Horspool. Adminstrative issues. | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
 | Thu 15.04. |  Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
-|            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom |
 | Tue 20.04. | Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
 | Thu 22.04. | A primer on efficient Python programming: Counting motif occurrences in genomes | [Slides](alsa21/01-4-python.pdf) |
-|            | [Assignment 2](alsa21/sheet2.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 2](alsa21/sheet2.pdf), submit via github classroom |
 | Tue 27.04. | **Full-text index data structures:** Suffix trees, Ukkonen's algorithm. | [Slides](alsa21/02-1-suffixtrees.pdf)|
 | Thu 29.04. | Ukkonen's algorithm: Skip/count trick analysis. Suffix arrays and enhancements (lcp). | [Slides](alsa21/02-2-suffixarrays.pdf) |
-|            | [Assignment 3](alsa21/sheet3.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 3](alsa21/sheet3.pdf), submit via github classroom |
 | Tue 04.05. | Applications of suffix arrays and linear-time lcp construction (Kasai's algorithm) | Slides above |
 | Thu 06.05. | Linear-time suffix array construction: SAIS algorithm | [Slides](alsa21/02-3-sais.pdf) |
-|            | [Assignment 4](alsa21/sheet4.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 4](alsa21/sheet4.pdf), submit via github classroom |
 | Tue 11.05. | SAIS algorithm, implementation details | [Code](alsa21/sais.py) |
-|            | [Assignment 5](alsa21/sheet5.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 5](alsa21/sheet5.pdf), submit via github classroom |
 | Thu 13.05. | (Holiday) |
 | Tue 18.05. | Connections between suffix trees and suffix arrays; range minimum queries (RMQs) | [Slides](alsa21/02-4-connections.pdf)|
 | Thu 20.05. | The Burrows-Wheeler transform (BWT) and backward search | [Slides](alsa21/02-5-bwt.pdf) |
-|            | [Assignment 6](alsa21/sheet6.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 6](alsa21/sheet6.pdf), submit via github classroom |
 | Tue 25.05. | FM index, rank in sublinear space, wavelet trees | [Slides](alsa21/02-6-fmindex.pdf) |
 | Thu 27.05. | Text compression | [Slides](alsa21/02-7-compression.pdf) |
-|            | [Assignment 7](alsa21/sheet7.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 7](alsa21/sheet7.pdf), submit via github classroom |
 | Tue 01.06. | **Error tolerant pattern search:** Distance and similarity measures; edit distance | [Slides](alsa21/03-1-dist-sim.pdf) |
 | Thu 03.06. | (Holiday) |
-|            | [Assignment 8](alsa21/sheet8.pdf), submit via github classroom, invitation sent by email |
+|            | [Assignment 8](alsa21/sheet8.pdf), submit via github classroom |
 | Tue 08.06. | Error tolerant pattern matching algorithms I | [Slides](alsa21/03-2-patternsearch-1.pdf) |
-| Thu 10.06. | Error tolerant pattern matching algorithms II | [Slides](alsa21/03-2-patternsearch-2.pdf) |
-| Tue 15.06. | DNA Read Mapping | |
-| Thu 17.06. | Pairwise sequence alignment (and variations) | |
-| Tue 22.06. | | |
-| Thu 24.06. | | |
-| Tue 29.06. | | |
+| Thu 10.06. | Error tolerant pattern matching algorithms II | [Slides](alsa21/03-3-patternsearch-2.pdf) |
+|            | [Assignment 9](alsa21/sheet9.pdf), submit via github classroom |
+| Tue 15.06. | Pairwise sequence alignment (and variations) | [Slides](alsa21/03-4-pairwise-alignment.pdf) [Code](alsa21/alignments.py) |
+| Thu 17.06. | DNA read mapping | |
+| Tue 22.06. | Extensions and improvements of pairwise alignment algorithms | |
+| Thu 24.06. | On the theory of scoring schemes | |
+| Tue 29.06. | Local alignment statistics (E-values, p-values) | |
 | Thu 01.07. | | |
 | Tue 06.07. | | |
 | Thu 08.07. | | |
