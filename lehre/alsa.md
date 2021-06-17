@@ -97,10 +97,12 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Thu 10.06. | Error tolerant pattern matching algorithms II | [Slides](alsa21/03-3-patternsearch-2.pdf) |
 |            | [Assignment 9](alsa21/sheet9.pdf), submit via github classroom |
 | Tue 15.06. | Pairwise sequence alignment (and variations) | [Slides](alsa21/03-4-pairwise-alignment.pdf) [Code](alsa21/alignments.py) |
-| Thu 17.06. | DNA read mapping | |
-| Tue 22.06. | Extensions and improvements of pairwise alignment algorithms | |
-| Thu 24.06. | On the theory of scoring schemes | |
-| Tue 29.06. | Local alignment statistics (E-values, p-values) | |
+| Thu 17.06. | Theory of score matrices | [Slides](alsa21/03-5-scorematrices.pdf) |
+|            | [Assignment 10](alsa21/sheet10.pdf), submit via github classroom |
+| Tue 22.06. | Local alignment statistics (E-values, p-values) | |
+| Thu 24.06. | Extensions and improvements of pairwise alignment algorithms | |
+|            | [Assignment 11](alsa21/sheet11.pdf), submit via github classroom |
+| Tue 29.06. | | |
 | Thu 01.07. | | |
 | Tue 06.07. | | |
 | Thu 08.07. | | |

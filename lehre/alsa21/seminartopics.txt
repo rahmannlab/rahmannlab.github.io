@@ -11,5 +11,5 @@
 
 * Fully Functional Suffix Trees and Optimal Text Searching in BWT-Runs Bounded Space (JACM)
 
-* BWA?
+* Read mappers: BWA? BWA-mem? minimap?
 * minimap?
