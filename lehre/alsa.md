@@ -102,13 +102,14 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 22.06. | Local alignment statistics | [Slides](alsa21/03-6-alignmentstats.pdf) |
 | Thu 24.06. | Extensions and improvements of pairwise alignment algorithms | [Slides](alsa21/03-7-extensions.pdf) |
 |            | [Assignment 11](alsa21/sheet11.pdf), submit via github classroom |
-| Tue 29.06. | **Genome-scale applications:** | |
-| Thu 01.07. | | |
-| Tue 06.07. | | |
-| Thu 08.07. | | |
-| Tue 13.07. | | |
-| Thu 15.07. | | |
-| Tue 20.07. | | |
+| Tue 29.06. | Genome-scale applications: Read mapping / database search | [Slides](alsa21/04-1-readmapping.pdf)|
+| Thu 01.07. | (no lecture) | |
+|            | [Assignment 12](alsa21/sheet12.pdf), submit via github classroom |
+| Tue 06.07. | Min-hashing for sequence comparison | [Slides](alsa21/04-2-minhashing.pdf) |
+| Thu 08.07. | Alignment-free methods | |
+| Tue 13.07. | Multiple sequence alignment | |
+| Thu 15.07. | Haplotype panels | |
+| Tue 20.07. | Positional BWT (pBWT) | |
 | Thu 22.07. | **Summary:** Recurring topics, Comments about exam | |
 
 ---
