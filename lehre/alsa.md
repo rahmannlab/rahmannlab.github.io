@@ -105,8 +105,8 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 29.06. | Genome-scale applications: Read mapping / database search | [Slides](alsa21/04-1-readmapping.pdf)|
 | Thu 01.07. | (no lecture) | |
 |            | [Assignment 12](alsa21/sheet12.pdf), submit via github classroom |
-| Tue 06.07. | Min-hashing for sequence comparison | [Slides](alsa21/04-2-minhashing.pdf) |
-| Thu 08.07. | Alignment-free methods | |
+| Tue 06.07. | K-mer index, hashing, locality sensitive hashing | [Slides](alsa21/04-2-locality-sensitive-hashing.pdf) |
+| Thu 08.07. | Min-hashing, alignment-free methods, applications | [Slides](alsa21/04-3-minhashing-applications.pdf) | |
 | Tue 13.07. | Multiple sequence alignment | |
 | Thu 15.07. | Haplotype panels | |
 | Tue 20.07. | Positional BWT (pBWT) | |
