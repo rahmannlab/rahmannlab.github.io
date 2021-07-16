@@ -69,7 +69,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 
 
 | **Date** | **Topics** | **Slides** |
-| Tue 13.04. | **Exact pattern search:** Naive, Horspool. Adminstrative issues. | [Slides](alsa21/01-1-naive-horspool.pdf); [Admin](alsa21/00-0-overview.pdf) |
+| Tue 13.04. | **Exact pattern search:** Naive, Horspool. Adminstrative issues. | [Slides](alsa21/01-1-naive-horspool.pdf), [Admin](alsa21/00-0-overview.pdf) |
 | Thu 15.04. |  Automata-based algorithms (NFA: Shift-And; DFA: Knuth-Morris-Pratt) | [Slides](alsa21/01-2-automata.pdf)
 |            | [Assignment 1](alsa21/sheet1.pdf), submit via github classroom |
 | Tue 20.04. | Bit-parallel algorithms: BNDM; more general patterns | [Slides](alsa21/01-3-bitparallel.pdf)
@@ -106,11 +106,11 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Thu 01.07. | (no lecture) | |
 |            | [Assignment 12](alsa21/sheet12.pdf), submit via github classroom |
 | Tue 06.07. | K-mer index, hashing, locality sensitive hashing | [Slides](alsa21/04-2-locality-sensitive-hashing.pdf) |
-| Thu 08.07. | Min-hashing, alignment-free methods, applications | [Slides](alsa21/04-3-minhashing-applications.pdf) | |
-| Tue 13.07. | Multiple sequence alignment | |
-| Thu 15.07. | Haplotype panels | |
-| Tue 20.07. | Positional BWT (pBWT) | |
-| Thu 22.07. | **Summary:** Recurring topics, Comments about exam | |
+| Thu 08.07. | Min-hashing, alignment-free methods, applications | [Slides](alsa21/04-3-minhashing-applications.pdf) [Xenograft talk](alsa21/xengsort.pdf) |
+| Tue 13.07. | Genome assembly | [Slides](alsa21/04-4-assembly.pdf) |
+| Thu 15.07. | Multiple sequence alignment | [Slides](alsa21/05-1-multiple-alignment.pdf) |
+| Tue 20.07. | Variation and conservation in haplotype panels | [Slides](alsa21/05-2-variation.pdf) |
+| Thu 22.07. | **Summary:** Recurring topics, Comments about exam | [Exam questions](alsa21/00-exam.pdf) |
 
 ---
 
