@@ -109,7 +109,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Thu 08.07. | Min-hashing, alignment-free methods, applications | [Slides](alsa21/04-3-minhashing-applications.pdf) [Xenograft talk](alsa21/xengsort.pdf) |
 | Tue 13.07. | Genome assembly | [Slides](alsa21/04-4-assembly.pdf) |
 | Thu 15.07. | Multiple sequence alignment | [Slides](alsa21/05-1-multiple-alignment.pdf) |
-| Tue 20.07. | Variation and conservation in haplotype panels | [Slides](alsa21/05-2-variation.pdf) |
+| Tue 20.07. | Variation and conservation in haplotype panels | [Slides](alsa21/05-3-variation.pdf) |
 | Thu 22.07. | **Summary:** Recurring topics, Comments about exam | [Exam questions](alsa21/00-exam.pdf) |
 
 ---
