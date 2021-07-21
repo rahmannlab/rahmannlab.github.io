@@ -107,6 +107,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 |            | [Assignment 12](alsa21/sheet12.pdf), submit via github classroom |
 | Tue 06.07. | K-mer index, hashing, locality sensitive hashing | [Slides](alsa21/04-2-locality-sensitive-hashing.pdf) |
 | Thu 08.07. | Min-hashing, alignment-free methods, applications | [Slides](alsa21/04-3-minhashing-applications.pdf) [Xenograft talk](alsa21/xengsort.pdf) |
+|            | [Bonus Assignment 13](alsa21/sheet13.pdf), submit via github classroom |
 | Tue 13.07. | Genome assembly | [Slides](alsa21/04-4-assembly.pdf) |
 | Thu 15.07. | Multiple sequence alignment | [Slides](alsa21/05-1-multiple-alignment.pdf) |
 | Tue 20.07. | Variation and conservation in haplotype panels | [Slides](alsa21/05-3-variation.pdf) |
