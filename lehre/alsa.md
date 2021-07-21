@@ -110,7 +110,7 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Tue 13.07. | Genome assembly | [Slides](alsa21/04-4-assembly.pdf) |
 | Thu 15.07. | Multiple sequence alignment | [Slides](alsa21/05-1-multiple-alignment.pdf) |
 | Tue 20.07. | Variation and conservation in haplotype panels | [Slides](alsa21/05-3-variation.pdf) |
-| Thu 22.07. | **Summary:** Recurring topics, Comments about exam | [Exam questions](alsa21/00-exam.pdf) |
+| Thu 22.07. | **Review:** Course topics, comments about exam | [Exam questions](alsa21/00-9-exam-questions.pdf) |
 
 ---
 
@@ -126,10 +126,5 @@ Dan Gusfield\\
 **Algorithms on Strings, Trees and Sequences**\\
 Cambridge University Press\\
 ISBN: 0-521-58519-8
-
-David Sankoff und Joseph P. Kruskal\\
-**Time Warps, String Edits, and Macromolecules**\\
-University of Chicago Press\\
-ISBN: 1-575-86217-4\\
 
 Additional research papers may be provided during the lectures.

@@ -13,3 +13,5 @@
 
 * Read mappers: BWA? BWA-mem? minimap?
 * minimap?
+
+* Marchet & Limasset paper
