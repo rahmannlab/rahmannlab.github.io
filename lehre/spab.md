@@ -17,16 +17,19 @@ Elective course, M.Sc. CS, DS/AI, and related, Saarland University (substitute f
 | **Registration** | using the [SIC Course Management](https://cms.sic.saarland) system |
 | **Details** | available after registration in the Course Management system |
 
+## Target audience (IMPORTANT!)
+
+This course is offered as a **specialized lecture** in the B.Sc. or M.Sc. **Bioinformatics** degrees, for 9 ECTS credits.
 
 ## Topics
 
 The following topics will be covered in the course; additional topics may be included, depending on time and current events.
 
 **Probability**
-* what is "random"?
-* uniform distribution on a finite set
+* randomness
+* uniform distributions on finite sets (Laplace spaces)
 * elementary and advanced combinatorics
-* definition of finite, discrete and continuous probability spaces
+* finite, discrete and continuous probability spaces
 * random variables
 * discrete probability distributions and where they come from
 * probability distributions and OOP, scipy.stats
@@ -35,27 +38,39 @@ The following topics will be covered in the course; additional topics may be inc
 * continuous probability distributions
 * a glimpse at measure theory
 * posterior distributions
+
 **Statistics**
 * descriptive statistics
 * moments of random variables (expectation, variance, ...)
-* point estimation: moments, maximum likelihood
+* parametric models
 * statistical testing (frequentist view)
-**Probability and Stochastic Processes in Bioinformatics**
-* stochastic processes
-* models for random sequences
-* Markov Chains
-* Hidden Markov Models and Applications
-* Probabilistic Arthimetic Automata and Applications
-* distribution of DNA Motif Occurrences: compound Poisson
-* parameter estimation in mixture models
-* The PCR process
-**Statistics for Bioinformatics**
-* statistics of pairwise sequence alignment
-* differential gene expression
-* simple linear regression
+* statistical testing (Bayesian view)
+* parameter estimation: moments, maximum likelihood
+* parameter estimation in mixture models: EM algorithm
+* regression (simple linear, logistic, robust, multiple)
+* regularization and Bayesian view on estimation
 * robust regression
 * multiple regression
 * logistic regression
+
+**Stochastic Processes**
+* stochastic processes
+* Poisson process
+* models for random sequences
+* Markov chains
+* Markov processes: models of sequence evolution
+* Hidden Markov Models and applications
+* Probabilistic Arthimetic Automata and applications
+* distribution of DNA Motif Occurrences: compound Poisson
+* significance of pairwise sequence alignment
+* the PCR process
+
+**Applications in Bioinformatics**
+* tests for differential gene expression
+* Bayesian view on differential gene expression
+* high-dimensionality low-sample problem
+* multiple testing
+
 
 ---
 
@@ -67,6 +82,5 @@ Please refer to the CMS for all details.
 
 ### Literature
 
-Krengel
-
-Stirzaker
+* Krengel
+* Stirzaker

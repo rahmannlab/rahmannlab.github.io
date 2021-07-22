@@ -1,68 +1,51 @@
 ---
 layout: basic
-date: 2020-04-01
-linktext: Seminar zur Bioinformatik
+date: 2021-10-01
+linktext: Seminars in Bioinformatics
 instructor: Prof. Dr. Sven Rahmann
 ---
 
-# Seminar “Aktuelle Themen der Bioinformatik”
+# Seminar "Current Topics in Sequence Analysis"
 
-Dieses Seminar findet in unregelmässigen Abständen nach Ankündigung statt, jeweils mit verschiedenen Schwerpunkten innerhalb der algorithmischen Bioinformatik.
-Es dient der Vertiefung und Erweiterung des Stoffes aus einer der Bioinformatik-Vorlesungen (z.B. Algorithmen auf Sequenzen, Algorithmische Bioinformatik, Computational Omics) und ist auch eine gute Vorbereitung auf eine Abschlussarbeit im Bereich der Bioinformatik.
+(regularly in the Winter semester)
 
-## Sommersemester 2020
+This seminar provides an opportunity to deepen some of the material discussed in "Algorithms for Sequence Analysis".
+Topics will be selected from the current  and recent research literature (papers in English).
+Examples could be (but are not limited to)
 
-(Aufgrund der Corona-Situation finden die Vorträge erst im WiSe 2020/21 statt; das Seminar bleibt aber dem SoSe 2020 zugeordnet.)
+* suffix array construction algorithms,
+* practical range minimum query implementations,
+* practical rank and select implementations,
+* the wavelet matrix (as an alternative to the wavelet tree),
+* optimal pattern search with compressed texts/BWTs,
+* analysis of actual DNA read-mappers,
+* alignment-free methods and applications to metagenomics and human diseases,
+* hashing algorithms for k-mers,
+* and many more.
 
-**Modul**:            INF-MSc-102 (Seminar)\\
-**Anmeldung**:        per email, nach Vereinbarung\\
-**Vorbesprechung**:   per email/discord, Termine nach Vereinbarung\\
-**Beratungstermine**: per email/discord, Termine nach Vereinbarung\\
-**Kozeptabgabe**:     bis 01.03.2021\\
-**Seminartermine**:   10. März 2021 (online, per discord)\\
-**Finale Abgabe**:    bis Ende März 2021
-
-
-**Vorläufige Teilnehmer\*innen- und Themenliste**
-
-Die Dauer eines Vortrags inkl. Diskussion sollte ca. 45 Minuten betragen.
-
-| **Termin** | **Teilnehmer:in** | **Thema** |
-| 10.03. 09:00 | Nils Hölscher | Markowski et al.: [Haplotyp-Rekonstruktion aus Genomarchitektur-Mapping-Daten](https://www.biorxiv.org/content/10.1101/2020.01.30.927061v1) |
-| 10.03. 09:45 | Jan Kemming | Graf & Lemire: [XOR-Filter](https://arxiv.org/abs/1912.08258) |
-| 10.03. 10:30 | (*kurze Pause von 15 min*)
-| 10.03. 10:45 | Robert Gehde | Kelly et al.: [Lock-Free Hopscotch Hashing](https://arxiv.org/abs/1911.03028) |
-| 10.03. 11:30 | Lena Krieg | Elias & Lagergren: [Schnelles Neighbor Joining](https://www.sciencedirect.com/science/article/pii/S0304397508009079) | 
-| 10.03. 12:15 | (*Mittagspause von 45 min*)
-| 10.03. 13:00 | Thomas Krieg | Esposito et al.: [Minimale perfekte Hashfunktion "RecSplit"](https://epubs.siam.org/doi/pdf/10.1137/1.9781611976007.14) |
-| 10.03. 13:45 | Hendrik Klöß | Gascuel: [Variante des Neighbor Joining Algorithmus: BioNJ](http://www.atgc-montpellier.fr/download/papers/bionj_1997.pdf) |
-| 10.03. 14:30 | (*Ende*)
+You can also suggest any research paper that you find interesting and would like to present,
+as long as the general topic is on biological sequence analysis algorithms.
 
 
-**Weitere Themenvorschläge:**
+### Requirements
 
-- Nguyen & Tsigas: [Lock-Free Cuckoo Hashing](https://ieeexplore.ieee.org/abstract/document/6888938)
-- Tarca et al.: [Signaling Pathway Impact Analysis (SPIA)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2732297/)
-- single cell type assignment
-- merging and batch correction for single cell data
-- other single cell challenges
+- You need to be familiar with the material of the course "Algorithms for Sequence Analysis".
+- You will receive a research paper at the beginning of the semester.
+- You have several weeks to become familiar with the material, get consultation by the instructor, and prepare a written summary. The summary should focus on the methodological parts of the work, and less on the evaluation or results.
+- The summary will be reviewed and commented, and may need to be revised.
+- Once the summary is accepted, you present the research work in a talk of approximately 45 minutes, including questions and discussion. The presentations will be held as a block seminar.
 
----
+### Registration and More Information
+
+* Registration: [SIC Seminar System](https://seminars.cs.uni-saarland.de/).
+* Details: TBA
 
 
-## Seminarinhalt
+----
 
-Wir besprechen in Form von Vorträgen und kritischen Diskussionen aktuelle Arbeiten aus dem Bereich der algorithmischen Bioinformatik, wie sie auch auf den gängigen Bioinformatik-Tagungen (z.B. WABI, ISMB, RECOMB, DSB, etc.) oder einschlägigen Zeitschriften (Bioinformatics, Journal of Computational Biology, IEEE/ACM Transactions on Computational Biology and Bioinformatics, BMC Bioinformatics, etc.) erscheinen könnten. Häufig, aber nicht ausschließlich liegen diese Arbeiten in den Bereichen
+Further seminars or proseminars may be offered in the future.
+Topics of interest may be:
 
-- Algorithmenentwurf- und Analyse (randomisierte Algorithmen, fixed-parameter Algorithmen, schnelle Heuristiken)
-- Kombinatorische Optimierung
-- Stochastische Methoden
-- Verarbeitung großer Datenmengen
+* dimensionality reduction,
+* foundations of reproducible science.
 
-Verlangt wird ein ca. 45-minütiger Vortrag, der eine aktuelle Arbeit verständlich vorstellt und im Anschluss kritisch diskutiert, und eine schriftliche Ausarbeitung, die die wesentlichen Punkte des Vortrags zusammenfasst (ca. 10 Seiten).
-Beachten Sie dabei unbedingt die [Hinweise zu Seminar-Ausarbeitungen](/infos/ausarbeitungen)!
-
-Es wird darum gebeten, bei Interesse vorab eine e-mail an den Veranstalter zu schreiben (vorname.nachname@tu-dortmund.de).
-**Die formale Anmeldung erfolgt über das LSF-System der TU Dortmund! (Ausnahme: SoSe 2020)**
-
-Grundsätzlich empfehle ich, dieses Seminar nur zu belegen, wenn Sie vorher mindestens eine Bioinformatik-Vorlesung bei mir gehört haben oder an einer Projektgruppe in diesem Bereich teilgenommen haben (oder gerade daran teilnehmen); ansonsten müssen Sie u.U. sehr viel Zeit auf die Erarbeitung biologischer Grundlagen verwenden.
