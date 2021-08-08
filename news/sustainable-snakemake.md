@@ -1,5 +1,5 @@
 ---
-title: Data analysis made more efficient with Snakemake
+title: Sustainable Data Analysis with Snakemake
 date: 2021-04-19
 image: /news/sustainable-snakemake.jpg
 imagewidth: 60

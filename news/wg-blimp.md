@@ -1,5 +1,5 @@
 ---
-title: wg-blimp - new article on analysis pipeline for whole genome bisulfite sequencing data
+title: wg-blimp- new article on analysis pipeline for whole genome bisulfite sequencing data
 date: 2020-05-01
 image: /news/wg-blimp.png
 imagewidth: 60
