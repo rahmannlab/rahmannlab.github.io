@@ -1,5 +1,5 @@
 ---
-title: New software "xengsort" for xenograft sorting
+title: New paper and software "xengsort" for xenograft sorting
 date: 2020-05-16
 image: /news/xengsort.png
 imagewidth: 60
