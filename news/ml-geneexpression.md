@@ -1,6 +1,6 @@
 ---
 title: Machine learning approaches for diagnostic biopsies of non-small cell lung cancer patients
-date: 2021-10-12
+date: 2020-10-12
 layout: basic
 ---
 Our article entitled [Machine learning reveals a PD-L1–independent prediction of response to immunotherapy of non-small cell lung cancer by gene expression context](https://doi.org/10.1016/j.ejca.2020.09.015) is published in European Journal of Cancer and now available online.
