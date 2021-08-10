@@ -2,7 +2,7 @@
 title: SARS-CoV-2 pre-formed immunity towards structural proteins not driven by similar epitopes
 date: 2020-11-04
 image: /news/epitope-similarity-sarscov.PNG
-imagewidth: 40
+imagewidth: 60
 layout: basic
 ---
 Our findings on SARS-CoV-2 viral proteins is published in Scientific Reports-Nature. The paper [Epitope similarity cannot explain the pre-formed T cell immunity towards structural SARS-CoV-2 proteins](https://www.nature.com/articles/s41598-020-75972-z) is online.
