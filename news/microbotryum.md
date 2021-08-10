@@ -5,7 +5,7 @@ image: /news/microbotryum.jpg
 imagewidth: 60
 layout: basic
 ---
-Our article [Meiotic recombination in the offspring of Microbotryum hybrids and its impact on pathogenicity](10.1186/s12862-020-01689-2) is published in BMC Evolutionary Biology.
+Our article [Meiotic recombination in the offspring of Microbotryum hybrids and its impact on pathogenicity](https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-020-01689-2) is published in BMC Evolutionary Biology.
 
 Here, we performed experimental crosses between the two pathogenic Microbotryum species, M. lychnidis-dioicae and M. silenes-acaulis that are specialized to different hosts. The resulting offspring were analyzed on phenotypic and genomic levels to describe genomic characteristics of hybrid offspring and genetic factors likely involved in host-specialization.
 
