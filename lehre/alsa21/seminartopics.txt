@@ -15,3 +15,9 @@
 * minimap?
 
 * Marchet & Limasset paper
+
+DESCRIPTION:
+
+This seminar provides an opportunity to deepen some of the material discussed in "Algorithms for Sequence Analysis".  Topics will be selected from the current  and recent research literature (papers in English). Examples could be: Suffix array construction algorithms, practical range minimum query implementations, practical rank and select implementations, the wavelet matrix (as an alternative to the wavelet tree), optimal pattern search with compressed texts/BWTs, analysis of actual DNA read-mappers, alignment-free methods and applications to metagenomics and human diseases, hashing algorithms for k-mers. You can also suggest a different research paper that you find interesting and would like to present (the general topic has to be on biological sequence analysis).
+
+

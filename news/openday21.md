@@ -2,7 +2,7 @@
 title: Saarland University Open Day / Open House
 date: 2021-06-26
 image: /news/openday21.png
-imagewidth: 50
+imagewidth: 30
 layout: basic
 ---
 
