@@ -7,7 +7,7 @@ summary: EAGLE is an exome-sequencing pipeline with a web frontend. It automates
 image: /research/eagle-overlap.png
 funding: Mercator Research Center Ruhr (2010-2012); now internal
 software: EAGLE
-status: current
+status: past
 date: 2019-01-01
 layout: project
 ---

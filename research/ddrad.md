@@ -6,10 +6,11 @@ summary: We develop pipelines and software for the analysis of (dd)RAD-seq data 
 image: /research/ddrad.svg
 software: ddRAGE
 funding: internal
-status: current 
+status: past
 date: 2019-10-10
 layout: project
 ---
+
 
 Double digest sequencing of restriction site associated DNA (ddRAD-seq) is used in population genomics in order to reduce the complexity of genomic data for inter- and intra-population analysis. The genetic diversity, meaning the abundance of different mutations in a population, can give insight into the quality of the habitat.
 For example, if the diversity of two populations differs, this might be a sign for a stressor affecting one of the populations. A population under stress is expected to show less diversity, as only the best fitted individuals can survive under bad conditions.
@@ -37,7 +38,7 @@ Due to this a well documented ground truth is needed, which has to model the str
 
 ### Publications
 
-  * Poster: “Clustering of ddRAD-seq reads with randomized hash functions for biodiversity analysis&#8221 at [iSEQ Symposium on Methods and Applications of Next Generation Sequencing in Evolutionary Research][1], 2014, hosted by at the [Max Planck Institute for Evolutionary Anthropology][2] in Leipzig.
+  * Poster: “Clustering of ddRAD-seq reads with randomized hash functions for biodiversity analysis&#8221 at [iSEQ Symposium on Methods and Applications of Next Generation Sequencing in Evolutionary Research][1], 2014, hosted at the [Max Planck Institute for Evolutionary Anthropology][2] in Leipzig.
   * Poster: “Estimation of genetic diversity with RAD sequencing and mutation-tolerant hashing” at 14. Tag der Forschung der Medizinischen Fakultät der Universität Duisburg-Essen, 2015.
   * Henning Timm, Hannah Weigand, Martina Weiss, Florian Leese, and Sven Rahmann. “ddRAGE: A Data Set Generator to Evaluate ddRADseq Analysis Software”. In: Molecular Ecology Resources 18.3 (2018). doi: [10.1111/1755-0998.12743][3].
   

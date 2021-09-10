@@ -6,7 +6,7 @@ summary: We developed a reference database, workflow and tool to assign reads fr
 funding: internal
 image: /research/metatranscriptomics.jpg
 software: TaxMapper
-status: current
+status: past
 layout: project
 date: 2018-01-01
 ---
