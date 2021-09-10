@@ -5,7 +5,7 @@ collaborators: Eli Zamir
 summary: We present an approach for endowing protein interaction networks with interaction dependencies using propositional logic, thereby constraining protein complex formation. We also developed a topology-derived similarity measure between protein complexes.
 image: /research/hypernetworks.svg
 funding: internal
-status: current
+status: past
 date: 2019-09-01
 layout: project
 ---

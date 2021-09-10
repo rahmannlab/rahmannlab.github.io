@@ -1,6 +1,6 @@
 ---
 title: Mathematics of diversity
-members: Christopher Schröder, Sven Rahmann
+members: Sven Rahmann
 # collaborators:
 summary: We investigate the diversity of large populations when only a small subsample can be observed. Our methods come from linear and convex optimization.
 image: /research/diversity.png
@@ -9,7 +9,7 @@ status: current
 funding: internal
 software: dupre
 layout: project
-date: 2018-10-01
+date: 2019-10-01
 ---
 
 In this project, we investigate the diversity of large populations when only a small subsample can be observed.

@@ -1,7 +1,7 @@
 ---
-title: Multi-way buckedted Cuckoo hashing for alignment-free sequence analysis
-members: Jens Zentgraf Ray & Sven Rahmann
-summary: We develop engineered implementations of multi-way bucketed Cuckoo hash tables to store *k*-mers and associated information. We apply these hash tables to improve diverse alignment-free sequence analysis methods.
+title: Multi-way bucketed Cuckoo hashing for alignment-free sequence analysis
+members: Jens Zentgraf & Sven Rahmann
+summary: We develop engineered implementations of multi-way bucketed Cuckoo hash tables to store k-mers and associated information. We apply these hash tables to improve diverse alignment-free sequence analysis methods.
 image: /research/hashing.png
 software: xengsort
 funding: internal
@@ -20,6 +20,8 @@ It is both a science and an art to design fast and small hash tables for a given
 
 In this project, we engineer multi-way bucketed Cuckoo hash tables using dynamic compilation at runtime and several other tricks of the trade to obtain so far unseen ultra-fast retrieval times.
 We also keep the memory requirements low by resorting to high fill rates (load factors) and techniques like quotienting.
+
+### Applications
 
 We apply the engineered hash tables to several applications for alignment-free (*k*-mer based) sequence analysis, for example:
 
