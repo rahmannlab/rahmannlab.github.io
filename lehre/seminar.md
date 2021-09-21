@@ -21,6 +21,7 @@ Examples could be (but are not limited to)
 * analysis of actual DNA read-mappers,
 * alignment-free methods and applications to metagenomics and human diseases,
 * hashing algorithms for k-mers,
+* variational BWT (vBWT) and applications,
 * and many more.
 
 You can also suggest any research paper that you find interesting and would like to present,
