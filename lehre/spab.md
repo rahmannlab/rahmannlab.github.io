@@ -21,6 +21,10 @@ Elective course, M.Sc. CS, DS/AI, and related, Saarland University (substitute f
 
 This course is offered as a **specialized lecture** in the B.Sc. or M.Sc. **Bioinformatics** degrees, for 9 ECTS credits.
 
+It can be taken by students of other programs, subject to agreement with the instructor. 
+In particular, it can be taken as a substitute for StatsLab if necessary, but you cannot get full credits for both StatsLab and this course.
+
+
 ## Topics
 
 The following topics will be covered in the course; additional topics may be included, depending on time and current events.
