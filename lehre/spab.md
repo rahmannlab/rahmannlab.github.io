@@ -14,7 +14,7 @@ Elective course, M.Sc. CS, DS/AI, and related, Saarland University (substitute f
 | **Credits** | 9 ECTS credits |
 | **Required time** | 4V+2Ü (4 hours of lectures, 2 hours of tutorials per week) |
 | **Language** | English |
-| **Registration** | using the [SIC Course Management](https://cms.sic.saarland) system |
+| **Registration** | using the [SIC Course Management system](https://cms.sic.saarland/spab) (CMS) |
 | **Details** | available after registration in the Course Management system |
 
 ## Target audience (IMPORTANT!)
@@ -76,11 +76,7 @@ The following topics will be covered in the course; additional topics may be inc
 
 ## Winter 2021/22
 
-Please refer to the CMS for all details.
+**Please refer to the [SIC CMS](https://cms.sic.saarland/spab) for all details.**
 
+**Lecture Times:** Tue+Thu 08:30 - 10:00 via Zoom (link for registered students in the CMS)
 
-
-### Literature
-
-* Krengel
-* Stirzaker
