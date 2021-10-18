@@ -39,7 +39,7 @@ as long as the general topic is on biological sequence analysis algorithms.
 ### Registration and More Information
 
 * Registration: [SIC Seminar System](https://seminars.cs.uni-saarland.de/).
-* Details: TBA
+* Details: To attend this seminar, you have to register with the SIC seminar system. An optimization algorithm will match seminars with students. You cannot specifically pick this seminar and be guaranteed to get a spot. If you really want this seminar, give it a high priority and write a good motivation statement.
 
 
 ----
