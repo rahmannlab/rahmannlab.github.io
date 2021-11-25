@@ -1,16 +1,10 @@
 ---
-layout: person
-
-role: scientist
-# degree: MSc.
+degree: M.Sc.
+role: Doctoral student
 fullname: Jan Forster
-street: V183
-room: 1.08a
-city: Essen
-tel: +49 (201) 723-4045
-image: forster.png
+period: 2016-2021
+currently: working in a privately owned company
 www: https://github.com/jafors
-where: uaruhr
 ---
 
 I am a computer scientist focusing on data analysis and algorithm design in cancer biology, including a specific interest for cancer immunotherapy.
