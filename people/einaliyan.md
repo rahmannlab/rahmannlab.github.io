@@ -2,7 +2,7 @@
 layout: person
 
 role: students and student assistants
-fullname: Pega Einaliyan
+fullname: Pegah Einaliyan
 city: Saarbrücken
 street: Campus, E2.1
 room: '1.12'
