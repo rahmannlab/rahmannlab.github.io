@@ -1,9 +1,11 @@
 ---
 layout: basic
+date: 2022-01-11
 linktext: Thesis Topics
-description: Ideas for Projects and Thesis Topics
-who: Bachelor and Master students in Bioinformatics
-order: 9
+instructor: Members of the Algorithmic Bioinformatics group
+#description: Ideas for Projects and Thesis Topics
+#who: Bachelor and Master students in Bioinformatics
+#order: 9
 ---
 
 # Ideas for Thesis Projects
@@ -23,16 +25,6 @@ In the long run, this project may be extended to write an optimized assembler fo
 
 **Contact:** Sven Rahmann
 
-----
-
-## Converting images of structural formulas of organic molecules to a formal representation (InChI)
-
-In early 2021, kaggle presented a [challenge](https://www.kaggle.com/c/bms-molecular-translation) that asks participants to derive a formal molecule description (InChI strings) from a scanned image of the structural formula of any organic molecule.
-
-This project will look at the successful approaches in this challenge and extend them.
-This will involve AI methods like deep neural networks, but also methods for graph-to-string encoding.
-
-**Contact:** Sven Rahmann, Christopher Schröder (Essen)
 
 ----
 
@@ -51,7 +43,19 @@ Such a project makes most sense together with another group that relies on compu
 You will need good Python programming skills, as well as a good unterstanding of low-level (C or assembly) code, e.g., bit manipulations. 
 Essentially you will be writing part high-level Python code using existing scientific libraries (numpy, scipy, pandas, ML packages) and part low-level C code, but using Python syntax.
 
-**Contact:** Sven Rahmann
+**Contact:** Sven Rahmann, Vu Lam Dang, Jens Zentgraf
+
+----
+
+## A modern sequence and alignment editor
+
+Sequence management, alignment editing and figure generation is an important task performed daily by biologists.
+Older existing tools are still widely used but no longer maintained.
+We propose the creation of a new open-source software package that aims to replace and extend them.
+
+View [Details](topics/alignmenteditor.md).
+
+**Contact:** Vu Lam Dang
 
 ----
 
