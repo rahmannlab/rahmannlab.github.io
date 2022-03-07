@@ -13,4 +13,5 @@ image: freire.jpg
 where: uds
 ---
 
-I am a guest researcher from Coruna University, Spain, in Algorithmic Bioinformatics.
+I am a guest researcher from University of A Coruña, Spain.
+
