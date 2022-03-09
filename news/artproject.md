@@ -1,5 +1,5 @@
 ---
-title: Bioinformatics supports an art project of Alicja Kwade
+title: Algorithmic Bioinformatics supports an art project of Alicja Kwade
 date: 2022-03-08
 image: /news/artproject.jpg
 imagewidth: 50
