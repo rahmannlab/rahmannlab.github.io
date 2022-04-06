@@ -1,6 +1,6 @@
 ---
 layout: basic
-date: 2021-04-01
+date: 2022-04-01
 linktext: Algorithms for Sequence Analysis
 instructor: Prof. Dr. Sven Rahmann
 ---
@@ -14,7 +14,7 @@ Elective course, M.Sc. Computer Science and related, Saarland University.
 | **Credits** | 9 ECTS credits |
 | **Required time** | 4V+2Ü (4 hours of lectures, 2 hours of tutorials per week) |
 | **Language** | English |
-| **Registration** | specific to each semester, see below |
+| **Registration** | [using the CMS](https://cms.sic.saarland) (be sure to pick the current semester) |
 
 
 ## Topics
@@ -36,14 +36,49 @@ The following topics will be covered in the course; additional topics may be inc
 * locality sensitive hashing; min hashing; analysis
 * several applications of alignment-free methods
 * genome assembly
-* motif search and discovery; statistical evaluation of motifs
+* motif search and discovery; evaluation of motifs
 
-Scroll down for course schedule and assignments.
+
+### Suggested Literature (not required)
+
+Gonzalo Navarro, Mathieu Raffinot\\
+**Flexible Pattern Matching in Strings**\\
+Cambridge University Press\\
+ISBN: 0-521-03993-2
+
+Dan Gusfield\\
+**Algorithms on Strings, Trees and Sequences**\\
+Cambridge University Press\\
+ISBN: 0-521-58519-8
+
+Veli Mäkinen, Djamal Belazzougui, Fabio Cunial, Alexandru I. Tomescu\\
+**Genome-Scale Algorithm Design: Biological Sequence Analysis in the Era of High-Throughput Sequencing**
+Cambridge University Press (2015)\\
+ISBN-10: 1107078539; ISBN-13: 978-1107078536
+
+
+Additional research papers may be provided during the lectures.
+
+---
+
+## Summer 2022 (UdS)
+
+* There will be small differences (new topics) in comparison to the last edition from summer 2021.
+
+* Information and materials are available in the [virtual classroom](https://cms.sic.saarland/alsa22) only.
+
+* You need an account the CMS system (your UdS student accout will do) *and* register for the course using the system.
+
+* Registration is possible until the end of the second week of the semester.
+
+* In order to take the exam, you need to *qualify* (50% of both theory and programming points) and separately register for the exam. Instructions will be provided in the lecture.
 
 ---
 
 
-## Summer 2021
+## Previous Editions
+
+### Summer 2021 (UdS)
 
 Because of the ongoing CoViD-19 pandemic, this lecture and its associated tutorials will be online only and delivered via Zoom.
 Lecture recordings and exercise sheets will be linked on this page.
@@ -112,20 +147,3 @@ They are also [available in the CMS](https://cms.sic.saarland/alsa/materials).
 | Thu 15.07. | Multiple sequence alignment | [Slides](alsa21/05-1-multiple-alignment.pdf) |
 | Tue 20.07. | Variation and conservation in haplotype panels | [Slides](alsa21/05-3-variation.pdf) |
 | Thu 22.07. | **Review:** Course topics, comments about exam | [Exam questions](alsa21/00-9-exam-questions.pdf) |
-
----
-
-
-### Literature
-
-Gonzalo Navarro, Mathieu Raffinot\\
-**Flexible Pattern Matching in Strings**\\
-Cambridge University Press\\
-ISBN: 0-521-03993-2
-
-Dan Gusfield\\
-**Algorithms on Strings, Trees and Sequences**\\
-Cambridge University Press\\
-ISBN: 0-521-58519-8
-
-Additional research papers may be provided during the lectures.
