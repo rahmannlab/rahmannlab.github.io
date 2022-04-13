@@ -14,10 +14,10 @@ bib: zentgraf.bib
 where: uds
 ---
 
-I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics. Right now I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at University of Saarland. My current topics are:
+I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics. Right now I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at Saarland University. My current topics are:
 - Hashing
-  - Multi-Way Bucketed Cuckoo Hashing)
-  - Comparison with other Hasing methods
+  - Multi-Way Bucketed Cuckoo Hashing
+  - Comparison with other Hashing methods
   - Parallelization using subtables
 - Alignment free approaches using *k*-mers
   - xengsort
