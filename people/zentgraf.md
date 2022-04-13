@@ -14,4 +14,65 @@ bib: zentgraf.bib
 where: uds
 ---
 
-I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics.
+I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics. Right now I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at University of Saarland. My current topics are:
+- Hashing
+  - Multi-Way Bucketed Cuckoo Hashing)
+  - Comparison with other Hasing methods
+  - Parallelization using subtables
+- Alignment free approaches using *k*-mers
+  - xengsort
+
+---
+
+## Teaching
+
+### Courses
+
+|:---|---:|:---|:---|
+| WS | 19/20 | Einführung in die Programmierung | Tutorials |
+| SS | 20 | PG: GeCoCoo |  |
+| WS | 20/21 | PG: GeCoCoo |  |
+| SS | 21 | Effiziente Algorithmen | Tutorials |
+| WS | 21/22 | Statistics, Probability and Applications in Bioinformatics | Tutorials |
+| SS | 22 | Algorithms for Sequence Analysis | Tutorials |
+
+### Bachelor Theses
+
+
+|:---|:---|:---|
+|2021| Tom Voellmer | Entdeckung bipartiter Motive in DNA-Sequenzen |
+|2021| Alexander Korn | Effiziente Implementierung und Vergleich exotischer Pattern Matching Algorithmen |
+
+### Master Theses
+
+|:---|:---|:---|
+|2020| Marvin Böcker|Assembly of molecular graphs from induced subgraphs|
+
+---
+***
+
+## Workshops
+
+|:---|:---|:---|:---|
+| 2021 | Modern hashing for alignment-free sequence analysis | GCB | online |
+| 2020 | Fundamentals of alignment free sequence analysis: k-mer hashing | ACM-BCB | online |
+| 2019 | Fundamentals of alignment free sequence analysis: k-mer hashing | GCB | Heidelberg |
+
+---
+
+## Talks
+
+|:---|:---|:---|:---|
+| 2022 | TBA | DSB | Düsseldorf |
+| 2020 | On an assignment problem for multi-way bucketed Cuckoo Hash tables on genomescale data | SIGOPT | Dortmund |
+| 2020 | Cost-Optimal Assignment of Elements in Genome-Scale Multi-Way Bucketed Cuckoo Hash Tables | DSB | Rennes |
+| 2020 | Cost-Optimal Assignment of Elements in Genome-Scale Multi-Way Bucketed Cuckoo Hash Tables | ALENEX | Salt Lake City |
+
+---
+
+## Poster
+
+|:---|:---|:---|:---|
+| 2020 | xengsort: Fast lightweight accurate xenograft sorting | HiTSeq | [online](https://www.youtube.com/watch?v=Ywy2BT0oIqc) |
+| 2019 | Cost-optimal assignment of elements in genome-scale multi-way bucketed Cuckoo hash tables | GCB | Heidelberg |
+| 2017 | PanGeA: Pan-Genome Annotation Indexing Annotated Human Genome Collections | GCB | Tübingen |
