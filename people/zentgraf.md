@@ -28,13 +28,13 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 
 ### Courses
 
-|:---|---:|:---|:---|
-| WS | 19/20 | Einführung in die Programmierung | Tutorials |
-| SS | 20 | PG: GeCoCoo |  |
-| WS | 20/21 | PG: GeCoCoo |  |
-| SS | 21 | Effiziente Algorithmen | Tutorials |
-| WS | 21/22 | Statistics, Probability and Applications in Bioinformatics | Tutorials |
-| SS | 22 | Algorithms for Sequence Analysis | Tutorials |
+|:---|---:|:---|:---|:---|
+| WS | 19/20 | Einführung in die Programmierung | Tutorials | TU Dortmund |
+| SS | 20 | PG: GeCoCoo |  |  TU Dortmund |
+| WS | 20/21 | PG: GeCoCoo |  |  TU Dortmund |
+| SS | 21 | Effiziente Algorithmen | Tutorials |  TU Dortmund |
+| WS | 21/22 | Statistics, Probability and Applications in Bioinformatics | Tutorials | Saarland University |
+| SS | 22 | Algorithms for Sequence Analysis | Tutorials |  Saarland University |
 
 ### Bachelor Theses
 
@@ -51,7 +51,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ---
 ***
 
-## Workshops
+## Tutorials
 
 |:---|:---|:---|:---|
 | 2021 | Modern hashing for alignment-free sequence analysis | GCB | online |
@@ -70,7 +70,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 
 ---
 
-## Poster
+## Posters
 
 |:---|:---|:---|:---|
 | 2020 | xengsort: Fast lightweight accurate xenograft sorting | HiTSeq | [online](https://www.youtube.com/watch?v=Ywy2BT0oIqc) |
