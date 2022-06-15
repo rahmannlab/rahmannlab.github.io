@@ -63,7 +63,8 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Talks
 
 |:---|:---|:---|:---|
-| 2022 | TBA | DSB | Düsseldorf |
+| 2022 | Fast gapped k-mer counting with subdivided multi-way bucketed Cuckoo hash tables | WABI | Potsdam |
+| 2022 | Fast gapped k-mer counting with subdivided multi-way bucketed Cuckoo hash tables | DSB | Düsseldorf |
 | 2020 | On an assignment problem for multi-way bucketed Cuckoo Hash tables on genomescale data | SIGOPT | Dortmund |
 | 2020 | Cost-Optimal Assignment of Elements in Genome-Scale Multi-Way Bucketed Cuckoo Hash Tables | DSB | Rennes |
 | 2020 | Cost-Optimal Assignment of Elements in Genome-Scale Multi-Way Bucketed Cuckoo Hash Tables | ALENEX | Salt Lake City |
