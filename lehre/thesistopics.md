@@ -15,6 +15,37 @@ You are encouraged to suggest your own ideas and follow your own interests as we
 
 ----
 
+## Rapid computational rRNA removal in metatranscriptomics datasets
+
+As an extension of metagenomics, *metatranscriptomics* aims to both identify which species are present in a sample and which genes (or pathways) are active in them (Who is there? And what are they doing?).
+After RNA sequencing, a considerable amount of the obtained reads may in fact contain ribosomal RNA (rRNA) and not messenger RNA (mRNA).
+Several methods already exist to identify and remove rRNA reads.
+This project aims to develop an even more efficient alignment-free method for this task.
+
+**Contact:** Sven Rahmann
+
+----
+
+## Detection of novel viral sequences in metagenomic datasets
+
+Large metagenomic datasets may contain many known and unknown bacteria and viruses.
+While known species can be identified by database similarity searches, finding novel viral species (without a known reference sequence) is a more challenging task.
+In the past, sequence-derived features have been used for this task, such as codon usage bias in coding sequences, together with machine learning methods, such as random forests or neural networks.
+The goal of this project is to propose alternative methods and improve upon the state of the art.
+
+**Contact:** Sven Rahmann
+
+----
+
+
+## Identification and quantification of SARS-CoV2 variants
+
+Complementary to existing approaches, we want to develop an alignment-free method that can detect and quantify different variants of the coronavirus in wastewater samples based on variant-specific subsequences.
+
+**Contact:** Sven Rahmann
+
+----
+
 ## Polishing circular assemblies from long reads
 
 Most long-read assemblers are optimized to assemble linear, not circular, contigs.
@@ -80,3 +111,4 @@ These algorithms have since been further engineered and the resulting tools have
 We would like to find out whether the speed of PWM matching can be further improved using just-in-time compilation techniques when the matcher is compiled after the motif is known.
 
 **Contact:** Sven Rahmann
+
