@@ -1,5 +1,5 @@
 ---
-degree: Dipl.-Inf.
+degree: Dr.
 fullname: Henning Timm
 role: doctoral student
 period: 2014-2020
