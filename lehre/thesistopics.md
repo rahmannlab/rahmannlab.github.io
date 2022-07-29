@@ -37,6 +37,16 @@ The goal of this project is to propose alternative methods and improve upon the 
 
 ----
 
+## Exploration of the Sichel Probability Distribution
+
+The Sichel distribution arises when we let the unique parameter of a Poisson distribution (which is both its expectation and variance) be *randomly drawn* from a generalized Inverse Gaussian distribution, i.e., we obtain a particular mixture of Poissons.
+The Sichel distribution can take a variety of shapes and properties, and in this (Bachelor or Master) thesis project, we want to examine how well it can fit different biological datasets.
+One goal is to develop an interactive visual application that will allow to modify the parameters to obtain a certain shape.
+Another goal is to implement efficient parameter estimation methods based on (robust) maximum likelihood or moments that work rapidly even on very large datasets.
+
+**Contact:** Sven Rahmann
+
+---
 
 ## Identification and quantification of SARS-CoV2 variants
 
