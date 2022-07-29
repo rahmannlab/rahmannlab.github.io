@@ -127,4 +127,4 @@ Die Hinweise auf dieser Seite sind einer Zusammenstellung von Prof. Dr. Markus C
 * Die Vorträge sollen anhand der ausgegebenen Literatur vorbereitet werden, aber diese nicht einfach wiedergeben.
   Die Einarbeitung in die vorgeschlagene und bei Bedarf auch weitere Literatur erfolgt selbstständig, d.h., nicht im Rahmen einer Vorlesung o.Ä.
 * Der Veranstalter übernimmt die fachliche Betreuung, d.h. er steht für inhaltliche Fragen und Fragen zur Vortragsgestaltung, nicht jedoch zur technischen Betreuung zur Verfügung.
-* Beachten Sie auch die [Hinweise zu Seminar-Ausarbeitungen](/infos/ausarbeitungen/)
+* Beachten Sie auch die [Hinweise zu Seminar-Ausarbeitungen](/infos/ausarbeitungen)
