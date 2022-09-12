@@ -29,12 +29,12 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ### Courses
 
 |:---|---:|:---|:---|:---|
-| WS | 19/20 | Einführung in die Programmierung | Tutorials | TU Dortmund |
-| SS | 20 | PG: GeCoCoo |  |  TU Dortmund |
-| WS | 20/21 | PG: GeCoCoo |  |  TU Dortmund |
-| SS | 21 | Effiziente Algorithmen | Tutorials |  TU Dortmund |
-| WS | 21/22 | Statistics, Probability and Applications in Bioinformatics | Tutorials | Saarland University |
 | SS | 22 | Algorithms for Sequence Analysis | Tutorials |  Saarland University |
+| WS | 21/22 | Statistics, Probability and Applications in Bioinformatics | Tutorials | Saarland University |
+| SS | 21 | Effiziente Algorithmen | Tutorials |  TU Dortmund |
+| WS | 20/21 | PG: GeCoCoo |  |  TU Dortmund |
+| SS | 20 | PG: GeCoCoo |  |  TU Dortmund |
+| WS | 19/20 | Einführung in die Programmierung | Tutorials | TU Dortmund |
 
 ### Bachelor Theses
 
@@ -74,6 +74,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Posters
 
 |:---|:---|:---|:---|
+| 2022 | An efficient alignment-free method for finding genetic differences between pig races from individual whole genome sequencing data | Genome Informatics| Wellcome Genome Campus |
 | 2020 | xengsort: Fast lightweight accurate xenograft sorting | HiTSeq | [online](https://www.youtube.com/watch?v=Ywy2BT0oIqc) |
 | 2019 | Cost-optimal assignment of elements in genome-scale multi-way bucketed Cuckoo hash tables | GCB | Heidelberg |
 | 2017 | PanGeA: Pan-Genome Annotation Indexing Annotated Human Genome Collections | GCB | Tübingen |
