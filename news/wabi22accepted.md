@@ -2,6 +2,7 @@
 title: Paper accepted at WABI 2022
 date: 2022-06-15
 image: /news/wabi22accepted.png
+description: a figure from the accepted WABI paper comparing running times
 imagewidth: 40
 layout: basic
 ---

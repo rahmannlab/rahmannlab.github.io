@@ -5,7 +5,7 @@
 
 <div class="grid-x" style="max-width: 1200px; width: 100%; ">
   <div class="container">
-    <img src="images/cool.jpg">
+    <img src="images/zbi-interioir-169.jpg">
     <div class="tag">
       <div class="grid-x" style="border: 1px solid transparent; margin:auto;">
         <div class="cell large-8 medium-8 hide-for-small-only" style="background-color: rgba(245,245,230,0.9); padding: 10px;  color: black;" >
@@ -46,7 +46,7 @@
   {% if daysSince <= 730 %}
   <div class="cell" style="margin-bottom: 5px; margin-top: 1px;">
     <h2>{{ page.date | date: "%d %b %Y"}} | {{ page.title }}</h2>
-    {% if page.image %}<a href="{{ page.image }}"><img src="{{ page.image }}" width="{{ page.imagewidth }}%" display="block" style="padding: 15px;"/></a>{% endif %}
+    {% if page.image %}<img src="{{ page.image }}" width="{{ page.imagewidth }}%" display="block" style="padding: 15px;" alt="{{ page.description }}"/>{% endif %}
     {{ page.content | markdownify }}
     <hr/>
   </div>

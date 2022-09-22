@@ -2,6 +2,7 @@
 title: Algorithmic Bioinformatics presenting at DSB 2022
 date: 2022-06-13
 image: /news/dsb-logo.png
+description: logo of the DSB workshop
 imagewidth: 25
 layout: basic
 ---
