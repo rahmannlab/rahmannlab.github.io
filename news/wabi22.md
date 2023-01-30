@@ -1,5 +1,5 @@
 ---
-title: Sven Rahmann Co-Chaired WABI 2022
+title: Sven Rahmann co-chaired WABI 2022
 date: 2022-09-09
 image: /news/wabi22.png
 description: overview of ALGO/WABI time table
