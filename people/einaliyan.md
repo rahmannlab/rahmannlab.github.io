@@ -1,7 +1,7 @@
 ---
 layout: person
 
-role: students and student assistants
+role: md
 # degree:
 fullname: Pegah Einaliyan
 street: Campus, E2.1

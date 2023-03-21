@@ -1,7 +1,7 @@
 ---
 layout: person
 
-role: students and student assistants
+role: none
 # degree:
 fullname: Saim Momin
 street: Campus, E2.1

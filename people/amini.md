@@ -1,15 +1,15 @@
 ---
 layout: person
 
-role: none
+role: students and student assistants
 # degree:
-fullname: Qihua Liang
+fullname: Nima Amini
 city: Saarbrücken
 street: Campus, E2.1
 room: '1.12'
 city: 66123 Saarbrücken
 #tel: +49 (681) 302-xxxxx
-image: liang.jpg
+image: blank.jpg
 # www:
 # bib:
 where: uds
