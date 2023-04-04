@@ -9,12 +9,12 @@ room: '1.07'
 city: 66123 Saarbrücken
 tel: +49 (681) 302-70846
 image: holzer.png
-#bib: zentgraf.bib
-# www:
+#www:
 where: uds
+#scholarlink:
 ---
 
-I am a biotechnologist by training by work in long read bioinformatics now.
+I am a biotechnologist by training, and I work in long read bioinformatics now.
 
 ---
 

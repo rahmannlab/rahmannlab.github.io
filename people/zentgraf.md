@@ -9,9 +9,9 @@ room: '1.13'
 city: 66123 Saarbrücken
 tel: +49 (681) 302-70848
 image: zentgraf2.jpg
-bib: zentgraf.bib
 # www:
 where: uds
+scholarlink: 'https://scholar.google.com/citations?hl=en&user=_zJ2WDoAAAAJ'
 ---
 
 I am a computer scientist with a focus on algorithm engineering and data analysis in bioinformatics. Right now I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at Saarland University. My current topics are:

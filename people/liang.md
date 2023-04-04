@@ -11,7 +11,6 @@ city: 66123 Saarbrücken
 #tel: +49 (681) 302-xxxxx
 image: liang.jpg
 # www:
-# bib:
 where: uds
 ---
 

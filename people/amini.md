@@ -11,8 +11,7 @@ city: 66123 Saarbrücken
 #tel: +49 (681) 302-xxxxx
 image: amini.jpg
 # www:
-# bib:
 where: uds
 ---
 
-I am a student at Saarland University.
+I am an MSc student at Saarland University.

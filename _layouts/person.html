@@ -73,53 +73,13 @@ Universität des Saarlandes<br />
 </div>
 
 
-<!-- publications -->
-{% if page.bib %}
-<h2>Publications</h2>
+{% if page.scholarlink %}
+<h3>Publications</h3>
 <div class="cell">
-    <script type="text/javascript" src="/js/bibtex_js.js"></script>
-    <bibtex src="/people/{{ page.bib }}"></bibtex>
-    <div class="bibtex_template">
-        <span class="title"  style="font-weight: bold;"></span><br/>
-        <div class="if author">
-          <span class="author"></span>
-        </div>
-        <div class="if journal" style="display: inline-block;">
-            <span class="journal" style="font-style: italic;"></span>
-        </div>
-        <div class="if booktitle" style="display: inline-block;">
-            <span class="booktitle" style="font-style: italic;"></span>
-        </div>
-        <div id="info" style="display: inline-block;">
-            <span class="if url" style="margin-left: 0.5em">
-              <a class="url" style="color:black; font-size:12px">[view online]</a>
-            </span>
-            <span class="if doi">
-                <a class="bibtexVar" href="https://doi.org/+doi+" extra="doi" style="font-size: 10pt; color: #444;">
-                    &nbsp;[doi]
-                </a>
-            </span>
-        </div>
-        <div class="if abstract">
-            <details>
-                <summary>Abstract</summary>
-                <p class="abstracttext">
-                    <span class="if abstract"><span class="abstract"></span>,</span>
-                </p>
-            </details>
-        </div>
-    </div>
-    <div class="bibtex_structure">
-      <div class="group year" extra="DESC number">
-        <div style="padding-bottom:10px; padding-top:0px;"></div>
-        <div class="sort journal" extra="ASC string">
-          <div class="templates"></div>
-        </div>
-     </div>
-    </div>
-  <div id="bibtex_display"></div>
+Please visit my <a href="{{ page.scholarlink }}">Google Scholar page</a>.
 </div>
 {% endif %}
+
 
 </div>
 
