@@ -8,7 +8,7 @@ street: Campus, E2.1
 room: '1.13'
 city: 66123 Saarbrücken
 tel: +49 (681) 302-70848
-image: blank.png
+image: schmitz.jpg
 # www:
 where: uds
 ---
@@ -21,4 +21,7 @@ where: uds
 ### Courses
 
 |:---|---:|:---|:---|:---|
-| SS | 23 | Elementare Effiziente Algorithmen für Stochastische Fragestellungen | Proseminar | Saarland University |
+| Summer | 2023 | Elementare Effiziente Algorithmen für Stochastische Fragestellungen | Proseminar | Saarland University |
+
+### Thesis Supervision
+
