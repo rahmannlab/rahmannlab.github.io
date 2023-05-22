@@ -13,6 +13,17 @@ image: schmitz.jpg
 where: uds
 ---
 
+I am a bioinformatician with a strong background in computer science and a focus on statistical modeling and data analysis. I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at Saarland University. My current topics are:
+- Development of an efficient and accurate chromatin segmentation method based on epigenetic marks
+- Investigating the diversity or species richness of a large population
+
+---
+
+## Thesis Topics
+ 
+|:---|:---|:---|
+|Feb. 2023 | Master Thesis | Multivariate Hidden Markov Models with Flexible Distributions for Chromatin–State Discovery |
+|Feb. 2021 | Bachelor Thesis | Identification of Key Transcriptional Regulators Using Single Cell Data |
 
 ---
 
@@ -21,7 +32,10 @@ where: uds
 ### Courses
 
 |:---|---:|:---|:---|:---|
-| Summer | 2023 | Elementare Effiziente Algorithmen für Stochastische Fragestellungen | Proseminar | Saarland University |
-
-### Thesis Supervision
+| SS | 2023 | Elementare Effiziente Algorithmen für Stochastische Fragestellungen | Proseminar | Saarland University |
+| WS | 22/23| Programming with Python | Tutorial | Saarland University |
+| SS | 21| Bioinformatics 2 | Tutorial | Saarland University |
+| WS | 20/21| Bioinformatics 1 | Tutorial | Saarland University |
+| SS | 20 | Concurrent Programming | Tutorial | Saarland University |
+| WS | 19/20| Programming 1 | Tutorial | Saarland University |
 
