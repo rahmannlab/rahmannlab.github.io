@@ -56,7 +56,6 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Participations
 
 |:---|:---|:---|
-|2023| CPM | Paris |
 |2023| DSB | Delft |
 
 ---
