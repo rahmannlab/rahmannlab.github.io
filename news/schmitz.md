@@ -3,7 +3,7 @@ title: Johanna Schmitz joined the Algorithmic Bioinformatics group
 date: 2023-04-01
 image: /news/schmitz.jpg
 description: group foto at the stefan morsch foundation
-imagewidth: 25
+imagewidth: 15
 layout: basic
 ---
 
