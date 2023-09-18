@@ -8,7 +8,7 @@ street: Campus, E2.1
 room: '1.13'
 city: 66123 Saarbrücken
 tel: +49 (681) 302-70848
-image: zentgraf2.jpg
+image: zentgraf.jpg
 # www:
 where: uds
 scholarlink: 'https://scholar.google.com/citations?hl=en&user=_zJ2WDoAAAAJ'
@@ -20,7 +20,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
   - Comparison with other Hashing methods
   - Parallelization using subtables
 - Alignment free approaches using *k*-mers
-  - [xengsort](https://gitlab.com/genomeinformatics/xengsort)
+  - [xengsort2](https://gitlab.com/genomeinformatics/xengsort)
   - [hackgap](https://gitlab.com/rahmannlab/hackgap)
 
 ---
@@ -28,6 +28,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Talks
 
 |:---|:---|:---|:---|
+| 2023 | [Xengsort2: Ultrafast accurate xenograft sorting](/talks/gcb-2023-xengsort2.pdf) | GCB | Hamburg |
 | 2022 | Fast gapped k-mer counting with subdivided multi-way bucketed Cuckoo hash tables | WABI | Potsdam |
 | 2022 | Fast gapped k-mer counting with subdivided multi-way bucketed Cuckoo hash tables | DSB | Düsseldorf |
 | 2020 | On an assignment problem for multi-way bucketed Cuckoo Hash tables on genomescale data | SIGOPT | Dortmund |
