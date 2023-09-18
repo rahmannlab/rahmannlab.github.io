@@ -19,6 +19,20 @@ I am a bioinformatician with a strong background in computer science and a focus
 
 ---
 
+## Posters
+
+|:---|:---|:---|:---|
+| 2023 | Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | GCB | Hamburg |
+
+---
+
+## Summer Schools
+
+|:---|:---|:---|
+| 2023 | Computational Single-Cell Analysis with application in Biology and Medicine | Lipari |
+
+---
+
 ## Thesis Topics
  
 |:---|:---|:---|
@@ -38,4 +52,3 @@ I am a bioinformatician with a strong background in computer science and a focus
 | WS | 20/21| Bioinformatics 1 | Tutorial | Saarland University |
 | SS | 20 | Concurrent Programming | Tutorial | Saarland University |
 | WS | 19/20| Programming 1 | Tutorial | Saarland University |
-
