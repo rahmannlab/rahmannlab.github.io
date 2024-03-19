@@ -50,6 +50,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Tutorials
 
 |:---|:---|:---|:---|
+| 2024 | [Just-in-time compiled Python for bioinformatics research](https://www.iscb.org/ismb2024/programme-schedule/tutorials#ip2) | ISMB | Montréal |
 | 2021 | Modern hashing for alignment-free sequence analysis | GCB | online |
 | 2020 | Fundamentals of alignment free sequence analysis: k-mer hashing | ACM-BCB | online |
 | 2019 | Fundamentals of alignment free sequence analysis: k-mer hashing | GCB | Heidelberg |
