@@ -19,6 +19,11 @@ I am a bioinformatician with a strong background in computer science and a focus
 
 ---
 
+## Talks
+
+|:---|:---|:---|:---|
+| 2024 | EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | DSB | Montpellier |
+
 ## Posters
 
 |:---|:---|:---|:---|
@@ -46,6 +51,7 @@ I am a bioinformatician with a strong background in computer science and a focus
 ### Courses
 
 |:---|---:|:---|:---|:---|
+| WS | 23/24 | BioStatsLab | Tutorials | Saarland University |
 | SS | 2023 | Elementare Effiziente Algorithmen für Stochastische Fragestellungen | Proseminar | Saarland University |
 | WS | 22/23| Programming with Python | Tutorial | Saarland University |
 | SS | 21| Bioinformatics 2 | Tutorial | Saarland University |

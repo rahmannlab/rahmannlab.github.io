@@ -1,7 +1,7 @@
 ---
 layout: person
 
-role: scientist
+role: none
 #degree: M.Sc.
 fullname: Vu Lam Dang
 street: Campus, E2.1

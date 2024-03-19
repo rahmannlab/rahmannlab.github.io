@@ -1,7 +1,7 @@
 ---
 layout: person
 
-role: scientist
+role: none
 degree: Dr.
 fullname: Andre Holzer
 street: Campus, E2.1
