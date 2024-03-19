@@ -57,6 +57,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Participations
 
 |:---|:---|:---|
+|2024| DSB | Montpellier|
 |2023| DSB | Delft |
 
 ---
@@ -67,8 +68,10 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ### Courses
 
 |:---|---:|:---|:---|:---|
+| SS | 24 | Algorithms for Sequence Analysis | Tutorial | Saarland University |
+| WS | 23/24 | Modern Hashing and Filtering Algorithms | (Pro-)Seminar | Saarland University |
 | SS | 23 |  Algorithms for Sequence Analysis | Tutorials |  Saarland University |
-| WS | 22/23| Programming with Python | Tutorial | Saarland University |
+| WS | 22/23 | Programming with Python | Tutorial | Saarland University |
 | SS | 22 | Algorithms for Sequence Analysis | Tutorials |  Saarland University |
 | WS | 21/22 | Statistics, Probability and Applications in Bioinformatics | Tutorials | Saarland University |
 | SS | 21 | Effiziente Algorithmen | Tutorials |  TU Dortmund |
