@@ -28,6 +28,8 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Talks
 
 |:---|:---|:---|:---|
+| 2024 | Efficient computing of strongly unique k-mers | GCB | Bielefeld |
+| 2024 | Swiftly identifying strongly unique k-mers | WABI | London |
 | 2023 | [Xengsort2: Ultrafast accurate xenograft sorting](/talks/gcb-2023-xengsort2.pdf) | GCB | Hamburg |
 | 2022 | Fast gapped k-mer counting with subdivided multi-way bucketed Cuckoo hash tables | WABI | Potsdam |
 | 2022 | Fast gapped k-mer counting with subdivided multi-way bucketed Cuckoo hash tables | DSB | Düsseldorf |
@@ -40,6 +42,8 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Posters
 
 |:---|:---|:---|:---|
+| 2024 |Xengsort2: Ultrafast accurate xenograft sorting | ISMB | Montreal |
+| 2024 |Xengsort2: Ultrafast accurate xenograft sorting | HIPS Symposium | Saarbrücken |
 | 2023 | *k*-mer counting combining super-*k*-mers and multi-way bucketed parallel Cuckoo hashing | CPM Summer school | Paris |
 | 2022 | An efficient alignment-free method for finding genetic differences between pig races from individual whole genome sequencing data | Genome Informatics| Wellcome Genome Campus |
 | 2020 | xengsort: Fast lightweight accurate xenograft sorting | HiTSeq | [online](https://www.youtube.com/watch?v=Ywy2BT0oIqc) |
@@ -50,6 +54,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Tutorials
 
 |:---|:---|:---|:---|
+| 2024 | [ Just-in-Time Compiled Python for Bioinformatics Research](https://gcb2024.de/Workshops.html#WS5) | GCB | Bielefeld |
 | 2024 | [Just-in-time compiled Python for bioinformatics research](https://www.iscb.org/ismb2024/programme-schedule/tutorials#ip2) | ISMB | Montréal |
 | 2021 | Modern hashing for alignment-free sequence analysis | GCB | online |
 | 2020 | Fundamentals of alignment free sequence analysis: k-mer hashing | ACM-BCB | online |
@@ -69,6 +74,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ### Courses
 
 |:---|---:|:---|:---|:---|
+| WS | 24/25 | Bioinformatik 1 | Tutorial | Saarland University |
 | SS | 24 | Algorithms for Sequence Analysis | Tutorial | Saarland University |
 | WS | 23/24 | Modern Hashing and Filtering Algorithms | (Pro-)Seminar | Saarland University |
 | SS | 23 |  Algorithms for Sequence Analysis | Tutorials |  Saarland University |
