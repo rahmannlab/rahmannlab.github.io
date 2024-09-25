@@ -15,7 +15,7 @@ scholarlink: 'https://scholar.google.de/citations?user=tQxoNzAAAAAJ&hl=de&oi=ao'
 ---
 
 I am a bioinformatician with a strong background in computer science and a focus on statistical modeling and data analysis. I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at Saarland University. My current topics are:
-- Development of an efficient and accurate chromatin segmentation method based on epigenetic marks
+- Development of an efficient and accurate chromatin segmentation method based on epigenetic marks ([EpiSegMix](https://doi.org/10.1093/bioinformatics/btae178))
 - Investigating the diversity or species richness of a large population
 
 ---
@@ -23,7 +23,7 @@ I am a bioinformatician with a strong background in computer science and a focus
 ## Talks
 
 |:---|:---|:---|:---|
-| 2024 | EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | DSB | Montpellier |
+| 2024 | [EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling](/talks/dsb-2024-episegmix.pdf) | DSB | Montpellier |
 
 ## Posters
 
@@ -32,6 +32,14 @@ I am a bioinformatician with a strong background in computer science and a focus
 | 2024 | From the 1940s until today: An introduction to the unseen species problem | HIPS Symposium | Saarbrücken |
 | 2024 | EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | Functional Epigenomics Conference | Saarbrücken |
 | 2023 | Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | GCB | Hamburg |
+
+---
+
+## Tutorials
+
+|:---|:---|:---|:---|
+| 2024 | [ Just-in-Time Compiled Python for Bioinformatics Research](https://gcb2024.de/Workshops.html#WS5) | GCB | Bielefeld |
+| 2024 | [Just-in-time compiled Python for bioinformatics research](https://www.iscb.org/ismb2024/programme-schedule/tutorials#ip2) | ISMB | Montréal |
 
 ---
 
