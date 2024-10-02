@@ -17,3 +17,5 @@ The group was very active:
 - We also announced that we will host GCB in Saarbrücken in 2026.
 
 <img src="/news/gcb24talk.jpg" alt="Jens Zentgraf talking about weak k-mer identification" width="30%"/>
+
+<br/>
