@@ -7,7 +7,7 @@ imagewidth: 30
 layout: basic
 ---
 
-We were having wonderful days at GCB 2024 in Bielefeld.
+We had wonderful days at GCB 2024 in Bielefeld.
 The group was very active:
 
 - We organized a workshop on *Just-in-time compiled Python for bioinformatics research*.
