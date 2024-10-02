@@ -16,5 +16,4 @@ The group is very active:
 - Jens gave a talk on efficiently computing strong vs. weak k-mers in large k-mer sets.
 - We also announced that we will host GCB in Saarbrücken in 2026.
 
-![Jens Zentgraf talking about weak k-mer identification](gcb24talk.jpg)
-
+<img src="gcb24talk.jpg" alt="Jens Zentgraf talking about weak k-mer identification" width="30%"/>
