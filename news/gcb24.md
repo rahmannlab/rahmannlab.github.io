@@ -16,4 +16,4 @@ The group was very active:
 - Jens gave a highly praised talk on efficiently computing strong vs. weak k-mers in large k-mer sets. We can mark weak k-mers in the human reference genome in 40 seconds.
 - We also announced that we will host GCB in Saarbrücken in 2026.
 
-<img src="gcb24talk.jpg" alt="Jens Zentgraf talking about weak k-mer identification" width="30%"/>
+<img src="/news/gcb24talk.jpg" alt="Jens Zentgraf talking about weak k-mer identification" width="30%"/>
