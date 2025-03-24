@@ -23,6 +23,7 @@ I am a bioinformatician with a strong background in computer science and a focus
 ## Talks
 
 |:---|:---|:---|:---|
+| 2025 | Better Cuckoo Filters | DSB | Pisa |
 | 2024 | [EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling](/talks/dsb-2024-episegmix.pdf) | DSB | Montpellier |
 
 ## Posters
@@ -51,6 +52,13 @@ I am a bioinformatician with a strong background in computer science and a focus
 
 ---
 
+## Participations
+
+|:---|:---|:---|
+| 2025 | Snakemake Hackathon | Geneva |
+
+---
+
 ## Thesis Topics
  
 |:---|:---|:---|
@@ -64,6 +72,8 @@ I am a bioinformatician with a strong background in computer science and a focus
 ### Courses
 
 |:---|---:|:---|:---|:---|
+| SS | 25 | Reproducible methods in metagenomics | (Pro-)Seminar | Saarland University |
+| SS | 25 | Algorithms for Sequence Analysis | Tutorials | Saarland University |
 | WS | 24/25 | BioStatsLab | Tutorials | Saarland University |
 | SS | 2024 | Programming Course: Python | Tutorials | Saarland University | 
 | WS | 23/24 | BioStatsLab | Tutorials | Saarland University |
