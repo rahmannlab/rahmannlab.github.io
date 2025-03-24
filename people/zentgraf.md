@@ -28,6 +28,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Talks
 
 |:---|:---|:---|:---|
+| 2025 | Blocked Bloom Filters with Choices | DSB | Pisa |
 | 2024 | Efficient computing of strongly unique k-mers | GCB | Bielefeld |
 | 2024 | Swiftly identifying strongly unique k-mers | WABI | London |
 | 2023 | [Xengsort2: Ultrafast accurate xenograft sorting](/talks/gcb-2023-xengsort2.pdf) | GCB | Hamburg |
@@ -63,6 +64,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Participations
 
 |:---|:---|:---|
+|2025| Snakemake Hackathon | CERN |
 |2024| DSB | Montpellier|
 |2023| DSB | Delft |
 
@@ -74,6 +76,8 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ### Courses
 
 |:---|---:|:---|:---|:---|
+| SS | 25 | Algorithms for Sequence Analysis | Tutorial | Saarland University |
+| SS | 25 | Reproducible methods in metagenomics | (Pro-)Seminar | Saarland University |
 | WS | 24/25 | Bioinformatik 1 | Tutorial | Saarland University |
 | SS | 24 | Algorithms for Sequence Analysis | Tutorial | Saarland University |
 | WS | 23/24 | Modern Hashing and Filtering Algorithms | (Pro-)Seminar | Saarland University |
