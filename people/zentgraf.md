@@ -29,6 +29,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 
 |:---|:---|:---|:---|
 | 2025 | [Cleanifier: Removing human DNA contamination with a pangenomic gapped k-mer index](/talks/gcb2025.pdf) | GCB | Düsseldorf |
+| 2025 | [Design of Worst-Case-Optimal Spaced Seeds](/talks/wabi2025.pdf) | WABI | online |
 | 2025 | Blocked Bloom Filters with Choices | DSB | Pisa |
 | 2024 | Efficient computing of strongly unique k-mers | GCB | Bielefeld |
 | 2024 | Swiftly identifying strongly unique k-mers | WABI | London |
