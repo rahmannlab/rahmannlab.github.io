@@ -28,6 +28,7 @@ I am a computer scientist with a focus on algorithm engineering and data analysi
 ## Talks
 
 |:---|:---|:---|:---|
+| 2026 | [Error Correction Algorithms for Efficient Gene Quantification in Single Cell Transcriptomics](/talks/recomb2026.pdf) | RECOMB | Thessaloniki |
 | 2025 | [Cleanifier: Removing human DNA contamination with a pangenomic gapped k-mer index](/talks/gcb2025.pdf) | GCB | Düsseldorf |
 | 2025 | [Design of Worst-Case-Optimal Spaced Seeds](/talks/wabi2025.pdf) | WABI | online |
 | 2025 | [Blocked Bloom Filters with Choices](/talks/sea2025.pdf) | SEA | Venice |
