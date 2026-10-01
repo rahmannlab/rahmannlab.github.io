@@ -15,7 +15,8 @@ scholarlink: 'https://scholar.google.de/citations?user=tQxoNzAAAAAJ&hl=de&oi=ao'
 ---
 
 I am a bioinformatician with a strong background in computer science and a focus on statistical modeling and data analysis. I am working in the Algorithmic Bioinformatics group, led by Sven Rahmann at Saarland University. My current topics are:
-- Development of an efficient and accurate chromatin segmentation method based on epigenetic marks ([EpiSegMix](https://doi.org/10.1093/bioinformatics/btae178))
+- Alignment-free methods for DNA sequence analysis
+- Development of an efficient and accurate chromatin segmentation method based on epigenetic marks
 - Investigating the diversity or species richness of a large population
 
 ---
@@ -23,12 +24,17 @@ I am a bioinformatician with a strong background in computer science and a focus
 ## Talks
 
 |:---|:---|:---|:---|
+| 2026 | [DivQuant: Estimation of Species Richness and Entropy from Small Samples](/talks/wabi-2026-divquant.pdf) | WABI | L'Aquila |
+| 2026 | [Error correction algorithms for efficient gene expression quantification in single cell transcriptomics](https://www.biorxiv.org/content/10.1101/2025.11.27.690682v2.abstract) | DSB | Venice |
+| 2026 | [Smaller and more flexible Cuckoo Filters](https://epubs.siam.org/doi/abs/10.1137/1.9781611978957.4) | Alenex | Vancouver |
 | 2025 | Better Cuckoo Filters | DSB | Pisa |
 | 2024 | [EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling](/talks/dsb-2024-episegmix.pdf) | DSB | Montpellier |
 
 ## Posters
 
 |:---|:---|:---|:---|
+| 2025 | Fast and low-resource alignment-free methods for sequence analysis | GCB | Düsseldorf |
+| 2024 | From the 1940s until today: An introduction to the unseen species problem | GCB | Bielefeld |
 | 2024 | EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | ISMB | Montreal |
 | 2024 | From the 1940s until today: An introduction to the unseen species problem | HIPS Symposium | Saarbrücken |
 | 2024 | EpiSegMix: Discovering chromatin states using a flexible distribution hidden Markov model with duration modeling | Functional Epigenomics Conference | Saarbrücken |
@@ -54,8 +60,10 @@ I am a bioinformatician with a strong background in computer science and a focus
 
 ## Participations
 
-|:---|:---|:---|
-| 2025 | Snakemake Hackathon | Geneva |
+|:---|:---|:---|:---|
+| 2026 | Organization | GCB | Saarbrücken |
+| 2025 | [Blocked Bloom Filters with Choices](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SEA.2025.25) | Symposium on Experimental Algorithms | Venice |
+| 2025 | | Snakemake Hackathon | Geneva |
 
 ---
 
@@ -72,6 +80,8 @@ I am a bioinformatician with a strong background in computer science and a focus
 ### Courses
 
 |:---|---:|:---|:---|:---|
+| SS | 26 | Statistical data compression | Proseminar | Saarland University |
+| WS | 25/26 | Bioinformatik 1 | Tutorials | Saarland University |
 | SS | 25 | Reproducible methods in metagenomics | (Pro-)Seminar | Saarland University |
 | SS | 25 | Algorithms for Sequence Analysis | Tutorials | Saarland University |
 | WS | 24/25 | BioStatsLab | Tutorials | Saarland University |
