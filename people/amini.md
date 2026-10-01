@@ -1,7 +1,7 @@
 ---
 layout: person
 
-role: students and student assistants
+role: none
 # degree:
 fullname: Nima Amini
 city: Saarbrücken
