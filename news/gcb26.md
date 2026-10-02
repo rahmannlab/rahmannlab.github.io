@@ -1,6 +1,6 @@
 ---
 title: GCB 26
-date: 2026-09-22
+date: 2026-09-25
 image: /news/gcb26.jpg
 description: GCB 2026
 imagewidth: 40
